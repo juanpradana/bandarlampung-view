@@ -1,0 +1,32 @@
+# Rust build artifacts
+target/
+**/*.rs.bk
+*.pdb
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing & MCP artifacts
+.playwright-mcp/
+*.log
+
+# Screen captures / temporary media
+*.png
+*.jpeg
+*.jpg
+!static/**/*.png
+!static/**/*.jpg
+!static/**/*.svg
+
+# Docker environment overrides
+.env
+.env.local

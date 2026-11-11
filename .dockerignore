@@ -1,0 +1,20 @@
+# Build artefacts: the builder recompiles from source, and `target/` can hold
+# gigabytes of the host's debug + release objects.
+target/
+
+# Scratch and editor state. `.playwright-mcp/` alone is ~50 MB of screenshots.
+.playwright-mcp/
+*.log
+.git/
+.gitignore
+.dockerignore
+
+# Kept out of the image rather than part of it.
+Dockerfile
+docker-compose.yml
+docker-compose.*.yml
+
+# Unrelated screenshots and working documents (the project has no docs/ yet).
+*.png
+*.jpeg
+*.jpg

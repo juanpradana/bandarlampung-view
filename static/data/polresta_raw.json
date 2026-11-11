@@ -1,0 +1,4064 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          105.2584018,
+          -5.4398099
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/u7u9h4k42z",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Depan Gedung DPRD",
+        "playback": "embed",
+        "slug": "partner-4",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/u7u9h4k42z",
+        "subtitle": "cam_vrdvkgzlqibh",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-4.webp?v=1794405609",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-4.webp?v=1794405609",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-4.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-4.webp?v=1794405609",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2537459,
+          -5.4227731
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Mayjen MT Haryono No. 15, Gotong Royong, Kec. Tanjung Karang Pusat, Bandar Lampung 35119",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "Polresta Bandar Lampung",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/uL1Ye7NWCdowOwxCXCbh5Tdu9vdrrQOc4N1jWXoW.jpg",
+        "slug": "polresta-bandar-lampung",
+        "subtitle": "Markas Polresta",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2258579,
+          -5.3615037
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/dmqz94ws1g",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Bundaran Raden Intan",
+        "playback": "embed",
+        "slug": "partner-3",
+        "stream_status": "offline",
+        "stream_url": "https://rtsp.itn.net.id/embed/dmqz94ws1g",
+        "subtitle": "cam_8jxvn9vkomge",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/images-cctv-thumb-placeholder.webp?v=1792810651",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/images-cctv-thumb-placeholder.webp?v=1792810651",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/images/cctv-thumb-placeholder.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/images-cctv-thumb-placeholder.webp?v=1792810651",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2513214,
+          -5.3583593
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Soekarno-Hatta No. 14, Kampung Baru, Kec. Labuhan Ratu, Bandar Lampung 35141",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "Polsek Labuhan Ratu",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/R7opfSCA7t8lZfXr8m5jmnmcErXsN97ecSgSolQG.jpg",
+        "slug": "polsek-labuhan-ratu",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2781817,
+          -5.4287712
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/nvmgnxep2o",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "DEPAN TPU TJ GADING",
+        "playback": "embed",
+        "slug": "partner-8",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/nvmgnxep2o",
+        "subtitle": "cam_inradnnv3kkd",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-8.webp?v=1794405603",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-8.webp?v=1794405603",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-8.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-8.webp?v=1794405603",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.3053703,
+          -5.3596858
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. H. Pangeran Suhaimi, Harapan Jaya, Kec. Sukarame, Bandar Lampung 35131",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "Polsek Sukarame",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/kRdXrtsDMK3vGyYaPHsTsTmcxPmofRILeyh77Luw.jpg",
+        "slug": "polsek-sukarame",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2157004,
+          -5.3926473
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/wt9s8rq8sb",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Bawah Fly Over Kemiling (Jl Imam Bonjol)",
+        "playback": "embed",
+        "slug": "partner-2",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/wt9s8rq8sb",
+        "subtitle": "cam_t7w053haxzww",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-2.webp?v=1794405603",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-2.webp?v=1794405603",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-2.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-2.webp?v=1794405603",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2809669,
+          -5.3617375
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Raflesia No. 1, Tanjung Senang, Kec. Tanjung Senang, Bandar Lampung 35135",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "Polsek Tanjung Senang",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/4EkfjFR9NC8FQcnxpVLUOqnMV4qfk9d0Nch1xG40.jpg",
+        "slug": "polsek-tanjung-senang",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2550353,
+          -5.4421167
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/amuukjuc4d",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "DPRD Kota",
+        "playback": "embed",
+        "slug": "partner-11",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/amuukjuc4d",
+        "subtitle": "cam_lzwqtf7bezmn",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-11.webp?v=1794405602",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-11.webp?v=1794405602",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-11.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-11.webp?v=1794405602",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.288502,
+          -5.4368487
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Gatot Subroto No. 130, Sukaraja, Kec. Bumi Waras, Bandar Lampung 35226",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "Polsek Bumi Waras",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/xnF27G0we07HhzppYAKAKhPlmeJ8GHGD2Ze04fgz.webp",
+        "slug": "polsek-bumi-waras",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2654976,
+          -5.429494
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/acfgeriekt",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "DEPAN GEDUNG PKK (Mahan Agung)",
+        "playback": "embed",
+        "slug": "partner-5",
+        "stream_status": "offline",
+        "stream_url": "https://rtsp.itn.net.id/embed/acfgeriekt",
+        "subtitle": "cam_hp0jxhmcqysj",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-5.webp?v=1794405604",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-5.webp?v=1794405604",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-5.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-5.webp?v=1794405604",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2646342,
+          -5.4434576
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Asrama Polisi No. 1, Kupang Kota, Kec. Telukbetung Utara, Bandar Lampung",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "Polsek Telukbetung Utara",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/t2CYnNuCxKt0Xm6SVcYMPplIsZsYuSx9WO2DAcFd.webp",
+        "slug": "polsek-telukbetung-utara",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2892889,
+          -5.4399356
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/jpqxeyxaoo",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Depan Hotel Novotel",
+        "playback": "embed",
+        "slug": "partner-6",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/jpqxeyxaoo",
+        "subtitle": "cam_ta86nzxm8s8v",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-6.webp?v=1794405603",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-6.webp?v=1794405603",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-6.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-6.webp?v=1794405603",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2451644,
+          -5.4698736
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Kel. Sukamaju, Kec. Telukbetung Timur, Bandar Lampung 35231",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "Polsek Telukbetung Timur",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/hp2SsV3ZZp3XHY1BKbPrm8MNjqRJNNczaaa9t9DL.webp",
+        "slug": "polsek-telukbetung-timur",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2594359,
+          -5.4206575
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/acbh8dnehf",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "DEPAN PINTU KELUAR MASJID AL-BAKRIE",
+        "playback": "embed",
+        "slug": "partner-7",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/acbh8dnehf",
+        "subtitle": "cam_5f7swif7lnrf",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-7.webp?v=1794405606",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-7.webp?v=1794405606",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-7.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-7.webp?v=1794405606",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2429221,
+          -5.4000993
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Bung Tomo No. 8, Gedong Air, Kec. Tanjungkarang Barat, Bandar Lampung 35116",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "Polsek Tanjungkarang Barat",
+        "phone": "(0721) 255015",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/cDnhpNnm0LKowYc7jkaq18dXmgS1j7sETHI9A4J5.webp",
+        "slug": "polsek-tanjungkarang-barat",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2700577,
+          -5.4297967
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/flpizmpfs1",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Dinas Kesehatan Provinsi",
+        "playback": "embed",
+        "slug": "partner-9",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/flpizmpfs1",
+        "subtitle": "cam_vbwj4l2nzw7o",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-9.webp?v=1794405604",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-9.webp?v=1794405604",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-9.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-9.webp?v=1794405604",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2692627,
+          -5.4139702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Dr. Harun 1, Kota Baru, Kec. Tanjungkarang Timur, Bandar Lampung 35121",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "Polsek Tanjungkarang Timur",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/ptiaG7B7zGxnJuvLiBYYyVzQbns2Yw2cDiPrlfxQ.webp",
+        "slug": "polsek-tanjungkarang-timur",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2587016,
+          -5.4261008
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/a8h2wzoawm",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Diponogoro - Nusa Indah",
+        "playback": "embed",
+        "slug": "partner-10",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/a8h2wzoawm",
+        "subtitle": "cam_pzgnplfw8zy5",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-10.webp?v=1794405603",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-10.webp?v=1794405603",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-10.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-10.webp?v=1794405603",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.3237035,
+          -5.4781217
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Yos Sudarso, Panjang Selatan, Kec. Panjang, Bandar Lampung 35243",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "Polsek Panjang",
+        "phone": "(0721) 31383",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/dxEcxvvE5ncYBRsrY92pmdyGEmiR4DBjPGAGMHA7.webp",
+        "slug": "polsek-panjang",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2072304,
+          -5.4000043
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Teuku Cik Ditiro No. 37, Beringin Raya, Kec. Kemiling, Bandar Lampung 35155",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "Polsek Kemiling",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/9XQiVNVhl83QBj8NS74pKWoxvWAc19o4Y3HYCPYs.webp",
+        "slug": "polsek-kemiling",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2739094,
+          -5.3711479
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/99vpdbzukl",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Flyover Kimaja",
+        "playback": "embed",
+        "slug": "partner-14",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/99vpdbzukl",
+        "subtitle": "cam_a1u1vg005vgd",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-14.webp?v=1794405608",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-14.webp?v=1794405608",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-14.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-14.webp?v=1794405608",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2244,
+          -5.3745
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Contoh No. 1, RS Bhayangkara Bandar Lampung, Bandar Lampung",
+        "hours": "24 Jam",
+        "layer_color": "#22c55e",
+        "layer_group": "layanan",
+        "layer_icon": "pelayanan",
+        "layer_label": "Pelayanan",
+        "layer_profile": "layanan",
+        "layer_slug": "pelayanan",
+        "name": "RS Bhayangkara Bandar Lampung",
+        "phone": "(0721) 123456",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/VtT5IJjgwBdoHNp589OO3fcDSwPKjv84wXsmo5XD.jpg",
+        "slug": "rs-bhayangkara-bandar-lampung",
+        "subtitle": "Faskes Polri",
+        "type": "pelayanan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.26437,
+          -5.44607
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Contoh No. 1, Brimob Polda Lampung, Bandar Lampung",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "Brimob Polda Lampung",
+        "phone": "(0721) 123456",
+        "photo_url": "https://restabandarlampung.lampung.polri.go.id/storage/map-points/SWe5XoAQr9UdHGdsmDLKT1XBVyHQSn3vOUOlfkuj.webp",
+        "slug": "brimob-polda-lampung",
+        "subtitle": "Approx",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2293307,
+          -5.3655056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/ms2pzsjuso",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Fly Over Pramuka Bawah",
+        "playback": "embed",
+        "slug": "partner-15",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/ms2pzsjuso",
+        "subtitle": "cam_fxlnzzjfb3xz",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-15.webp?v=1794405605",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-15.webp?v=1794405605",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-15.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-15.webp?v=1794405605",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2714822,
+          -5.3840391
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/7c6vhxhs5n",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Hotel Akar",
+        "playback": "embed",
+        "slug": "partner-21",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/7c6vhxhs5n",
+        "subtitle": "Siaran langsung",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-21.webp?v=1794405606",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-21.webp?v=1794405606",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-21.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-21.webp?v=1794405606",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.3194658,
+          -5.4747699
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Raya Suban Bandar Lampung No. 4, Pelabuhan, Panjang Utara, Kec. Panjang, Bandar Lampung",
+        "hours": "24 Jam",
+        "layer_color": "#1769FF",
+        "layer_group": "layanan",
+        "layer_icon": "polisi",
+        "layer_label": "Polisi",
+        "layer_profile": "layanan",
+        "layer_slug": "polisi",
+        "name": "KSKP Pelabuhan Panjang",
+        "slug": "kskp-pelabuhan-panjang",
+        "type": "polisi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.26,
+          -5.422
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Contoh No. 1, Pos MT Haryono, Bandar Lampung",
+        "hours": "24 Jam",
+        "layer_color": "#C71929",
+        "layer_group": "layanan",
+        "layer_icon": "pospol",
+        "layer_label": "Pospol",
+        "layer_profile": "layanan",
+        "layer_slug": "pospol",
+        "name": "Pos MT Haryono",
+        "phone": "(0721) 123456",
+        "slug": "pos-mt-haryono",
+        "type": "pospol"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2571561,
+          -5.3611622
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/t7nuz33nxe",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "FLYOVER UNTUNG BAWAH",
+        "playback": "embed",
+        "slug": "partner-16",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/t7nuz33nxe",
+        "subtitle": "cam_bea7021med3d",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-16.webp?v=1794405605",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-16.webp?v=1794405605",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-16.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-16.webp?v=1794405605",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.235,
+          -5.365
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Contoh No. 1, Pos Rajabasa, Bandar Lampung",
+        "hours": "24 Jam",
+        "layer_color": "#C71929",
+        "layer_group": "layanan",
+        "layer_icon": "pospol",
+        "layer_label": "Pospol",
+        "layer_profile": "layanan",
+        "layer_slug": "pospol",
+        "name": "Pos Rajabasa",
+        "phone": "(0721) 123456",
+        "slug": "pos-rajabasa",
+        "type": "pospol"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2834629,
+          -5.4359274
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/5frrbwnpko",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "GATOT SUBROTO - SLAMET RIADI",
+        "playback": "embed",
+        "slug": "partner-18",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/5frrbwnpko",
+        "subtitle": "cam_4defxym1jvst",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-18.webp?v=1794405604",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-18.webp?v=1794405604",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-18.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-18.webp?v=1794405604",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.32,
+          -5.47
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Contoh No. 1, Pos Panjang, Bandar Lampung",
+        "hours": "24 Jam",
+        "layer_color": "#C71929",
+        "layer_group": "layanan",
+        "layer_icon": "pospol",
+        "layer_label": "Pospol",
+        "layer_profile": "layanan",
+        "layer_slug": "pospol",
+        "name": "Pos Panjang",
+        "phone": "(0721) 123456",
+        "slug": "pos-panjang",
+        "type": "pospol"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2782925,
+          -5.376743
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/s5xyqqxwhn",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Gedung Hall ABC PKOR B",
+        "playback": "embed",
+        "slug": "partner-19",
+        "stream_status": "offline",
+        "stream_url": "https://rtsp.itn.net.id/embed/s5xyqqxwhn",
+        "subtitle": "cam_wp2ekvs9tgzk",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-19.webp?v=1794405603",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-19.webp?v=1794405603",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-19.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-19.webp?v=1794405603",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2393355,
+          -5.3610126
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/smabdj31kd",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Gerbang Unila",
+        "playback": "embed",
+        "slug": "partner-20",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/smabdj31kd",
+        "subtitle": "cam_jvlqnwtm3ktd",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-20.webp?v=1794405607",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-20.webp?v=1794405607",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-20.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-20.webp?v=1794405607",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.221429,
+          -5.3860537
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/y3kymlksy3",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jalan Pramuka (SD IT Baitul Jannah) 1",
+        "playback": "embed",
+        "slug": "partner-22",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/y3kymlksy3",
+        "subtitle": "cam_loglkyavgtx9",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-22.webp?v=1794405604",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-22.webp?v=1794405604",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-22.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-22.webp?v=1794405604",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2717272,
+          -5.4228069
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/cpffivomnu",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Jend. Sudirman - A Dahlan",
+        "playback": "embed",
+        "slug": "partner-32",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/cpffivomnu",
+        "subtitle": "cam_zpfztoouhsjb",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-32.webp?v=1794405608",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-32.webp?v=1794405608",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-32.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-32.webp?v=1794405608",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.281555,
+          -5.391487
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/z9mjm78eop",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Arif R.H - Jl.Urip Sumoharjo",
+        "playback": "embed",
+        "slug": "partner-25",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/z9mjm78eop",
+        "subtitle": "cam_yawl1nhw3lqp",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-25.webp?v=1794405615",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-25.webp?v=1794405614",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-25.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-25.webp?v=1794405614",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2545746,
+          -5.4216828
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/adht6ybzge",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Ahmad Yani - MT. Haryono",
+        "playback": "embed",
+        "slug": "partner-24",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/adht6ybzge",
+        "subtitle": "cam_bcdrdogzulq2",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-24.webp?v=1794405605",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-24.webp?v=1794405605",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-24.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-24.webp?v=1794405605",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2627376,
+          -5.4338339
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/mkx1j10rb9",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl.Diponegoro - Cut Mutia",
+        "playback": "embed",
+        "slug": "partner-26",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/mkx1j10rb9",
+        "subtitle": "cam_2qt67bfueko1",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-26.webp?v=1794405606",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-26.webp?v=1794405606",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-26.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-26.webp?v=1794405606",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2654569,
+          -5.4395406
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/1yptfvvlrt",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Diponegoro - Warsito",
+        "playback": "embed",
+        "slug": "partner-27",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/1yptfvvlrt",
+        "subtitle": "cam_6jrqdxvihtme",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-27.webp?v=1794405608",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-27.webp?v=1794405608",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-27.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-27.webp?v=1794405608",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2587198,
+          -5.4250327
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/cjjczw4gw8",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl Diponogoro - Thamrin",
+        "playback": "embed",
+        "slug": "partner-28",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/cjjczw4gw8",
+        "subtitle": "cam_etqjoasljwkt",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-28.webp?v=1794405607",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-28.webp?v=1794405607",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-28.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-28.webp?v=1794405607",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2672203,
+          -5.414993
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/scnlqt3k5z",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Gajah Mada",
+        "playback": "embed",
+        "slug": "partner-29",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/scnlqt3k5z",
+        "subtitle": "cam_ocbrhu7nshbe",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-29.webp?v=1794405607",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-29.webp?v=1794405607",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-29.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-29.webp?v=1794405607",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2929495,
+          -5.4444031
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/wzzvjulp0b",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Gatot Subroto - Yos Sudarso",
+        "playback": "embed",
+        "slug": "partner-31",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/wzzvjulp0b",
+        "subtitle": "cam_0wl7smpwam2e",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-31.webp?v=1794405607",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-31.webp?v=1794405607",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-31.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-31.webp?v=1794405607",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2665103,
+          -5.4227883
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/6kas7vry4r",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Jend. Sudirman - Jl. M Yamin",
+        "playback": "embed",
+        "slug": "partner-33",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/6kas7vry4r",
+        "subtitle": "cam_k7qggdjd1uvj",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-33.webp?v=1794405608",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-33.webp?v=1794405608",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-33.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-33.webp?v=1794405608",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.211623,
+          -5.4022381
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/0np1ixwcgj",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl Raden Imba Kesuma - Simpang SPN Kemiling",
+        "playback": "embed",
+        "slug": "partner-39",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/0np1ixwcgj",
+        "subtitle": "cam_kofodcp6qzqv",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-39.webp?v=1794405609",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-39.webp?v=1794405609",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-39.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-39.webp?v=1794405609",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2116821,
+          -5.4023983
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/ctfrjmccnn",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Raden Imba Kusuma - SPN Kemiling 2",
+        "playback": "embed",
+        "slug": "partner-40",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/ctfrjmccnn",
+        "subtitle": "cam_vjx9ws81zjrc",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-40.webp?v=1794405609",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-40.webp?v=1794405609",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-40.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-40.webp?v=1794405609",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2938582,
+          -5.4078186
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/u3huoen60f",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Soekarno Hatta - Jl Putri Dibalau",
+        "playback": "embed",
+        "slug": "partner-44",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/u3huoen60f",
+        "subtitle": "cam_pynddkcga3ap",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-44.webp?v=1794405609",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-44.webp?v=1794405609",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-44.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-44.webp?v=1794405609",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2720681,
+          -5.3808654
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/1ikvgjmdvn",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "JL. Kimaja BTN",
+        "playback": "embed",
+        "slug": "partner-35",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/1ikvgjmdvn",
+        "subtitle": "cam_c706pm9fnuvn",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-35.webp?v=1794405612",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-35.webp?v=1794405612",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-35.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-35.webp?v=1794405612",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2664245,
+          -5.4488183
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/gip5orwrq1",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl Laks Malhayati (Pos Kota TBS)",
+        "playback": "embed",
+        "slug": "partner-36",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/gip5orwrq1",
+        "subtitle": "cam_abpjggwqaxnu",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-36.webp?v=1794405609",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-36.webp?v=1794405609",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-36.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-36.webp?v=1794405609",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2467962,
+          -5.4184768
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/rfnszzzodg",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. P Emir M Noer - Cut Nyak Dien",
+        "playback": "embed",
+        "slug": "partner-37",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/rfnszzzodg",
+        "subtitle": "cam_4tjxlk5twear",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-37.webp?v=1794405610",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-37.webp?v=1794405610",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-37.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-37.webp?v=1794405610",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2963347,
+          -5.3952711
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/liuw7vosib",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. P. Legundi - Tirtayasa",
+        "playback": "embed",
+        "slug": "partner-38",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/liuw7vosib",
+        "subtitle": "cam_5rx4xdtvb2zl",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-38.webp?v=1794405610",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-38.webp?v=1794405610",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-38.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-38.webp?v=1794405610",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.258201,
+          -5.4147593
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/tqpwbqmw2j",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. R. Intan - Kamboja",
+        "playback": "embed",
+        "slug": "partner-41",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/tqpwbqmw2j",
+        "subtitle": "cam_mqfwuacfforh",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-41.webp?v=1794405610",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-41.webp?v=1794405610",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-41.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-41.webp?v=1794405610",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.3030298,
+          -5.3631155
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/cyrgbmzuwr",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Rya cudu",
+        "playback": "embed",
+        "slug": "partner-42",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/cyrgbmzuwr",
+        "subtitle": "cam_icrkn4iy7fsx",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-42.webp?v=1794405612",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-42.webp?v=1794405612",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-42.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-42.webp?v=1794405612",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2889933,
+          -5.3938319
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/3fxatdhjgu",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl S Hatta (Perputaran Els Coffe)",
+        "playback": "embed",
+        "slug": "partner-43",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/3fxatdhjgu",
+        "subtitle": "cam_yyvldsxscdbx",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-43.webp?v=1794405610",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-43.webp?v=1794405610",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-43.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-43.webp?v=1794405610",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2583857,
+          -5.4394147
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/kvbncvitpx",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "JL. WOLTER M - DRS  W (GERBANG DPRD PROV)",
+        "playback": "embed",
+        "slug": "partner-52",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/kvbncvitpx",
+        "subtitle": "cam_s8akr8ocygrz",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-52.webp?v=1794405610",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-52.webp?v=1794405610",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-52.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-52.webp?v=1794405610",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2541842,
+          -5.3802786
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/ktx8xufujb",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl.Z.A Pagar Alam - KFC",
+        "playback": "embed",
+        "slug": "partner-54",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/ktx8xufujb",
+        "subtitle": "cam_acfekykl6xte",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-54.webp?v=1794405611",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-54.webp?v=1794405611",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-54.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-54.webp?v=1794405611",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2585,
+          -5.392
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Contoh No. 1, SIM Keliling Kedaton, Bandar Lampung",
+        "hours": "Sen–Jum 08:00–14:00",
+        "layer_color": "#22c55e",
+        "layer_group": "layanan",
+        "layer_icon": "pelayanan",
+        "layer_label": "Pelayanan",
+        "layer_profile": "layanan",
+        "layer_slug": "pelayanan",
+        "name": "SIM Keliling Kedaton",
+        "phone": "(0721) 123456",
+        "slug": "sim-keliling-kedaton",
+        "subtitle": "Lokasi layanan sample",
+        "type": "pelayanan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2625162,
+          -5.4226993
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/pfjsfnbq5k",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl.Sudirman - Jl.Cokro",
+        "playback": "embed",
+        "slug": "partner-46",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/pfjsfnbq5k",
+        "subtitle": "cam_fcpnnowugpcx",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-46.webp?v=1794405611",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-46.webp?v=1794405611",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-46.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-46.webp?v=1794405611",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2575,
+          -5.4165
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Contoh No. 1, SIM Keliling Simpur, Bandar Lampung",
+        "hours": "Sen–Jum 08:00–14:00",
+        "layer_color": "#22c55e",
+        "layer_group": "layanan",
+        "layer_icon": "pelayanan",
+        "layer_label": "Pelayanan",
+        "layer_profile": "layanan",
+        "layer_slug": "pelayanan",
+        "name": "SIM Keliling Simpur",
+        "phone": "(0721) 123456",
+        "slug": "sim-keliling-simpur",
+        "subtitle": "Lokasi layanan sample",
+        "type": "pelayanan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2777285,
+          -5.3829875
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/giycubwvqa",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl.Sultan Agung (PKOR)",
+        "playback": "embed",
+        "slug": "partner-47",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/giycubwvqa",
+        "subtitle": "cam_aakxvev3b1gw",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-47.webp?v=1794405611",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-47.webp?v=1794405611",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-47.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-47.webp?v=1794405611",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2612,
+          -5.4188
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Jl. Pangeran Antasari No. 88, Bandar Lampung",
+        "hours": "Sen–Jum 08:00–15:00",
+        "layer_color": "#22c55e",
+        "layer_group": "layanan",
+        "layer_icon": "pelayanan",
+        "layer_label": "Pelayanan",
+        "layer_profile": "layanan",
+        "layer_slug": "pelayanan",
+        "name": "Samsat Bandar Lampung",
+        "phone": "(0721) 251234",
+        "slug": "samsat-bandar-lampung",
+        "subtitle": "Samsat",
+        "type": "pelayanan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2815353,
+          -5.3826172
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/5dtjwq9rgc",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Sultan Agung (Transmart)",
+        "playback": "embed",
+        "slug": "partner-48",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/5dtjwq9rgc",
+        "subtitle": "cam_tlrcxv3w3w9z",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-48.webp?v=1794405613",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-48.webp?v=1794405613",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-48.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-48.webp?v=1794405613",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2116186,
+          -5.3992687
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/yre5twepsx",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Teuku Cik Ditiro 1",
+        "playback": "embed",
+        "slug": "partner-49",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/yre5twepsx",
+        "subtitle": "cam_jgcpocuncz6k",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-49.webp?v=1794405612",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-49.webp?v=1794405612",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-49.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-49.webp?v=1794405612",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2102874,
+          -5.4000858
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/nmmwp5xcbi",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Teuku Cik Ditiro 2",
+        "playback": "embed",
+        "slug": "partner-50",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/nmmwp5xcbi",
+        "subtitle": "cam_mlc1mvsxa4ff",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-50.webp?v=1794405611",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-50.webp?v=1794405611",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-50.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-50.webp?v=1794405611",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2666237,
+          -5.3864742
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/3bfpt4viaf",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl.Urip S - Ki Maja",
+        "playback": "embed",
+        "slug": "partner-51",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/3bfpt4viaf",
+        "subtitle": "cam_1iatz4i6tztn",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-51.webp?v=1794405611",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-51.webp?v=1794405611",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-51.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-51.webp?v=1794405611",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2549337,
+          -5.434546
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/udpk3j0x5m",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. W.R Mongonsidi - Cut Mutia",
+        "playback": "embed",
+        "slug": "partner-53",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/udpk3j0x5m",
+        "subtitle": "cam_jpomxeaacl4q",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-53.webp?v=1794405612",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-53.webp?v=1794405612",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-53.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-53.webp?v=1794405612",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2495714,
+          -5.3770757
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/dtpedbgqzv",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Z.A Pagar Alam wisma Perpustakaan Daerah",
+        "playback": "embed",
+        "slug": "partner-55",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/dtpedbgqzv",
+        "subtitle": "cam_svgumkuxpjmz",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-55.webp?v=1794405612",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-55.webp?v=1794405612",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-55.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-55.webp?v=1794405612",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.32579,
+          -5.4818304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/vswh0t6p2f",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Lapangan Baruna",
+        "playback": "embed",
+        "slug": "partner-57",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/vswh0t6p2f",
+        "subtitle": "cam_rkhaeicptdhl",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-57.webp?v=1794405614",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-57.webp?v=1794405614",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-57.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-57.webp?v=1794405614",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2584915,
+          -5.4396317
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/sjzwkoxkza",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "LAPANGAN KORPRI - POLDA",
+        "playback": "embed",
+        "slug": "partner-58",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/sjzwkoxkza",
+        "subtitle": "cam_6wdpdx1gpx7g",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-58.webp?v=1794405614",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-58.webp?v=1794405613",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-58.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-58.webp?v=1794405614",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2470904,
+          -5.4122263
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/elrgwncbce",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "P. Emir M Noer - Tamin",
+        "playback": "embed",
+        "slug": "partner-65",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/elrgwncbce",
+        "subtitle": "cam_m3labltqgipi",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-65.webp?v=1794405614",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-65.webp?v=1794405614",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-65.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-65.webp?v=1794405614",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.3220653,
+          -5.4714318
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/5hsd30nyjg",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Pasar Panjang",
+        "playback": "embed",
+        "slug": "partner-64",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/5hsd30nyjg",
+        "subtitle": "cam_aojsj2xicbuu",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-64.webp?v=1794405607",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-64.webp?v=1794405607",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-64.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-64.webp?v=1794405607",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2587025,
+          -5.38239
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/7cz1murxuj",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Mall Boemi Kedaton (MBK)",
+        "playback": "embed",
+        "slug": "partner-61",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/7cz1murxuj",
+        "subtitle": "cam_xdlp9fchxsuc",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-61.webp?v=1794405614",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-61.webp?v=1794405614",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-61.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-61.webp?v=1794405614",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2639365,
+          -5.405651
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/v0jys5x1cr",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Lapangan Sawah Brebes",
+        "playback": "embed",
+        "slug": "partner-59",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/v0jys5x1cr",
+        "subtitle": "cam_n6dpwk68xryy",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-59.webp?v=1794405614",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-59.webp?v=1794405614",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-59.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-59.webp?v=1794405614",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2542696,
+          -5.4166557
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/vicns0iden",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Mall Kartini",
+        "playback": "embed",
+        "slug": "partner-62",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/vicns0iden",
+        "subtitle": "cam_kzq5ikghssf0",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-62.webp?v=1794405613",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-62.webp?v=1794405613",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-62.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-62.webp?v=1794405613",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2630733,
+          -5.4292342
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/ze8jr4puze",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Pemkot Balam",
+        "playback": "embed",
+        "slug": "partner-66",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/ze8jr4puze",
+        "subtitle": "cam_46nchmh74ubo",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-66.webp?v=1794405613",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-66.webp?v=1794405613",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-66.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-66.webp?v=1794405613",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2919122,
+          -5.3867545
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/nd0ggp5iyh",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Legundi - Endrosuratmin",
+        "playback": "embed",
+        "slug": "partner-60",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/nd0ggp5iyh",
+        "subtitle": "cam_rq2tuyjcfbrd",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-60.webp?v=1794405613",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-60.webp?v=1794405613",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-60.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-60.webp?v=1794405613",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2594927,
+          -5.4199573
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/ea0iiqur5b",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Pintu Masuk Lapangan Saburai",
+        "playback": "embed",
+        "slug": "partner-72",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/ea0iiqur5b",
+        "subtitle": "cam_w6prw7i98eok",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-72.webp?v=1794405615",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-72.webp?v=1794405615",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-72.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-72.webp?v=1794405615",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2785183,
+          -5.3779749
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/9zygjpua4h",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "PKOR Way Halim",
+        "playback": "embed",
+        "slug": "partner-74",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/9zygjpua4h",
+        "subtitle": "cam_fhdurofbqpw2",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-74.webp?v=1794405615",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-74.webp?v=1794405615",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-74.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-74.webp?v=1794405615",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2494123,
+          -5.3860327
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/rwytxvsuio",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Perempatan PU",
+        "playback": "embed",
+        "slug": "partner-68",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/rwytxvsuio",
+        "subtitle": "cam_o7fshnirtujv",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-68.webp?v=1794405615",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-68.webp?v=1794405615",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-68.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-68.webp?v=1794405615",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2871979,
+          -5.3861
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/svdajj5snq",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Perputaran RS Immanuel",
+        "playback": "embed",
+        "slug": "partner-70",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/svdajj5snq",
+        "subtitle": "cam_9nuhbs9qoxp1",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-70.webp?v=1794405615",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-70.webp?v=1794405615",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-70.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-70.webp?v=1794405615",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2693453,
+          -5.4249672
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/jz0c1obtu2",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Pos Pol Pahoman",
+        "playback": "embed",
+        "slug": "partner-77",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/jz0c1obtu2",
+        "subtitle": "cam_xhkvebhqwcxs",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-77.webp?v=1794405616",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-77.webp?v=1794405616",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-77.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-77.webp?v=1794405616",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2612333,
+          -5.363222
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/josaqwejsj",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Perum Polda - Baypas",
+        "playback": "embed",
+        "slug": "partner-71",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/josaqwejsj",
+        "subtitle": "cam_orbpjfosy0nx",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-71.webp?v=1794405615",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-71.webp?v=1794405615",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-71.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-71.webp?v=1794405615",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2361596,
+          -5.3681869
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/5bvjeiwq67",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Pintu Masuk Terminal Rajabasa",
+        "playback": "embed",
+        "slug": "partner-73",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/5bvjeiwq67",
+        "subtitle": "cam_1l77ghvrhpde",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-73.webp?v=1794405616",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-73.webp?v=1794405616",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-73.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-73.webp?v=1794405616",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.3486139,
+          -5.5161434
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/qyfeu8xkmf",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Perbatasan Tarahan",
+        "playback": "embed",
+        "slug": "partner-67",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/qyfeu8xkmf",
+        "subtitle": "cam_blzpqrymjcuo",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-67.webp?v=1794405605",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-67.webp?v=1794405605",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-67.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-67.webp?v=1794405605",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2785934,
+          -5.4346065
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/eycp0mtuih",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Rumah Dinas Walikota",
+        "playback": "embed",
+        "slug": "partner-87",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/eycp0mtuih",
+        "subtitle": "cam_9i3el2zhc9i9",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-87.webp?v=1794405617",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-87.webp?v=1794405617",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-87.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-87.webp?v=1794405617",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2843375,
+          -5.3803341
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/cxcc7hcqjy",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Putaran SMA 5 Way Halim",
+        "playback": "embed",
+        "slug": "partner-84",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/cxcc7hcqjy",
+        "subtitle": "cam_aws43tg46kx5",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-84.webp?v=1794405618",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-84.webp?v=1794405618",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-84.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-84.webp?v=1794405618",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2588028,
+          -5.3825109
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/enmywhvnez",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "PTZ FLY OVER MBK Atas",
+        "playback": "embed",
+        "slug": "partner-80",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/enmywhvnez",
+        "subtitle": "cam_shvabqma5a8u",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-80.webp?v=1794405618",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-80.webp?v=1794405618",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-80.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-80.webp?v=1794405618",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2784761,
+          -5.3790431
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/1uabthwx61",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "PTZ Depan Gedung Sumpah Pemuda",
+        "playback": "embed",
+        "slug": "partner-79",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/1uabthwx61",
+        "subtitle": "cam_dcy8kvuvloaj",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-79.webp?v=1794405617",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-79.webp?v=1794405617",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-79.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-79.webp?v=1794405617",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2635909,
+          -5.3517083
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/pfzdpmcxgt",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang 3 Jl. RA Rasyid",
+        "playback": "embed",
+        "slug": "partner-88",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/pfzdpmcxgt",
+        "subtitle": "cam_3rrutreab0ja",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-88.webp?v=1794405606",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-88.webp?v=1794405606",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-88.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-88.webp?v=1794405606",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.255167,
+          -5.4086727
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/zrp4z5snec",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "PTZ PSR GINTUNG",
+        "playback": "embed",
+        "slug": "partner-83",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/zrp4z5snec",
+        "subtitle": "cam_as7wdeta6l3o",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-83.webp?v=1794405618",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-83.webp?v=1794405618",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-83.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-83.webp?v=1794405618",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2583475,
+          -5.4200013
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/w8yqwsjxr7",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Raden Intan (BANK UTOMO)",
+        "playback": "embed",
+        "slug": "partner-85",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/w8yqwsjxr7",
+        "subtitle": "cam_wvefvj9ft3eh",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-85.webp?v=1794405617",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-85.webp?v=1794405617",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-85.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-85.webp?v=1794405617",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2602807,
+          -5.4210544
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/gfti2hsi6h",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "PTZ Masjid AL-Bakrie",
+        "playback": "embed",
+        "slug": "partner-82",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/gfti2hsi6h",
+        "subtitle": "Siaran langsung",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-82.webp?v=1794405618",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-82.webp?v=1794405618",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-82.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-82.webp?v=1794405618",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2584159,
+          -5.4133767
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/nsooitapxn",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Raden Intan Katamso",
+        "playback": "embed",
+        "slug": "partner-86",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/nsooitapxn",
+        "subtitle": "cam_rscci9svmatx",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-86.webp?v=1794405617",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-86.webp?v=1794405617",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-86.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-86.webp?v=1794405617",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.256681,
+          -5.410417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/lwdvrgbywn",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "SIMPANG BAMBU KUNING",
+        "playback": "embed",
+        "slug": "partner-91",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/lwdvrgbywn",
+        "subtitle": "cam_ysetftgb7uq7",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-91.webp?v=1794405619",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-91.webp?v=1794405619",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-91.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-91.webp?v=1794405619",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2808951,
+          -5.40334
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/x2lylznoqi",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Antasari Moro",
+        "playback": "embed",
+        "slug": "partner-90",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/x2lylznoqi",
+        "subtitle": "cam_nejymkvlolbq",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-90.webp?v=1794405619",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-90.webp?v=1794405619",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-90.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-90.webp?v=1794405619",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2613254,
+          -5.4120376
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/glvzmxpiut",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Chandra Karang",
+        "playback": "embed",
+        "slug": "partner-94",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/glvzmxpiut",
+        "subtitle": "cam_jw02aiskw72t",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-94.webp?v=1794405620",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-94.webp?v=1794405620",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-94.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-94.webp?v=1794405620",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2104186,
+          -5.39007
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/q1tvcih88a",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang BKP",
+        "playback": "embed",
+        "slug": "partner-92",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/q1tvcih88a",
+        "subtitle": "cam_dqslcbvrz4cu",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-92.webp?v=1794405619",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-92.webp?v=1794405619",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-92.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-92.webp?v=1794405619",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2717901,
+          -5.4297806
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/xr0n2vic5q",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "SIMPANG AHMAD DAHLAN",
+        "playback": "embed",
+        "slug": "partner-89",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/xr0n2vic5q",
+        "subtitle": "cam_erwzeizatpu2",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-89.webp?v=1794405620",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-89.webp?v=1794405620",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-89.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-89.webp?v=1794405620",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2650094,
+          -5.4464509
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/kgn2guiunk",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "SIMPANG CHANDRA TELUK (Tugu Pagoda)",
+        "playback": "embed",
+        "slug": "partner-95",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/kgn2guiunk",
+        "subtitle": "cam_nlcs0vskopfj",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-95.webp?v=1794405618",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-95.webp?v=1794405618",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-95.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-95.webp?v=1794405618",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2581617,
+          -5.4175991
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/lxhw6ebzpx",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Gramedia",
+        "playback": "embed",
+        "slug": "partner-96",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/lxhw6ebzpx",
+        "subtitle": "cam_te0tljzneoja",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-96.webp?v=1794405619",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-96.webp?v=1794405619",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-96.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-96.webp?v=1794405619",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.3051564,
+          -5.3595279
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/sj7jzgziio",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Itera",
+        "playback": "embed",
+        "slug": "partner-98",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/sj7jzgziio",
+        "subtitle": "cam_nrlzxxmgiitv",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-98.webp?v=1794405620",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-98.webp?v=1794405620",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-98.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-98.webp?v=1794405620",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2599558,
+          -5.4411412
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/ir4mygggqu",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Kejati",
+        "playback": "embed",
+        "slug": "partner-99",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/ir4mygggqu",
+        "subtitle": "cam_mhdrnlme3tn4",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-99.webp?v=1794405620",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-99.webp?v=1794405620",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-99.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-99.webp?v=1794405620",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2572507,
+          -5.4542689
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/veifbubqpm",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "SIMPANG KOTA KARANG",
+        "playback": "embed",
+        "slug": "partner-101",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/veifbubqpm",
+        "subtitle": "cam_aepjcrmogron",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-101.webp?v=1794405622",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-101.webp?v=1794405622",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-101.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-101.webp?v=1794405622",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2678229,
+          -5.4100973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/fykg4csdmu",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Pasar Tugu",
+        "playback": "embed",
+        "slug": "partner-105",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/fykg4csdmu",
+        "subtitle": "cam_z3c3mxfwe546",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-105.webp?v=1794405621",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-105.webp?v=1794405621",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-105.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-105.webp?v=1794405621",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2445488,
+          -5.4703962
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/eba7jqftpg",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Polsek Teluk Betung Timur",
+        "playback": "embed",
+        "slug": "partner-106",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/eba7jqftpg",
+        "subtitle": "cam_aucbepjaogzl",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-106.webp?v=1794405621",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-106.webp?v=1794405621",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-106.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-106.webp?v=1794405621",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2610295,
+          -5.4288763
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/p5m3vrnjog",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Lungsir",
+        "playback": "embed",
+        "slug": "partner-102",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/p5m3vrnjog",
+        "subtitle": "cam_ztidtp0nojl6",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-102.webp?v=1794405621",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-102.webp?v=1794405621",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-102.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-102.webp?v=1794405621",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2514395,
+          -5.4243584
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/4g9ukbv4ap",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang MH Thamrin Mongonsidi",
+        "playback": "embed",
+        "slug": "partner-103",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/4g9ukbv4ap",
+        "subtitle": "cam_2bdqniqjajge",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-103.webp?v=1794405620",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-103.webp?v=1794405620",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-103.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-103.webp?v=1794405620",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2110487,
+          -5.4002526
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/obwtlyxhpj",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "SIMPANG PALANG BESI",
+        "playback": "embed",
+        "slug": "partner-104",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/obwtlyxhpj",
+        "subtitle": "cam_zbj2bunig8u4",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-104.webp?v=1794405604",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-104.webp?v=1794405604",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-104.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-104.webp?v=1794405604",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2882352,
+          -5.3558889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/smwqenrpcd",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Pulau Damar",
+        "playback": "embed",
+        "slug": "partner-107",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/smwqenrpcd",
+        "subtitle": "cam_twmfxjq2hzvk",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-107.webp?v=1794405622",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-107.webp?v=1794405622",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-107.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-107.webp?v=1794405622",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2583952,
+          -5.4117603
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/srgocidheq",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang R.Intan - Pangkal Pinang",
+        "playback": "embed",
+        "slug": "partner-108",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/srgocidheq",
+        "subtitle": "cam_nqvoqvebhomf",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-108.webp?v=1794405621",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-108.webp?v=1794405621",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-108.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-108.webp?v=1794405621",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2607177,
+          -5.4016449
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/eiek3ti2q8",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang RS Abdul Moeloek",
+        "playback": "embed",
+        "slug": "partner-109",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/eiek3ti2q8",
+        "subtitle": "cam_enbg1edsmngk",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-109.webp?v=1794405621",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-109.webp?v=1794405621",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-109.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-109.webp?v=1794405621",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.3053672,
+          -5.3859627
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/4uvhlm4ej7",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "SIMPANG UIN / GOLF",
+        "playback": "embed",
+        "slug": "partner-118",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/4uvhlm4ej7",
+        "subtitle": "cam_itl34wsfnbej",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-118.webp?v=1794405623",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-118.webp?v=1794405623",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-118.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-118.webp?v=1794405623",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.229547,
+          -5.3931213
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/ipgyrgwgtj",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Universitas Sabuari",
+        "playback": "embed",
+        "slug": "partner-119",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/ipgyrgwgtj",
+        "subtitle": "cam_jvknntds83da",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-119.webp?v=1794405623",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-119.webp?v=1794405623",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-119.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-119.webp?v=1794405623",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2882292,
+          -5.3892682
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/h8atic8uhc",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl.Soekarno H - Urip Sumoharjo",
+        "playback": "embed",
+        "slug": "partner-45",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/h8atic8uhc",
+        "subtitle": "cam_kngftvmjctdf",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-45.webp?v=1794405616",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-45.webp?v=1794405616",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-45.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-45.webp?v=1794405616",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.3188055,
+          -5.4649377
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/2vw2nu4kjd",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Teluk Ambon Panjang",
+        "playback": "embed",
+        "slug": "partner-116",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/2vw2nu4kjd",
+        "subtitle": "cam_awnw015yoond",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-116.webp?v=1794405624",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-116.webp?v=1794405624",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-116.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-116.webp?v=1794405624",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.321089,
+          -5.4623385
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/prgmmvb5br",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Suban",
+        "playback": "embed",
+        "slug": "partner-112",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/prgmmvb5br",
+        "subtitle": "cam_xqwny1saf2ha",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-112.webp?v=1794405623",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-112.webp?v=1794405623",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-112.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-112.webp?v=1794405623",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2692893,
+          -5.4184679
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/uaxtvbgbf8",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Tugu Bambu",
+        "playback": "embed",
+        "slug": "partner-117",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/uaxtvbgbf8",
+        "subtitle": "cam_fqh66fbsbgkq",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-117.webp?v=1794405623",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-117.webp?v=1794405623",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-117.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-117.webp?v=1794405623",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2752788,
+          -5.4066476
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/zgyompvtdv",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Unsilent",
+        "playback": "embed",
+        "slug": "partner-120",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/zgyompvtdv",
+        "subtitle": "cam_uv0a23uom6j0",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-120.webp?v=1794405625",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-120.webp?v=1794405625",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-120.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-120.webp?v=1794405625",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.1998857,
+          -5.4054958
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/t9vir2ly6w",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Wan Abdurahman",
+        "playback": "embed",
+        "slug": "partner-121",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/t9vir2ly6w",
+        "subtitle": "cam_k5s6hfimrse4",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-121.webp?v=1794405622",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-121.webp?v=1794405622",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-121.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-121.webp?v=1794405622",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2380746,
+          -5.3674449
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/aqajcffqu5",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Terminal Rajabasa",
+        "playback": "embed",
+        "slug": "partner-125",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/aqajcffqu5",
+        "subtitle": "cam_4juij7y9syfz",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-125.webp?v=1794405626",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-125.webp?v=1794405626",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-125.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-125.webp?v=1794405626",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2615103,
+          -5.3966746
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/kmemnrp2wp",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Teuku Umar - Makam Pahlawan",
+        "playback": "embed",
+        "slug": "partner-126",
+        "stream_status": "offline",
+        "stream_url": "https://rtsp.itn.net.id/embed/kmemnrp2wp",
+        "subtitle": "cam_awpuzat9enzk",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-126.webp?v=1794405626",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-126.webp?v=1794405626",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-126.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-126.webp?v=1794405626",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2586584,
+          -5.4089405
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/bwwd3kdydv",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Stasiun Tanjung Karang",
+        "playback": "embed",
+        "slug": "partner-123",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/bwwd3kdydv",
+        "subtitle": "cam_zd14pji7kbx0",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-123.webp?v=1794405625",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-123.webp?v=1794405625",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-123.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-123.webp?v=1794405625",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2145762,
+          -5.3921852
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/4tnixc8e4u",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Terminal Kemiling",
+        "playback": "embed",
+        "slug": "partner-124",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/4tnixc8e4u",
+        "subtitle": "cam_fa3r8vsfvupc",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-124.webp?v=1794405625",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-124.webp?v=1794405625",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-124.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-124.webp?v=1794405625",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2580676,
+          -5.4090152
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/dvzy9g13l0",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Tugu Juang",
+        "playback": "embed",
+        "slug": "partner-131",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/dvzy9g13l0",
+        "subtitle": "cam_ioezndfoeogr",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-131.webp?v=1794405626",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-131.webp?v=1794405626",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-131.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-131.webp?v=1794405626",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2523545,
+          -5.4212378
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/gmsmqoufgr",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "TUGU PENGANTIN",
+        "playback": "embed",
+        "slug": "partner-132",
+        "stream_status": "offline",
+        "stream_url": "https://rtsp.itn.net.id/embed/gmsmqoufgr",
+        "subtitle": "cam_ki3th7fvdflq",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-132.webp?v=1794405626",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-132.webp?v=1794405626",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-132.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-132.webp?v=1794405626",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2212736,
+          -5.3858369
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/drbpicep8s",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jalan Pramuka (SD IT Baitul Jannah) 2",
+        "playback": "embed",
+        "slug": "partner-23",
+        "stream_status": "offline",
+        "stream_url": "https://rtsp.itn.net.id/embed/drbpicep8s",
+        "subtitle": "cam_9uwhq1mtwlzu",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/images-cctv-thumb-placeholder.webp?v=1792810651",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/images-cctv-thumb-placeholder.webp?v=1792810651",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/images/cctv-thumb-placeholder.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/images-cctv-thumb-placeholder.webp?v=1792810651",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2251035,
+          -5.4099084
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/q250qcbiub",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Tj Maut Susunan Baru",
+        "playback": "embed",
+        "slug": "partner-127",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/q250qcbiub",
+        "subtitle": "Siaran langsung",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-127.webp?v=1794405625",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-127.webp?v=1794405625",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-127.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-127.webp?v=1794405625",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2258652,
+          -5.3615747
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/3pdhfv0lsy",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "TUGU RADEN INTAN",
+        "playback": "embed",
+        "slug": "partner-134",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/3pdhfv0lsy",
+        "subtitle": "cam_v6txiqysuy74",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-134.webp?v=1794396676",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-134.webp?v=1794396676",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-134.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-134.webp?v=1794396676",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2157429,
+          -5.3927424
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/kov8foqzry",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Bawah Fly Over Kemiling 2",
+        "playback": "embed",
+        "slug": "partner-1",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/kov8foqzry",
+        "subtitle": "cam_esvwakcz8nwk",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-1.webp?v=1794396676",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-1.webp?v=1794396676",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-1.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-1.webp?v=1794396676",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.1995581,
+          -5.406138
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/jhawopnhid",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "EMBUNG CIK DITIRO",
+        "playback": "embed",
+        "slug": "partner-12",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/jhawopnhid",
+        "subtitle": "cam_bsvfokcbvhej",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-12.webp?v=1794396676",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-12.webp?v=1794396676",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-12.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-12.webp?v=1794396676",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2557934,
+          -5.4127995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/iubc7bmdgx",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Jl. Kartini - Katamso",
+        "playback": "embed",
+        "slug": "partner-34",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/iubc7bmdgx",
+        "subtitle": "cam_8k7ndmfs0638",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-34.webp?v=1794396675",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-34.webp?v=1794396675",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-34.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-34.webp?v=1794396675",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2397898,
+          -5.3727176
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/sgint5kwiv",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Underpass Unila",
+        "playback": "embed",
+        "slug": "partner-136",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/sgint5kwiv",
+        "subtitle": "cam_rtzmkp6mfv9g",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-136.webp?v=1794396676",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-136.webp?v=1794396676",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-136.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-136.webp?v=1794396676",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2633629,
+          -5.4490768
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/iaetgt2lzx",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "VIHARA TELUK",
+        "playback": "embed",
+        "slug": "partner-137",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/iaetgt2lzx",
+        "subtitle": "cam_qafgbjamfnmy",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-137.webp?v=1794396677",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-137.webp?v=1794396677",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-137.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-137.webp?v=1794396677",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2727544,
+          -5.4449876
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/ywkbdejess",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "W.R Supratman - MAyor Salim Batu Bara",
+        "playback": "embed",
+        "slug": "partner-138",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/ywkbdejess",
+        "subtitle": "cam_jciayf6p8lmf",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-138.webp?v=1794396677",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-138.webp?v=1794396677",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-138.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-138.webp?v=1794396677",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.3062772,
+          -5.4516401
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/0tn1mhd1ph",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Yos Sudarso - Simpang Way Lunik",
+        "playback": "embed",
+        "slug": "partner-139",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/0tn1mhd1ph",
+        "subtitle": "cam_tmkekyo8o0ul",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-139.webp?v=1794405613",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-139.webp?v=1794405613",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-139.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-139.webp?v=1794405613",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2801678,
+          -5.4439837
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/zieflz8ctx",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Lampung City Mall",
+        "playback": "embed",
+        "slug": "partner-56",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/zieflz8ctx",
+        "subtitle": "cam_vgdkj4vdwva7",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-56.webp?v=1794396677",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-56.webp?v=1794396677",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-56.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-56.webp?v=1794396677",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2604765,
+          -5.4212515
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/6kymail7bw",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "POS-YAN BEGADANG 5",
+        "playback": "embed",
+        "slug": "partner-78",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/6kymail7bw",
+        "subtitle": "cam_6wveuf0ngvmw",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-78.webp?v=1794396677",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-78.webp?v=1794396677",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-78.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-78.webp?v=1794396677",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2656466,
+          -5.3655735
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/ykrmvsoiqx",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "SIMPANG SMPN 19",
+        "playback": "embed",
+        "slug": "partner-111",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/ykrmvsoiqx",
+        "subtitle": "cam_yg33wcmuyypz",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-111.webp?v=1794396678",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-111.webp?v=1794396678",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-111.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-111.webp?v=1794396678",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          105.2616352,
+          -5.4086524
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "embed_url": "https://rtsp.itn.net.id/embed/solv01vnby",
+        "layer_color": "#C6A15B",
+        "layer_group": "layanan",
+        "layer_icon": "cctv",
+        "layer_label": "CCTV",
+        "layer_profile": "cctv",
+        "layer_slug": "cctv",
+        "name": "Simpang Kelurahan Sawah Lama",
+        "playback": "embed",
+        "slug": "partner-100",
+        "stream_status": "ready",
+        "stream_url": "https://rtsp.itn.net.id/embed/solv01vnby",
+        "subtitle": "cam_tutbbfhzvu5u",
+        "thumb_poster": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-poster/cctv-thumbs-partner-100.webp?v=1794396677",
+        "thumb_small": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-sm/cctv-thumbs-partner-100.webp?v=1794396677",
+        "thumb_url": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs/partner-100.jpg",
+        "thumb_xs": "https://restabandarlampung.lampung.polri.go.id/storage/cctv-thumbs-xs/cctv-thumbs-partner-100.webp?v=1794396677",
+        "type": "cctv"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

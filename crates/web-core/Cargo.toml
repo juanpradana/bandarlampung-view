@@ -1,0 +1,16 @@
+# CCTV Web Core — shared types for CLI, API, and WASM client.
+
+[package]
+name = "cctv-web-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+strsim.workspace = true
+
+[features]
+default = []
+wasm = []

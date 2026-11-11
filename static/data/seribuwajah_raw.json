@@ -1,0 +1,6602 @@
+[
+  {
+    "address": "Jembatan Milenial Kota Bandar Lampung",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-05-19T16:46:53.388Z",
+    "id": 19,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 126,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "SUMUR BATU"
+    },
+    "kelurahanId": 126,
+    "latitude": -5.42945503,
+    "longitude": 105.26151437,
+    "name": "JEMBATAN MILLENIAL 2 (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_19/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T21:21:00.019Z"
+  },
+  {
+    "address": "Jl. Untung Suropati Gg. Famili I, Labuhan Ratu",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:26:44.371Z",
+    "id": 130,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 44,
+      "kecamatan": {
+        "id": 7,
+        "name": "LABUHAN RATU"
+      },
+      "kecamatanId": 7,
+      "name": "LABUHAN RATU RAYA"
+    },
+    "kelurahanId": 44,
+    "latitude": -5.370556,
+    "longitude": 105.253413,
+    "name": "KELURAHAN LABUHAN RATU RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_130/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T01:37:00.018Z"
+  },
+  {
+    "address": "Kantor Pemerintah Kota Bandar Lampung",
+    "category": "Kantor Pemerintah Kota",
+    "createdAt": "2026-05-19T02:14:58.705Z",
+    "id": 18,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 126,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "SUMUR BATU"
+    },
+    "kelurahanId": 126,
+    "latitude": -5.42966266,
+    "longitude": 105.26251266,
+    "name": "HALAMAN PEMKOT (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_18/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-06-22T03:45:00.070Z"
+  },
+  {
+    "address": "Jembatan Milenial Kota Bandar Lampung",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-05-19T16:54:51.827Z",
+    "id": 22,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 126,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "SUMUR BATU"
+    },
+    "kelurahanId": 126,
+    "latitude": -5.42961139,
+    "longitude": 105.26149802,
+    "name": "JEMBATAN MILLENIAL 1 (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_22/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-06-17T20:21:28.575Z"
+  },
+  {
+    "address": "Gg. Persatuan No.1",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:27:26.916Z",
+    "id": 48,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 80,
+      "kecamatan": {
+        "id": 13,
+        "name": "TANJUNG SENANG"
+      },
+      "kecamatanId": 13,
+      "name": "LABUHAN DALAM"
+    },
+    "kelurahanId": 80,
+    "latitude": -5.359897,
+    "longitude": 105.259319,
+    "name": "KELURAHAN LABUHAN DALAM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_48/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-07T14:13:00.057Z"
+  },
+  {
+    "address": "Jl. Pulau Legundi No.198",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:23:39.183Z",
+    "id": 45,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 76,
+      "kecamatan": {
+        "id": 12,
+        "name": "SUKARAME"
+      },
+      "kecamatanId": 12,
+      "name": "SUKARAME"
+    },
+    "kelurahanId": 76,
+    "latitude": -5.389537,
+    "longitude": 105.293865,
+    "name": "KELURAHAN SUKARAME",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_45/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-30T00:42:00.035Z"
+  },
+  {
+    "address": "Jl Dr Susilo No.1A",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:17:42.027Z",
+    "id": 258,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 126,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "SUMUR BATU"
+    },
+    "kelurahanId": 126,
+    "latitude": -5.428926,
+    "longitude": 105.261756,
+    "name": "POL PP KOTA BANDAR LAMPUNG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_258/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T21:21:00.034Z"
+  },
+  {
+    "address": "Jl. Diponegoro (Depan Kantor Polisi Pamong Praja)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:06:19.971Z",
+    "id": 249,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 121,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "GULAK GALIK"
+    },
+    "kelurahanId": 121,
+    "latitude": -5.42893787,
+    "longitude": 105.26174095,
+    "name": "LUNGSIR ARAH AL-FURQON",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_249/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T21:21:00.038Z"
+  },
+  {
+    "address": "Jl. Mangkubumi No.7, Segala Mider",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:17:42.282Z",
+    "id": 40,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 47,
+      "kecamatan": {
+        "id": 8,
+        "name": "LANGKAPURA"
+      },
+      "kecamatanId": 8,
+      "name": "GUNUNG AGUNG"
+    },
+    "kelurahanId": 47,
+    "latitude": -5.394393,
+    "longitude": 105.236993,
+    "name": "KELURAHAN GUNUNG AGUNG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_40/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-08-06T06:35:11.096Z"
+  },
+  {
+    "address": "Jl. Kamboja No.59",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:08:44.846Z",
+    "id": 81,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 104,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "BAKUNG"
+    },
+    "kelurahanId": 104,
+    "latitude": -5.45477,
+    "longitude": 105.248317,
+    "name": "KELURAHAN BAKUNG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_81/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-03T00:32:09.556Z"
+  },
+  {
+    "address": "Jl. Sumur Putri No.4, Sumur Putri",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:27:06.452Z",
+    "id": 96,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 112,
+      "kecamatan": {
+        "id": 18,
+        "name": "TELUK BETUNG SELATAN"
+      },
+      "kecamatanId": 18,
+      "name": "SUMUR PUTRI"
+    },
+    "kelurahanId": 112,
+    "latitude": -5.436009,
+    "longitude": 105.249576,
+    "name": "KELURAHAN SUMUR PUTRI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_96/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-02T07:42:18.669Z"
+  },
+  {
+    "address": "Jl. Laksamana R.E.Martadinata Jl. MK.Putra",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:14:03.345Z",
+    "id": 86,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 119,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "SUKAMAJU"
+    },
+    "kelurahanId": 119,
+    "latitude": -5.464808,
+    "longitude": 105.246138,
+    "name": "KELURAHAN SUKAMAJU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_86/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:13:20.622Z"
+  },
+  {
+    "address": "PEMKOT BANDAR LAMPUNG",
+    "category": "Kantor Pemerintah Kota",
+    "createdAt": "2026-11-09T06:30:05.882Z",
+    "id": 322,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 126,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "SUMUR BATU"
+    },
+    "kelurahanId": 126,
+    "latitude": -5.42948793,
+    "longitude": 105.26285627,
+    "name": "PINTU KELUAR PEMKOT",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_322/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T06:31:09.623Z"
+  },
+  {
+    "address": "Jalan Pangeran Bandar Marga No.58, Sukadana Ham",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:22:24.431Z",
+    "id": 127,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 88,
+      "kecamatan": {
+        "id": 14,
+        "name": "TANJUNG KARANG BARAT"
+      },
+      "kecamatanId": 14,
+      "name": "SUKADANAHAM"
+    },
+    "kelurahanId": 88,
+    "latitude": -5.422468,
+    "longitude": 105.229078,
+    "name": "KELURAHAN SUKADANAHAM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_127/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T09:10:00.092Z"
+  },
+  {
+    "address": "Jl Pulau Sebesi Perum permata",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:33:27.453Z",
+    "id": 101,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 77,
+      "kecamatan": {
+        "id": 12,
+        "name": "SUKARAME"
+      },
+      "kecamatanId": 12,
+      "name": "SUKARAME BARU"
+    },
+    "kelurahanId": 77,
+    "latitude": -5.387386,
+    "longitude": 105.311897,
+    "name": "KELURAHAN SUKARAME BARU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_101/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-08-26T02:29:38.350Z"
+  },
+  {
+    "address": "Jl Wolter Monginsidi Gg Hi Husin No 16",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:05:08.241Z",
+    "id": 77,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 125,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "PENGAJARAN"
+    },
+    "kelurahanId": 125,
+    "latitude": -5.432799,
+    "longitude": 105.252995,
+    "name": "KELURAHAN PENGAJARAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_77/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-23T05:22:12.920Z"
+  },
+  {
+    "address": "Blok Jl. Bukit Kemiling Permai Raya, Kemiling Permai",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:57:54.957Z",
+    "id": 112,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 34,
+      "kecamatan": {
+        "id": 6,
+        "name": "KEMILING"
+      },
+      "kecamatanId": 6,
+      "name": "KEMILING PERMAI"
+    },
+    "kelurahanId": 34,
+    "latitude": -5.379006,
+    "longitude": 105.21155,
+    "name": "KELURAHAN BUKIT KEMILING PERMAI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_112/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T15:42:19.059Z"
+  },
+  {
+    "address": "PERTIGAAN RE MARTADINATA",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-11-09T07:42:33.562Z",
+    "id": 323,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 115,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KETEGUHAN"
+    },
+    "kelurahanId": 115,
+    "latitude": -5.45063514,
+    "longitude": 105.25918678,
+    "name": "PERTIGAAN R.E MARTADINATA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_323/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T08:28:09.653Z"
+  },
+  {
+    "address": "jl. soekarno hatta, Gg. Tpi, Kampung karang jaya, Karang Maritim",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:23:49.218Z",
+    "id": 128,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 51,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "KARANG MARITIM"
+    },
+    "kelurahanId": 51,
+    "latitude": -5.486843,
+    "longitude": 105.326989,
+    "name": "KELURAHAN KARANG MARITIM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_128/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T03:47:00.173Z"
+  },
+  {
+    "address": "Jalan Drs Alimudin Umar No.115, Campang Raya",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:14:53.079Z",
+    "id": 122,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 67,
+      "kecamatan": {
+        "id": 11,
+        "name": "SUKABUMI"
+      },
+      "kecamatanId": 11,
+      "name": "CAMPANG JAYA"
+    },
+    "kelurahanId": 67,
+    "latitude": -5.406433,
+    "longitude": 105.301496,
+    "name": "KELURAHAN CAMPANG RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_122/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T07:27:01.177Z"
+  },
+  {
+    "address": "Jl. MJ. Sutioso No.26, Kota Baru",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T02:56:55.748Z",
+    "id": 151,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 99,
+      "kecamatan": {
+        "id": 16,
+        "name": "TANJUNG KARANG TIMUR"
+      },
+      "kecamatanId": 16,
+      "name": "KEBON JERUK"
+    },
+    "kelurahanId": 99,
+    "latitude": -5.417237,
+    "longitude": 105.265956,
+    "name": "KECAMATAN TANJUNG KARANG TIMUR",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_151/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T08:47:23.625Z"
+  },
+  {
+    "address": "Jl. Imam Bonjol No.592, Sumber Rejo",
+    "category": "PUSKES",
+    "createdAt": "2026-06-05T06:46:16.460Z",
+    "id": 180,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 38,
+      "kecamatan": {
+        "id": 6,
+        "name": "KEMILING"
+      },
+      "kecamatanId": 6,
+      "name": "SUMBER REJO"
+    },
+    "kelurahanId": 38,
+    "latitude": -5.392762,
+    "longitude": 105.216671,
+    "name": "PUSKESMAS RAWAT INAP KEMILING",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_180/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T09:13:34.536Z"
+  },
+  {
+    "address": "Jl. Letjen Alamsyah Ratu Prawiranegara, gg Kamboja",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T13:33:07.749Z",
+    "id": 138,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 58,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "SRENGSEM"
+    },
+    "kelurahanId": 58,
+    "latitude": -5.495376,
+    "longitude": 105.332899,
+    "name": "KELURAHAN SRENGSEM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_138/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-15T09:11:37.010Z"
+  },
+  {
+    "address": "Pertigaan Jl Hj Sulaiman II",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T03:55:00.682Z",
+    "id": 164,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 115,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KETEGUHAN"
+    },
+    "kelurahanId": 115,
+    "latitude": -5.461842,
+    "longitude": 105.249704,
+    "name": "PERTIGAAN JL H. SULAIMAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_164/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:13:30.341Z"
+  },
+  {
+    "address": "Jl. Mr. Gele Harun No.30, Rw. Laut, Engal",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T02:54:55.554Z",
+    "id": 150,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 14,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "ENGGAL"
+    },
+    "kelurahanId": 14,
+    "latitude": -5.421378,
+    "longitude": 105.264189,
+    "name": "KECAMATAN ENGGAL",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_150/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T07:29:28.599Z"
+  },
+  {
+    "address": "Jl Hos Cokroaminoto",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T07:20:10.547Z",
+    "id": 188,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 14,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "ENGGAL"
+    },
+    "kelurahanId": 14,
+    "latitude": -5.422608,
+    "longitude": 105.262708,
+    "name": "PEREMPATAN HOS COKROAMINOTO",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_188/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T08:47:23.629Z"
+  },
+  {
+    "address": "Jl Wolter Monginsidi ",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T07:26:13.421Z",
+    "id": 192,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 113,
+      "kecamatan": {
+        "id": 18,
+        "name": "TELUK BETUNG SELATAN"
+      },
+      "kecamatanId": 18,
+      "name": "TALANG"
+    },
+    "kelurahanId": 113,
+    "latitude": -5.439432,
+    "longitude": 105.258435,
+    "name": "GAPURA PEMERINTAHAN PROVINSI LAMPUNG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_192/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-23T07:12:30.540Z"
+  },
+  {
+    "address": "Perumahan Kelapa Tiga Permai Blok F No.7",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:30:54.751Z",
+    "id": 50,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 86,
+      "kecamatan": {
+        "id": 14,
+        "name": "TANJUNG KARANG BARAT"
+      },
+      "kecamatanId": 14,
+      "name": "KELAPA TIGA PERMAI"
+    },
+    "kelurahanId": 86,
+    "latitude": -5.408771,
+    "longitude": 105.242827,
+    "name": "KELURAHAN KELAPA TIGA PERMAI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_50/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-07-13T07:19:24.469Z"
+  },
+  {
+    "address": "Jl Jaksa Agung Ri R. Soeprapto",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T07:37:54.858Z",
+    "id": 200,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 113,
+      "kecamatan": {
+        "id": 18,
+        "name": "TELUK BETUNG SELATAN"
+      },
+      "kecamatanId": 18,
+      "name": "TALANG"
+    },
+    "kelurahanId": 113,
+    "latitude": -5.439411,
+    "longitude": 105.258919,
+    "name": "PERTIGAAN PATUNG JAKSA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_200/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-23T07:12:57.381Z"
+  },
+  {
+    "address": "Jalan Intan Kesuma No.25",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:13:55.311Z",
+    "id": 37,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 35,
+      "kecamatan": {
+        "id": 6,
+        "name": "KEMILING"
+      },
+      "kecamatanId": 6,
+      "name": "KEMILING RAYA"
+    },
+    "kelurahanId": 35,
+    "latitude": -5.389963,
+    "longitude": 105.215924,
+    "name": "KELURAHAN KEMILING RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_37/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-08T23:31:57.010Z"
+  },
+  {
+    "address": "Gang Darwis Jl. Patimura No.19",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:52:56.105Z",
+    "id": 67,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 110,
+      "kecamatan": {
+        "id": 18,
+        "name": "TELUK BETUNG SELATAN"
+      },
+      "kecamatanId": 18,
+      "name": "GUNUNG MAS"
+    },
+    "kelurahanId": 110,
+    "latitude": -5.442692,
+    "longitude": 105.266656,
+    "name": "KELURAHAN GUNUNG MAS",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_67/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T00:58:19.151Z"
+  },
+  {
+    "address": "Jl. Maulana Yusuf No.27",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:44:30.718Z",
+    "id": 60,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 97,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "PALAPA"
+    },
+    "kelurahanId": 97,
+    "latitude": -5.41723,
+    "longitude": 105.249964,
+    "name": "KELURAHAN PALAPA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_60/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T08:23:48.617Z"
+  },
+  {
+    "address": "Jl Tamin Gg Hj Syafei",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:43:42.164Z",
+    "id": 59,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 96,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "KELAPA TIGA"
+    },
+    "kelurahanId": 96,
+    "latitude": -5.410598,
+    "longitude": 105.24997,
+    "name": "KELURAHAN KELAPA TIGA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_59/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T02:41:52.514Z"
+  },
+  {
+    "address": "Jl Palapa 8",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:19:45.439Z",
+    "id": 42,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 61,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "GEDONG MENENG BARU"
+    },
+    "kelurahanId": 61,
+    "latitude": -5.380889,
+    "longitude": 105.246451,
+    "name": "GEDONG MENENG BARU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_42/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-29T02:28:47.770Z"
+  },
+  {
+    "address": "Persada, Kaliawi, Kec. Tj. Karang Pusat",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:42:25.258Z",
+    "id": 58,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 95,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "KALIAWI PERSADA"
+    },
+    "kelurahanId": 95,
+    "latitude": -5.412139,
+    "longitude": 105.244193,
+    "name": "KELURAHAN KALIAWI PERSADA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_58/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-07-13T07:15:17.459Z"
+  },
+  {
+    "address": "Jl Laks RE Martadinata No 66",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:57:42.554Z",
+    "id": 71,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 115,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KETEGUHAN"
+    },
+    "kelurahanId": 115,
+    "latitude": -5.462064,
+    "longitude": 105.249466,
+    "name": "KELURAHAN KETEGUHAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_71/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:12:45.530Z"
+  },
+  {
+    "address": "Kelurahan Kuripan",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:08:14.774Z",
+    "id": 225,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 106,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "KURIPAN"
+    },
+    "kelurahanId": 106,
+    "latitude": -5.454762,
+    "longitude": 105.254304,
+    "name": "JL ANGGUR PERWATA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_225/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:15:25.707Z"
+  },
+  {
+    "address": "Jl. Diponegoro No.85 (Rumah Makan Begadang)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:28:22.041Z",
+    "id": 261,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 124,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "KUPANG TEBA"
+    },
+    "kelurahanId": 124,
+    "latitude": -5.44012001,
+    "longitude": 105.26534256,
+    "name": "BEGADANG KE JL. SALIM BATUBARA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_261/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-19T05:17:16.045Z"
+  },
+  {
+    "address": "Jl. Yos Sudarso (Terminal Sukaraja)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:27:52.671Z",
+    "id": 276,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 13,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "SUKARAJA"
+    },
+    "kelurahanId": 13,
+    "latitude": -5.44426768,
+    "longitude": 105.28619144,
+    "name": "UMKM TERMINAL SUKARAJA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_276/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-02T13:53:47.639Z"
+  },
+  {
+    "address": "Jl. DR. Setia Budi ( Depan Lamban Dalom)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:56:27.424Z",
+    "id": 264,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 107,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "NEGERI OLOK GADING"
+    },
+    "kelurahanId": 107,
+    "latitude": -5.44635346,
+    "longitude": 105.25301089,
+    "name": "OLOK GADING 1",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_264/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:19:07.360Z"
+  },
+  {
+    "address": "JL Wolter Monginsidi (Depan Bank Lampung)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:58:49.026Z",
+    "id": 286,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 125,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "PENGAJARAN"
+    },
+    "kelurahanId": 125,
+    "latitude": -5.42971169,
+    "longitude": 105.25270869,
+    "name": "JL WOLTER MONGINSIDI (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_286/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-07T00:18:09.728Z"
+  },
+  {
+    "address": "Jl. H. Agus Salim (Tugu Durian)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T05:08:44.898Z",
+    "id": 290,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 88,
+      "kecamatan": {
+        "id": 14,
+        "name": "TANJUNG KARANG BARAT"
+      },
+      "kecamatanId": 14,
+      "name": "SUKADANAHAM"
+    },
+    "kelurahanId": 88,
+    "latitude": -5.41918684,
+    "longitude": 105.23257087,
+    "name": "TUGU DURIAN (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_290/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T08:55:40.397Z"
+  },
+  {
+    "address": "Depan Mie Gacoan Urip Sumoharjo",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T02:34:38.547Z",
+    "id": 308,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 132,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "WAY HALIM PERMAI"
+    },
+    "kelurahanId": 132,
+    "latitude": -5.39144119,
+    "longitude": 105.28016026,
+    "name": "JL URIP KE PERTIGAAN MOROTAI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_308/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T06:51:47.672Z"
+  },
+  {
+    "address": "Jl. ZA. Pagar Alam (Depan Kntor DKP)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T03:01:15.977Z",
+    "id": 315,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 62,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "RAJABASA"
+    },
+    "kelurahanId": 62,
+    "latitude": -5.36320203,
+    "longitude": 105.22671148,
+    "name": "TUGU SELAMAT JLN BANDAR LAMPUNG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_315/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-30T06:58:39.699Z"
+  },
+  {
+    "address": "Jl. Imam Bonjol (Perempatan Pasar)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T05:11:51.679Z",
+    "id": 291,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 98,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "PASIR GINTUNG"
+    },
+    "kelurahanId": 98,
+    "latitude": -5.40887047,
+    "longitude": 105.25519944,
+    "name": "PEREMPATAN PASAR SEMEP GINTUNG 1",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_291/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T14:11:08.164Z"
+  },
+  {
+    "address": "Jl. Hayam Wuruk No.10 (Depan Pasar Tugu)",
+    "category": "Pasar",
+    "createdAt": "2026-05-20T23:32:41.995Z",
+    "id": 27,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 27,
+      "kecamatan": {
+        "id": 5,
+        "name": "KEDAMAIAN"
+      },
+      "kecamatanId": 5,
+      "name": "TANJUNG AGUNG RAYA"
+    },
+    "kelurahanId": 27,
+    "latitude": -5.40969467,
+    "longitude": 105.26610477,
+    "name": "PASAR TUGU (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_27/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T16:08:57.191Z"
+  },
+  {
+    "address": "Jl Ikan Jelabat No 1 Bumiwaras",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-05-18T03:50:20.893Z",
+    "id": 5,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 10,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "BUMI WARAS"
+    },
+    "kelurahanId": 10,
+    "latitude": -5.445121,
+    "longitude": 105.275961,
+    "name": "KELURAHAN BUMI WARAS",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_5/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T06:22:07.638Z"
+  },
+  {
+    "address": "Gg. Harimau 4 No.7",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:10:43.510Z",
+    "id": 35,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 6,
+      "kecamatan": {
+        "id": 2,
+        "name": "KEDATON"
+      },
+      "kecamatanId": 2,
+      "name": "SUKAMENANTI BARU"
+    },
+    "kelurahanId": 6,
+    "latitude": -5.392637,
+    "longitude": 105.256006,
+    "name": "KELURAHAN SUKAMENANTI BARU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_35/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-02T08:32:57.227Z"
+  },
+  {
+    "address": "Tanjung Karang Pusat ",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:13:51.344Z",
+    "id": 229,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 96,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "KELAPA TIGA"
+    },
+    "kelurahanId": 96,
+    "latitude": -5.418716,
+    "longitude": 105.247036,
+    "name": "PERTIGAAN TANJUNG KARANG PUSAT ARAH JALUR DUA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_229/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T02:41:52.616Z"
+  },
+  {
+    "address": "Jl. Ikan Bawal (Masjid Nurul Huda)",
+    "category": "Pasar",
+    "createdAt": "2026-05-20T23:31:32.119Z",
+    "id": 26,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 12,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "KANGKUNG"
+    },
+    "kelurahanId": 12,
+    "latitude": -5.45146606,
+    "longitude": 105.26850837,
+    "name": "PASAR GUDANG LELANG 1",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_26/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-02T13:11:06.693Z"
+  },
+  {
+    "address": "Jl. Jati No.27, Tj. Raya",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-05-18T11:50:34.301Z",
+    "id": 13,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 30,
+      "kecamatan": {
+        "id": 5,
+        "name": "KEDAMAIAN"
+      },
+      "kecamatanId": 5,
+      "name": "TANJUNG RAYA"
+    },
+    "kelurahanId": 30,
+    "latitude": -5.421725,
+    "longitude": 105.275065,
+    "name": "KELURAHAN TANJUNG RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_13/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T06:49:36.149Z"
+  },
+  {
+    "address": "Jl. Pahlawan No.49",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:12:40.721Z",
+    "id": 36,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 8,
+      "kecamatan": {
+        "id": 2,
+        "name": "KEDATON"
+      },
+      "kecamatanId": 2,
+      "name": "SURABAYA"
+    },
+    "kelurahanId": 8,
+    "latitude": -5.393004,
+    "longitude": 105.263293,
+    "name": "KELURAHAN SURABAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_36/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T07:51:45.498Z"
+  },
+  {
+    "address": "Gg H. Thasim 1 Jl Jendral Suprapto",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-05-18T11:00:48.659Z",
+    "id": 8,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 19,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "TANJUNG KARANG"
+    },
+    "kelurahanId": 19,
+    "latitude": -5.414933,
+    "longitude": 105.257171,
+    "name": "KELURAHAN TANJUNG KARANG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_8/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T08:52:45.573Z"
+  },
+  {
+    "address": "Jl. Murai No.16, Tj. Agung Raya",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-05-18T11:45:25.453Z",
+    "id": 11,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 27,
+      "kecamatan": {
+        "id": 5,
+        "name": "KEDAMAIAN"
+      },
+      "kecamatanId": 5,
+      "name": "TANJUNG AGUNG RAYA"
+    },
+    "kelurahanId": 27,
+    "latitude": -5.41177,
+    "longitude": 105.268933,
+    "name": "KELURAHAN TANJUNG AGUNG RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_11/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-23T04:20:00.128Z"
+  },
+  {
+    "address": "Jl Laksmana RE Martadinata Kota Karang",
+    "category": "Sungai",
+    "createdAt": "2026-05-20T23:34:32.261Z",
+    "id": 28,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 116,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KOTA KARANG"
+    },
+    "kelurahanId": 116,
+    "latitude": -5.451359,
+    "longitude": 105.256556,
+    "name": "SUNGAI JEMBATAN BETON",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_28/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:12:16.768Z"
+  },
+  {
+    "address": "Komplek, Jl. Tlk. Ratai No.18, Kota Karang",
+    "category": "PUSKES",
+    "createdAt": "2026-05-20T23:29:47.481Z",
+    "id": 25,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 116,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KOTA KARANG"
+    },
+    "kelurahanId": 116,
+    "latitude": -5.457428,
+    "longitude": 105.25778,
+    "name": "PUSKESMAS RAWAT INAP KOTA KARANG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_25/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:12:07.169Z"
+  },
+  {
+    "address": "Jl. Nangka, Sepang Jaya",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-05-23T04:59:31.688Z",
+    "id": 30,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 45,
+      "kecamatan": {
+        "id": 7,
+        "name": "LABUHAN RATU"
+      },
+      "kecamatanId": 7,
+      "name": "SEPANG JAYA"
+    },
+    "kelurahanId": 45,
+    "latitude": -5.371799,
+    "longitude": 105.270291,
+    "name": "KELURAHAN SEPANG JAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_30/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-22T05:00:28.577Z"
+  },
+  {
+    "address": "Jl. Pangeran Antasari Gg. Waru II",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-05-18T11:01:53.404Z",
+    "id": 9,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 24,
+      "kecamatan": {
+        "id": 5,
+        "name": "KEDAMAIAN"
+      },
+      "kecamatanId": 5,
+      "name": "KALIBALAU KENCANA"
+    },
+    "kelurahanId": 24,
+    "latitude": -5.394723,
+    "longitude": 105.28745,
+    "name": "KELURAHAN KALIBALAU KENCANA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_9/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-19T05:13:00.044Z"
+  },
+  {
+    "address": "Jl. Poebian No.15, Susunan Baru",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:37:21.605Z",
+    "id": 54,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 91,
+      "kecamatan": {
+        "id": 14,
+        "name": "TANJUNG KARANG BARAT"
+      },
+      "kecamatanId": 14,
+      "name": "SUSUNAN BARU"
+    },
+    "kelurahanId": 91,
+    "latitude": -5.402564,
+    "longitude": 105.230898,
+    "name": "KELURAHAN SUSUNAN BARU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_54/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T09:16:00.685Z"
+  },
+  {
+    "address": "Jl. Teuku Cik Ditiro No.8",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-05-20T23:27:03.527Z",
+    "id": 24,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 32,
+      "kecamatan": {
+        "id": 6,
+        "name": "KEMILING"
+      },
+      "kecamatanId": 6,
+      "name": "BERINGIN RAYA"
+    },
+    "kelurahanId": 32,
+    "latitude": -5.39948997,
+    "longitude": 105.20772594,
+    "name": "KECAMATAN KEMILING (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_24/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-27T04:02:08.341Z"
+  },
+  {
+    "address": "Jl. Kota Raja No.14, (Gereja Katedral)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-05-19T16:49:41.238Z",
+    "id": 20,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 15,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "GUNUNG SARI"
+    },
+    "kelurahanId": 15,
+    "latitude": -5.40901554,
+    "longitude": 105.25843739,
+    "name": "JALAN DEPAN GEREJA KATEDRAL",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_20/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-15T15:46:38.749Z"
+  },
+  {
+    "address": "Jalan Dr. Sutomo, No 69",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-05-18T11:53:32.333Z",
+    "id": 15,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 3,
+      "kecamatan": {
+        "id": 2,
+        "name": "KEDATON"
+      },
+      "kecamatanId": 2,
+      "name": "PENENGAHAN"
+    },
+    "kelurahanId": 3,
+    "latitude": -5.398797,
+    "longitude": 105.257078,
+    "name": "KELURAHAN PENENGAHAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_15/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-03T06:40:19.076Z"
+  },
+  {
+    "address": "Jl. H. Abd. Roni, Kedamaian",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-05-18T11:42:05.207Z",
+    "id": 10,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 25,
+      "kecamatan": {
+        "id": 5,
+        "name": "KEDAMAIAN"
+      },
+      "kecamatanId": 5,
+      "name": "KEDAMAIAN"
+    },
+    "kelurahanId": 25,
+    "latitude": -5.411757,
+    "longitude": 105.275858,
+    "name": "KELURAHAN KEDAMAIAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_10/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-17T10:16:00.027Z"
+  },
+  {
+    "address": "Jl. Ikan Manyung, Sukaraja",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-05-20T23:25:59.254Z",
+    "id": 23,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 13,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "SUKARAJA"
+    },
+    "kelurahanId": 13,
+    "latitude": -5.44469858,
+    "longitude": 105.28647713,
+    "name": "KECAMATAN BUMIWARAS (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_23/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T04:12:09.544Z"
+  },
+  {
+    "address": "Kantor Pemerintah Kota Bandar Lampung",
+    "category": "Kantor Pemerintah Kota",
+    "createdAt": "2026-05-19T16:53:32.806Z",
+    "id": 21,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 126,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "SUMUR BATU"
+    },
+    "kelurahanId": 126,
+    "latitude": -5.42956162,
+    "longitude": 105.26240904,
+    "name": "SIGER RESTO PEMKOT",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_21/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-06-28T12:20:00.053Z"
+  },
+  {
+    "address": "Jl. P. Tirtayasa, Galih, Campang Raya",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T04:50:14.903Z",
+    "id": 32,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 68,
+      "kecamatan": {
+        "id": 11,
+        "name": "SUKABUMI"
+      },
+      "kecamatanId": 11,
+      "name": "CAMPANG RAYA"
+    },
+    "kelurahanId": 68,
+    "latitude": -5.41847,
+    "longitude": 105.33179,
+    "name": "KELURAHAN CAMPANG JAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_32/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-26T05:57:10.758Z"
+  },
+  {
+    "address": "Jl. Kiwi No.29, Sidodadi",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:03:14.284Z",
+    "id": 33,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 5,
+      "kecamatan": {
+        "id": 2,
+        "name": "KEDATON"
+      },
+      "kecamatanId": 2,
+      "name": "SIDODADI"
+    },
+    "kelurahanId": 5,
+    "latitude": -5.393255,
+    "longitude": 105.259466,
+    "name": "KELURAHAN SIDODADI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_33/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-07-15T14:17:13.126Z"
+  },
+  {
+    "address": "Jl Teuku Umar Gg Suci",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-05-18T11:52:15.179Z",
+    "id": 14,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 2,
+      "kecamatan": {
+        "id": 2,
+        "name": "KEDATON"
+      },
+      "kecamatanId": 2,
+      "name": "KEDATON"
+    },
+    "kelurahanId": 2,
+    "latitude": -5.383373,
+    "longitude": 105.260581,
+    "name": "KELURAHAN KEDATON",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_14/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-26T07:33:09.652Z"
+  },
+  {
+    "address": "Kantor Pemerintah Kota Bandar Lampung",
+    "category": "Kantor Pemerintah Kota",
+    "createdAt": "2026-05-19T02:13:59.089Z",
+    "id": 17,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 126,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "SUMUR BATU"
+    },
+    "kelurahanId": 126,
+    "latitude": -5.42941246,
+    "longitude": 105.26307282,
+    "name": "PINTU MASUK PEMKOT",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_17/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-06-22T03:44:07.022Z"
+  },
+  {
+    "address": "Jl. Pulau Nias No.10",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:22:23.680Z",
+    "id": 44,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 70,
+      "kecamatan": {
+        "id": 11,
+        "name": "SUKABUMI"
+      },
+      "kecamatanId": 11,
+      "name": "SUKABUMI"
+    },
+    "kelurahanId": 70,
+    "latitude": -5.39612,
+    "longitude": 105.303577,
+    "name": "KELURAHAN SUKABUMI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_44/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-25T06:40:10.847Z"
+  },
+  {
+    "address": "Gg. Makam, Durian Payung",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:38:37.788Z",
+    "id": 55,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 92,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "DURIAN PAYUNG"
+    },
+    "kelurahanId": 92,
+    "latitude": -5.42175,
+    "longitude": 105.2442,
+    "name": "KELURAHAN DURIAN PAYUNG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_55/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-23T01:21:57.269Z"
+  },
+  {
+    "address": "Jl. DR. Setia Budi, Negeri Olok Gading",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:51:53.544Z",
+    "id": 66,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 107,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "NEGERI OLOK GADING"
+    },
+    "kelurahanId": 107,
+    "latitude": -5.445807,
+    "longitude": 105.246587,
+    "name": "KELURAHAN NEGERI OLOK GADING",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_66/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:17:10.879Z"
+  },
+  {
+    "address": "Jl. Pagar Alam Jl. Putra No.37",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:18:40.991Z",
+    "id": 41,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 49,
+      "kecamatan": {
+        "id": 8,
+        "name": "LANGKAPURA"
+      },
+      "kecamatanId": 8,
+      "name": "LANGKAPURA"
+    },
+    "kelurahanId": 49,
+    "latitude": -5.391448,
+    "longitude": 105.228738,
+    "name": "KELURAHAN LANGKAPURA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_41/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-30T14:52:06.795Z"
+  },
+  {
+    "address": "Gg Masjid Pasir Gintung",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:46:21.451Z",
+    "id": 61,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 98,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "PASIR GINTUNG"
+    },
+    "kelurahanId": 98,
+    "latitude": -5.404467,
+    "longitude": 105.256488,
+    "name": "KELURAHAN PASIR GINTUNG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_61/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-05T01:49:59.642Z"
+  },
+  {
+    "address": "Jl. M. Husni Thamrin No.71",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:39:57.175Z",
+    "id": 56,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 93,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "GOTONG ROYONG"
+    },
+    "kelurahanId": 93,
+    "latitude": -5.424762,
+    "longitude": 105.253428,
+    "name": "KELURAHAN GOTONG ROYONG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_56/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T05:27:11.239Z"
+  },
+  {
+    "address": "Jl. Dasamuko No.1, Sawah Brebes",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:48:45.996Z",
+    "id": 63,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 101,
+      "kecamatan": {
+        "id": 16,
+        "name": "TANJUNG KARANG TIMUR"
+      },
+      "kecamatanId": 16,
+      "name": "SAWAH BREBES"
+    },
+    "kelurahanId": 101,
+    "latitude": -5.406336,
+    "longitude": 105.266319,
+    "name": "KELURAHAN SAWAH BREBES",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_63/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T08:25:55.934Z"
+  },
+  {
+    "address": "Jl. Sejahtera, Sumber Rejo",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:16:19.007Z",
+    "id": 39,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 39,
+      "kecamatan": {
+        "id": 6,
+        "name": "KEMILING"
+      },
+      "kecamatanId": 6,
+      "name": "SUMBER REJO SEJAHTERA"
+    },
+    "kelurahanId": 39,
+    "latitude": -5.404563,
+    "longitude": 105.214537,
+    "name": "KELURAHAN SUMBER  REJO  SEJAHTERA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_39/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T09:15:06.738Z"
+  },
+  {
+    "address": "Jl. H Jl. MJ. Sutioso, Kota Baru",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:47:48.674Z",
+    "id": 62,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 100,
+      "kecamatan": {
+        "id": 16,
+        "name": "TANJUNG KARANG TIMUR"
+      },
+      "kecamatanId": 16,
+      "name": "KOTA BARU"
+    },
+    "kelurahanId": 100,
+    "latitude": -5.417481,
+    "longitude": 105.266465,
+    "name": "KELURAHAN KOTABARU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_62/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-01T03:22:35.401Z"
+  },
+  {
+    "address": "Jl Nusa Indah Gg Bunga Mayang",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-05-18T03:52:26.350Z",
+    "id": 7,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 14,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "ENGGAL"
+    },
+    "kelurahanId": 14,
+    "latitude": -5.425373,
+    "longitude": 105.262143,
+    "name": "KELURAHAN ENGGAL",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_7/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T04:32:26.141Z"
+  },
+  {
+    "address": "Jl. Tamin Jl. Balai Desa No.21",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:33:02.668Z",
+    "id": 52,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 89,
+      "kecamatan": {
+        "id": 14,
+        "name": "TANJUNG KARANG BARAT"
+      },
+      "kecamatanId": 14,
+      "name": "SUKAJAWA"
+    },
+    "kelurahanId": 89,
+    "latitude": -5.405151,
+    "longitude": 105.248775,
+    "name": "KELURAHAN SUKAJAWA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_52/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T04:39:17.535Z"
+  },
+  {
+    "address": "Jl. Beruang No.41, Sukamenanti",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:08:47.451Z",
+    "id": 34,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 7,
+      "kecamatan": {
+        "id": 2,
+        "name": "KEDATON"
+      },
+      "kecamatanId": 2,
+      "name": "SUKAMENANTI"
+    },
+    "kelurahanId": 7,
+    "latitude": -5.394565,
+    "longitude": 105.251411,
+    "name": "KELURAHAN SUKAMENANTI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_34/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T03:21:02.940Z"
+  },
+  {
+    "address": "Jl. Arjuna No.10, Sawah Lama",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:49:45.547Z",
+    "id": 64,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 102,
+      "kecamatan": {
+        "id": 16,
+        "name": "TANJUNG KARANG TIMUR"
+      },
+      "kecamatanId": 16,
+      "name": "SAWAH LAMA"
+    },
+    "kelurahanId": 102,
+    "latitude": -5.408561,
+    "longitude": 105.261745,
+    "name": "KELURAHAN SAWAH LAMA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_64/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T13:14:26.840Z"
+  },
+  {
+    "address": "Jl. Perintis Kemerdekaan No.134",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-05-18T11:48:11.605Z",
+    "id": 12,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 29,
+      "kecamatan": {
+        "id": 5,
+        "name": "KEDAMAIAN"
+      },
+      "kecamatanId": 5,
+      "name": "TANJUNG GADING"
+    },
+    "kelurahanId": 29,
+    "latitude": -5.425026,
+    "longitude": 105.27511,
+    "name": "KELURAHAN TANJUNG GADING",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_12/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T15:58:58.774Z"
+  },
+  {
+    "address": "Jl. Diponegoro (Tugu Adipura)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-05-26T06:15:56.388Z",
+    "id": 31,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 93,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "GOTONG ROYONG"
+    },
+    "kelurahanId": 93,
+    "latitude": -5.4226025,
+    "longitude": 105.25803339,
+    "name": "TUGU ADIPURA 1 (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_31/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-08T23:44:16.372Z"
+  },
+  {
+    "address": "Jl. Jenderal Ahmad Yani (Tugu Adipura)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-05-20T23:35:41.117Z",
+    "id": 29,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 93,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "GOTONG ROYONG"
+    },
+    "kelurahanId": 93,
+    "latitude": -5.42240059,
+    "longitude": 105.25777812,
+    "name": "TUGU ADIPURA 2 (AMBULANCE)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_29/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-08T23:45:16.446Z"
+  },
+  {
+    "address": "Jl. Ikan Ekor Kuning No.12",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:54:06.956Z",
+    "id": 68,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 111,
+      "kecamatan": {
+        "id": 18,
+        "name": "TELUK BETUNG SELATAN"
+      },
+      "kecamatanId": 18,
+      "name": "PESAWAHAN"
+    },
+    "kelurahanId": 111,
+    "latitude": -5.450635,
+    "longitude": 105.261897,
+    "name": "KELURAHAN PESAWAHAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_68/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T01:44:57.646Z"
+  },
+  {
+    "address": "Betung Barat Jl. Makmun Isya No.11",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:51:04.738Z",
+    "id": 65,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 106,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "KURIPAN"
+    },
+    "kelurahanId": 106,
+    "latitude": -5.448927,
+    "longitude": 105.254583,
+    "name": "KELURAHAN KURIPAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_65/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:17:10.831Z"
+  },
+  {
+    "address": "Jl. Kamboja, Way Dadi",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:25:46.909Z",
+    "id": 47,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 79,
+      "kecamatan": {
+        "id": 12,
+        "name": "SUKARAME"
+      },
+      "kecamatanId": 12,
+      "name": "WAY DADI BARU"
+    },
+    "kelurahanId": 79,
+    "latitude": -5.378391,
+    "longitude": 105.28796,
+    "name": "KELURAHAN WAY DADI  BARU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_47/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-01T04:23:47.790Z"
+  },
+  {
+    "address": "Jl. Indra Bangsawan No.54",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:20:42.429Z",
+    "id": 43,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 62,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "RAJABASA"
+    },
+    "kelurahanId": 62,
+    "latitude": -5.365492,
+    "longitude": 105.232779,
+    "name": "KELURAHAN RAJABASA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_43/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-20T23:37:16.283Z"
+  },
+  {
+    "address": "Jl. Ikan Bawal No.20",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:32:26.115Z",
+    "id": 100,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 12,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "KANGKUNG"
+    },
+    "kelurahanId": 12,
+    "latitude": -5.450079,
+    "longitude": 105.267365,
+    "name": "KELURAHAN KANGKUNG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_100/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-26T13:35:28.784Z"
+  },
+  {
+    "address": "Jl. DR. Setia Budi No.130",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:38:11.271Z",
+    "id": 104,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 108,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "SUKARAME II"
+    },
+    "kelurahanId": 108,
+    "latitude": -5.439862,
+    "longitude": 105.240646,
+    "name": "KELURAHAN SUKARAME II",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_104/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-24T02:57:40.016Z"
+  },
+  {
+    "address": "Jl. Teuku Umar No.4, Gn. Sari",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:15:23.846Z",
+    "id": 87,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 15,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "GUNUNG SARI"
+    },
+    "kelurahanId": 15,
+    "latitude": -5.407971,
+    "longitude": 105.257776,
+    "name": "KELURAHAN GUNUNG SARI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_87/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-21T15:10:35.805Z"
+  },
+  {
+    "address": "Jl Kelurahan Kec Teluk Betung Timur",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:00:52.082Z",
+    "id": 73,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 118,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "PERWATA"
+    },
+    "kelurahanId": 118,
+    "latitude": -5.454497,
+    "longitude": 105.252872,
+    "name": "KELURAHAN PERWATA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_73/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:18:27.817Z"
+  },
+  {
+    "address": "Jl Anggun Cik Tunggal",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:13:17.559Z",
+    "id": 85,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 109,
+      "kecamatan": {
+        "id": 18,
+        "name": "TELUK BETUNG SELATAN"
+      },
+      "kecamatanId": 18,
+      "name": "GEDONG PAKUAN"
+    },
+    "kelurahanId": 109,
+    "latitude": -5.439491,
+    "longitude": 105.253133,
+    "name": "KELURAHAN GEDONG PAKUAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_85/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T08:21:06.909Z"
+  },
+  {
+    "address": "Jl. Prajurit I, Tj. Baru",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:23:06.738Z",
+    "id": 93,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 28,
+      "kecamatan": {
+        "id": 5,
+        "name": "KEDAMAIAN"
+      },
+      "kecamatanId": 5,
+      "name": "TANJUNG BARU"
+    },
+    "kelurahanId": 28,
+    "latitude": -5.409036,
+    "longitude": 105.279203,
+    "name": "KELURAHAN TANJUNG BARU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_93/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-23T00:36:55.775Z"
+  },
+  {
+    "address": "Jl. Pajajaran No.64, Jagabaya II",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:07:38.358Z",
+    "id": 80,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 129,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "JAGABAYA II"
+    },
+    "kelurahanId": 129,
+    "latitude": -5.398399,
+    "longitude": 105.264737,
+    "name": "KELURAHAN JAGABAYA II",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_80/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-23T04:42:19.928Z"
+  },
+  {
+    "address": "Jl. Way Rarem No.18",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:19:00.864Z",
+    "id": 90,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 16,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "PAHOMAN"
+    },
+    "kelurahanId": 16,
+    "latitude": -5.430246,
+    "longitude": 105.273061,
+    "name": "KELURAHAN PAHOMAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_90/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-11T04:26:04.614Z"
+  },
+  {
+    "address": "Jl. Gn. T. Perahu No.1",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:02:56.524Z",
+    "id": 75,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 122,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "KUPANG KOTA"
+    },
+    "kelurahanId": 122,
+    "latitude": -5.443977,
+    "longitude": 105.262942,
+    "name": "KELURAHAN KUPANG KOTA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_75/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T13:30:14.179Z"
+  },
+  {
+    "address": "Jl. Yos Sudarso No.1",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:36:58.840Z",
+    "id": 103,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 13,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "SUKARAJA"
+    },
+    "kelurahanId": 13,
+    "latitude": -5.442838,
+    "longitude": 105.286777,
+    "name": "KELURAHAN SUKARAJA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_103/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T04:13:05.885Z"
+  },
+  {
+    "address": "Gg. Hi. Thasim II Jl. Jend. Suprapto No.2",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:19:51.295Z",
+    "id": 91,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 17,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "PELITA"
+    },
+    "kelurahanId": 17,
+    "latitude": -5.415605,
+    "longitude": 105.25697,
+    "name": "KELURAHAN PELITA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_91/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:13:02.724Z"
+  },
+  {
+    "address": "Jl. Hj. Haniah No.6",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:01:56.305Z",
+    "id": 74,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 121,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "GULAK GALIK"
+    },
+    "kelurahanId": 121,
+    "latitude": -5.435919,
+    "longitude": 105.25874,
+    "name": "KELURAHAN GULAK GALIK",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_74/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T14:37:36.405Z"
+  },
+  {
+    "address": "Jl. Griya Utama No.2",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:11:30.434Z",
+    "id": 84,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 132,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "WAY HALIM PERMAI"
+    },
+    "kelurahanId": 132,
+    "latitude": -5.384206,
+    "longitude": 105.272409,
+    "name": "KELURAHAN WAY HALIM PERMAI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_84/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-05T15:23:25.855Z"
+  },
+  {
+    "address": "Jl. Pulau Tegal No.1, Way Dadi",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:24:48.929Z",
+    "id": 46,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 78,
+      "kecamatan": {
+        "id": 12,
+        "name": "SUKARAME"
+      },
+      "kecamatanId": 12,
+      "name": "WAY DADI"
+    },
+    "kelurahanId": 78,
+    "latitude": -5.385402,
+    "longitude": 105.290772,
+    "name": "KELURAHAN WAY DADI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_46/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T10:44:25.999Z"
+  },
+  {
+    "address": "Jl. Pulau Buton, Jagabaya III",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:09:35.441Z",
+    "id": 82,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 130,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "JAGABAYA III"
+    },
+    "kelurahanId": 130,
+    "latitude": -5.396281,
+    "longitude": 105.274561,
+    "name": "KELURAHAN JAGABAYA III",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_82/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T06:23:42.013Z"
+  },
+  {
+    "address": "Jl. Ganjaran No.09",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:15:17.787Z",
+    "id": 38,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 38,
+      "kecamatan": {
+        "id": 6,
+        "name": "KEMILING"
+      },
+      "kecamatanId": 6,
+      "name": "SUMBER REJO"
+    },
+    "kelurahanId": 38,
+    "latitude": -5.391738,
+    "longitude": 105.212565,
+    "name": "KELURAHAN SUMBERREJO",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_38/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T09:16:11.439Z"
+  },
+  {
+    "address": "Jl. Melati No.20A, Rw. Laut",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:17:44.043Z",
+    "id": 89,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 18,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "RAWA LAUT"
+    },
+    "kelurahanId": 18,
+    "latitude": -5.424656,
+    "longitude": 105.265023,
+    "name": "KELURAHAN RAWA LAUT",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_89/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T07:30:17.142Z"
+  },
+  {
+    "address": "Jl. HRM Mangundiprojo Gg. Gelora No.3",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:38:59.379Z",
+    "id": 105,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 23,
+      "kecamatan": {
+        "id": 5,
+        "name": "KEDAMAIAN"
+      },
+      "kecamatanId": 5,
+      "name": "BUMI KEDAMAIAN"
+    },
+    "kelurahanId": 23,
+    "latitude": -5.409757,
+    "longitude": 105.288257,
+    "name": "KELURAHAN BUMI KEDAMAIAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_105/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T08:19:57.743Z"
+  },
+  {
+    "address": "Jl Ciptomangunkusumo",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:05:55.811Z",
+    "id": 78,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 126,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "SUMUR BATU"
+    },
+    "kelurahanId": 126,
+    "latitude": -5.433149,
+    "longitude": 105.265526,
+    "name": "KELURAHAN SUMUR BATU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_78/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T14:38:36.377Z"
+  },
+  {
+    "address": "Gg. H. Ismail No.110, Rajabasa",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:02:51.903Z",
+    "id": 116,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 64,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "RAJABASA NUNYAI"
+    },
+    "kelurahanId": 64,
+    "latitude": -5.370965,
+    "longitude": 105.23075,
+    "name": "KELURAHAN RAJABASA NUNYAI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_116/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T00:02:24.750Z"
+  },
+  {
+    "address": "Gg Sepakat II Jagabaya",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:06:50.144Z",
+    "id": 79,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 128,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "JAGABAYA I"
+    },
+    "kelurahanId": 128,
+    "latitude": -5.401967,
+    "longitude": 105.264377,
+    "name": "KELURAHAN JAGABAYA I",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_79/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-07T09:38:28.493Z"
+  },
+  {
+    "address": "Jl. Rajungan Jl. Pandawa No.2",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:31:29.982Z",
+    "id": 99,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 11,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "GARUNTANG"
+    },
+    "kelurahanId": 11,
+    "latitude": -5.442669,
+    "longitude": 105.29494,
+    "name": "KELURAHAN GARUNTANG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_99/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-03T02:35:34.606Z"
+  },
+  {
+    "address": "Jl Yos Sudarso Panjang Selatan",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:13:13.448Z",
+    "id": 121,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 55,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "PANJANG SELATAN"
+    },
+    "kelurahanId": 55,
+    "latitude": -5.478871,
+    "longitude": 105.324207,
+    "name": "KELURAHAN PANJANG SELATAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_121/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-02T03:53:45.756Z"
+  },
+  {
+    "address": "Jalan Komplek Perumahan Kaliawi Permai No.7",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:41:34.216Z",
+    "id": 57,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 94,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "KALIAWI"
+    },
+    "kelurahanId": 94,
+    "latitude": -5.416373,
+    "longitude": 105.24952,
+    "name": "KELURAHAN KALIAWI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_57/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T02:43:52.116Z"
+  },
+  {
+    "address": "Jl. W. R. Supratman No.24",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:55:05.295Z",
+    "id": 69,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 113,
+      "kecamatan": {
+        "id": 18,
+        "name": "TELUK BETUNG SELATAN"
+      },
+      "kecamatanId": 18,
+      "name": "TALANG"
+    },
+    "kelurahanId": 113,
+    "latitude": -5.445407,
+    "longitude": 105.25908,
+    "name": "KELURAHAN TALANG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_69/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T14:12:08.142Z"
+  },
+  {
+    "address": "Jl. Tlk. Ratai, Kota Karang",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:21:12.234Z",
+    "id": 92,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 117,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KOTA KARANG RAYA"
+    },
+    "kelurahanId": 117,
+    "latitude": -5.457736,
+    "longitude": 105.257831,
+    "name": "KELURAHAN KOTA KARANG RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_92/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T07:48:06.138Z"
+  },
+  {
+    "address": "Jl. Salim Batubara No.77",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:04:09.178Z",
+    "id": 76,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 124,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "KUPANG TEBA"
+    },
+    "kelurahanId": 124,
+    "latitude": -5.440153,
+    "longitude": 105.270082,
+    "name": "KELURAHAN KUPANG TEBA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_76/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T05:32:07.799Z"
+  },
+  {
+    "address": "Jl. Pagar Alam No.110",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:31:57.084Z",
+    "id": 51,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 87,
+      "kecamatan": {
+        "id": 14,
+        "name": "TANJUNG KARANG BARAT"
+      },
+      "kecamatanId": 14,
+      "name": "SEGALA MIDER"
+    },
+    "kelurahanId": 87,
+    "latitude": -5.38637,
+    "longitude": 105.244254,
+    "name": "KELURAHAN SEGALA MIDER",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_51/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T01:01:07.077Z"
+  },
+  {
+    "address": "Jl. Tj. Jati Kel. Pematang Wangi No.1",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:35:14.477Z",
+    "id": 102,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 81,
+      "kecamatan": {
+        "id": 13,
+        "name": "TANJUNG SENANG"
+      },
+      "kecamatanId": 13,
+      "name": "PEMATANG WANGI"
+    },
+    "kelurahanId": 81,
+    "latitude": -5.357516,
+    "longitude": 105.278951,
+    "name": "KELURAHAN PEMATANG WANGI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_102/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T01:02:02.680Z"
+  },
+  {
+    "address": "Jl. Tirtaria No.212, Way Kandis",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:28:23.806Z",
+    "id": 97,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 84,
+      "kecamatan": {
+        "id": 13,
+        "name": "TANJUNG SENANG"
+      },
+      "kecamatanId": 13,
+      "name": "WAY KANDIS"
+    },
+    "kelurahanId": 84,
+    "latitude": -5.350788,
+    "longitude": 105.287916,
+    "name": "KELURAHAN WAY KANDIS",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_97/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T03:13:08.719Z"
+  },
+  {
+    "address": "Jl. Darussalam VII, RT.005/RW.008, Ketapang",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:18:04.766Z",
+    "id": 124,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 52,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "KETAPANG"
+    },
+    "kelurahanId": 52,
+    "latitude": -5.437563,
+    "longitude": 105.299595,
+    "name": "KELURAHAN KETAPANG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_124/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-24T14:10:14.950Z"
+  },
+  {
+    "address": "Jl. Pemuda No.01, RT.01/RW.LK. I, Sumber Agung",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:00:01.924Z",
+    "id": 114,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 37,
+      "kecamatan": {
+        "id": 6,
+        "name": "KEMILING"
+      },
+      "kecamatanId": 6,
+      "name": "SUMBER AGUNG"
+    },
+    "kelurahanId": 37,
+    "latitude": -5.415615,
+    "longitude": 105.189458,
+    "name": "KELURAHAN SUMBER AGUNG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_114/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-07-13T07:18:25.374Z"
+  },
+  {
+    "address": "Jl. Yos Sudarso, Panjang Utara",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:27:47.444Z",
+    "id": 131,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 56,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "PANJANG UTARA"
+    },
+    "kelurahanId": 56,
+    "latitude": -5.469765,
+    "longitude": 105.322217,
+    "name": "KELURAHAN PANJANG UTARA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_131/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T05:17:46.631Z"
+  },
+  {
+    "address": "Jl. H. Komarudin No.12, Rajabasa Raya",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:19:19.145Z",
+    "id": 125,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 66,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "RAJABASA RAYA"
+    },
+    "kelurahanId": 66,
+    "latitude": -5.352929,
+    "longitude": 105.239457,
+    "name": "KELURAHAN RAJABASA RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_125/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-26T09:11:21.105Z"
+  },
+  {
+    "address": "Jl. Minak Sangaji No.01",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:42:57.228Z",
+    "id": 109,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 32,
+      "kecamatan": {
+        "id": 6,
+        "name": "KEMILING"
+      },
+      "kecamatanId": 6,
+      "name": "BERINGIN RAYA"
+    },
+    "kelurahanId": 32,
+    "latitude": -5.396952,
+    "longitude": 105.207159,
+    "name": "KELURAHAN BERINGIN RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_109/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T09:16:11.493Z"
+  },
+  {
+    "address": "Jl. Cendrawasih 1 No.20",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:40:40.352Z",
+    "id": 107,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 103,
+      "kecamatan": {
+        "id": 16,
+        "name": "TANJUNG KARANG TIMUR"
+      },
+      "kecamatanId": 16,
+      "name": "TANJUNG AGUNG"
+    },
+    "kelurahanId": 103,
+    "latitude": -5.411728,
+    "longitude": 105.266602,
+    "name": "KELURAHAN TANJUNG AGUNG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_107/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-17T10:18:26.488Z"
+  },
+  {
+    "address": "Gg. Mangga No.21, Perumnas Way Kandis",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:04:59.126Z",
+    "id": 117,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 82,
+      "kecamatan": {
+        "id": 13,
+        "name": "TANJUNG SENANG"
+      },
+      "kecamatanId": 13,
+      "name": "PERUMNAS WAY KANDIS"
+    },
+    "kelurahanId": 82,
+    "latitude": -5.364789,
+    "longitude": 105.288276,
+    "name": "KELURAHAN PERUMNAS WAY KANDIS",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_117/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-08-10T09:12:08.065Z"
+  },
+  {
+    "address": "Jl. Rusa, Sukamenanti",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T03:06:15.638Z",
+    "id": 157,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 2,
+      "kecamatan": {
+        "id": 2,
+        "name": "KEDATON"
+      },
+      "kecamatanId": 2,
+      "name": "KEDATON"
+    },
+    "kelurahanId": 2,
+    "latitude": -5.390522,
+    "longitude": 105.254253,
+    "name": "KECAMATAN KEDATON",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_157/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-14T12:04:48.973Z"
+  },
+  {
+    "address": "Jl. Salim Batubara (Depan Kelurahan Kupang Raya)",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-05T03:23:26.973Z",
+    "id": 160,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 123,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "KUPANG RAYA"
+    },
+    "kelurahanId": 123,
+    "latitude": -5.44263521,
+    "longitude": 105.27276112,
+    "name": "KELURAHAN KUPANG RAYA (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_160/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T04:15:01.158Z"
+  },
+  {
+    "address": "Jl. Soekarno Hatta No.59, Karang Maritim",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T03:08:27.776Z",
+    "id": 159,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 51,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "KARANG MARITIM"
+    },
+    "kelurahanId": 51,
+    "latitude": -5.483609,
+    "longitude": 105.324643,
+    "name": "KECAMATAN PANJANG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_159/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-25T18:16:25.950Z"
+  },
+  {
+    "address": "Jl Pisang Pasar Gintung",
+    "category": "Pasar",
+    "createdAt": "2026-06-05T06:32:28.718Z",
+    "id": 168,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 98,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "PASIR GINTUNG"
+    },
+    "kelurahanId": 98,
+    "latitude": -5.408102,
+    "longitude": 105.255719,
+    "name": "PASAR GINTUNG 2",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_168/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T07:35:19.063Z"
+  },
+  {
+    "address": "Jl. P. Tirtayasa Jl. Arwana, Sukabumi",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T02:59:07.267Z",
+    "id": 153,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 70,
+      "kecamatan": {
+        "id": 11,
+        "name": "SUKABUMI"
+      },
+      "kecamatanId": 11,
+      "name": "SUKABUMI"
+    },
+    "kelurahanId": 70,
+    "latitude": -5.399697,
+    "longitude": 105.305992,
+    "name": "KECAMATAN SUKABUMI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_153/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-08-12T06:29:32.649Z"
+  },
+  {
+    "address": "Jl Drs Warsito no 46",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T02:39:58.551Z",
+    "id": 145,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 121,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "GULAK GALIK"
+    },
+    "kelurahanId": 121,
+    "latitude": -5.439379,
+    "longitude": 105.262464,
+    "name": "KECAMATAN TELUK BETUNG UTARA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_145/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-11T04:35:29.111Z"
+  },
+  {
+    "address": "Jl. W. R. Supratman No.9A, Gedong Pakuon",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T02:50:20.237Z",
+    "id": 147,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 114,
+      "kecamatan": {
+        "id": 18,
+        "name": "TELUK BETUNG SELATAN"
+      },
+      "kecamatanId": 18,
+      "name": "TELUK BETUNG"
+    },
+    "kelurahanId": 114,
+    "latitude": -5.440109,
+    "longitude": 105.256532,
+    "name": "KECAMATAN TELUK BETUNG SELATAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_147/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-11T04:35:39.252Z"
+  },
+  {
+    "address": "Jl H Rojak Gedong Meneng",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T13:29:48.601Z",
+    "id": 136,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 60,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "GEDONG MENENG"
+    },
+    "kelurahanId": 60,
+    "latitude": -5.373954,
+    "longitude": 105.23946,
+    "name": "KELURAHAN GEDONG MENENG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_136/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-05T15:42:25.951Z"
+  },
+  {
+    "address": "Gg. Kencana No.13, Gn. Sulah",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:16:46.779Z",
+    "id": 123,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 127,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "GUNUNG SULAH"
+    },
+    "kelurahanId": 127,
+    "latitude": -5.390699,
+    "longitude": 105.272034,
+    "name": "KELURAHAN GUNUNG SULAH",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_123/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-05T10:56:35.525Z"
+  },
+  {
+    "address": "Jl. Raden Gunawan No.35, Rajabasa",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:01:26.355Z",
+    "id": 115,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 65,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "RAJABASA PEMUKA"
+    },
+    "kelurahanId": 65,
+    "latitude": -5.368493,
+    "longitude": 105.220926,
+    "name": "KELURAHAN RAJABASA PEMUKA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_115/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T06:26:32.536Z"
+  },
+  {
+    "address": "Jl. Damai, Tj. Senang",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:12:00.044Z",
+    "id": 120,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 83,
+      "kecamatan": {
+        "id": 13,
+        "name": "TANJUNG SENANG"
+      },
+      "kecamatanId": 13,
+      "name": "TANJUNG SENANG"
+    },
+    "kelurahanId": 83,
+    "latitude": -5.369566,
+    "longitude": 105.280112,
+    "name": "KELURAHAN TANJUNG SENENG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_120/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-07T00:33:35.880Z"
+  },
+  {
+    "address": "Gg. Bayur, Penengahan",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:06:43.668Z",
+    "id": 118,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 4,
+      "kecamatan": {
+        "id": 2,
+        "name": "KEDATON"
+      },
+      "kecamatanId": 2,
+      "name": "PENENGAHAN RAYA"
+    },
+    "kelurahanId": 4,
+    "latitude": -5.400975,
+    "longitude": 105.254949,
+    "name": "KELURAHAN PENENGAHAN RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_118/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-05T01:17:37.280Z"
+  },
+  {
+    "address": "Jl Cendrawasih No 14",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:58:48.625Z",
+    "id": 113,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 36,
+      "kecamatan": {
+        "id": 6,
+        "name": "KEMILING"
+      },
+      "kecamatanId": 6,
+      "name": "PINANG JAYA"
+    },
+    "kelurahanId": 36,
+    "latitude": -5.397141,
+    "longitude": 105.19486,
+    "name": "KELURAHAN PINANG JAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_113/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T06:26:23.026Z"
+  },
+  {
+    "address": "Kp. Baru Raya No.Kec, Labuhan Ratu",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T13:26:33.288Z",
+    "id": 134,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 41,
+      "kecamatan": {
+        "id": 7,
+        "name": "LABUHAN RATU"
+      },
+      "kecamatanId": 7,
+      "name": "KAMPUNG BARU RAYA"
+    },
+    "kelurahanId": 41,
+    "latitude": -5.363637,
+    "longitude": 105.251248,
+    "name": "KELURAHAN KAMPUNG BARU RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_134/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-07T14:14:53.816Z"
+  },
+  {
+    "address": "Jl Bumi Manti IV",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:08:22.909Z",
+    "id": 119,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 40,
+      "kecamatan": {
+        "id": 7,
+        "name": "LABUHAN RATU"
+      },
+      "kecamatanId": 7,
+      "name": "KAMPUNG BARU"
+    },
+    "kelurahanId": 40,
+    "latitude": -5.366397,
+    "longitude": 105.249515,
+    "name": "KELURAHAN KAMPUNG BARU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_119/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T07:27:13.596Z"
+  },
+  {
+    "address": "Jl. Turi Raya No.9, Tj. Senang, Batang",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T02:53:19.365Z",
+    "id": 149,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 83,
+      "kecamatan": {
+        "id": 13,
+        "name": "TANJUNG SENANG"
+      },
+      "kecamatanId": 13,
+      "name": "TANJUNG SENANG"
+    },
+    "kelurahanId": 83,
+    "latitude": -5.359828,
+    "longitude": 105.273007,
+    "name": "KECAMATAN TANJUNG SENENG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_149/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T08:32:14.988Z"
+  },
+  {
+    "address": "JL. Gunung Rajabasa Raya, No. T.21",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:10:33.034Z",
+    "id": 83,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 131,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "PERUMNAS WAY HALIM"
+    },
+    "kelurahanId": 131,
+    "latitude": -5.376616,
+    "longitude": 105.272568,
+    "name": "KELURAHAN PERUMNAS WAY HALIM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_83/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T08:36:05.019Z"
+  },
+  {
+    "address": "Jl. Asahan No.1, Sukabumi Indah",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:29:12.532Z",
+    "id": 132,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 71,
+      "kecamatan": {
+        "id": 11,
+        "name": "SUKABUMI"
+      },
+      "kecamatanId": 11,
+      "name": "SUKABUMI INDAH"
+    },
+    "kelurahanId": 71,
+    "latitude": -5.402799,
+    "longitude": 105.292438,
+    "name": "KELURAHAN SUKABUMI INDAH",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_132/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-07T15:32:45.017Z"
+  },
+  {
+    "address": "Jl. Harapan No.99, RT.004/RW.LK I, Sepang Jaya",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:55:43.515Z",
+    "id": 111,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 42,
+      "kecamatan": {
+        "id": 7,
+        "name": "LABUHAN RATU"
+      },
+      "kecamatanId": 7,
+      "name": "KOTA SEPANG"
+    },
+    "kelurahanId": 42,
+    "latitude": -5.372636,
+    "longitude": 105.263004,
+    "name": "KELURAHAN KOTA SEPANG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_111/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-06T02:03:28.584Z"
+  },
+  {
+    "address": "Bilabong Jaya, Bandar Lampung",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:41:46.442Z",
+    "id": 108,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 46,
+      "kecamatan": {
+        "id": 8,
+        "name": "LANGKAPURA"
+      },
+      "kecamatanId": 8,
+      "name": "BILABONG JAYA"
+    },
+    "kelurahanId": 46,
+    "latitude": -5.402199,
+    "longitude": 105.226155,
+    "name": "KELURAHAN BILABONG JAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_108/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T09:17:24.750Z"
+  },
+  {
+    "address": "Jl. HRM Mangundiprojo No.100",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:43:56.584Z",
+    "id": 110,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 99,
+      "kecamatan": {
+        "id": 16,
+        "name": "TANJUNG KARANG TIMUR"
+      },
+      "kecamatanId": 16,
+      "name": "KEBON JERUK"
+    },
+    "kelurahanId": 99,
+    "latitude": -5.40874,
+    "longitude": 105.261921,
+    "name": "KELURAHAN KEBON JERUK",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_110/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T13:14:46.042Z"
+  },
+  {
+    "address": "Perum Korpri Blok B6 Korpri Raya",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T03:32:22.438Z",
+    "id": 162,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 76,
+      "kecamatan": {
+        "id": 12,
+        "name": "SUKARAME"
+      },
+      "kecamatanId": 12,
+      "name": "SUKARAME"
+    },
+    "kelurahanId": 76,
+    "latitude": -5.37122647,
+    "longitude": 105.29891507,
+    "name": "KECAMATAN SUKARAME",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_162/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T09:03:15.770Z"
+  },
+  {
+    "address": "Gg. Harapan No.5, Labuhan Ratu",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T13:27:44.567Z",
+    "id": 135,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 43,
+      "kecamatan": {
+        "id": 7,
+        "name": "LABUHAN RATU"
+      },
+      "kecamatanId": 7,
+      "name": "LABUHAN RATU"
+    },
+    "kelurahanId": 43,
+    "latitude": -5.377041,
+    "longitude": 105.253071,
+    "name": "KELURAHAN LABUHAN RATU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_135/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T12:24:17.513Z"
+  },
+  {
+    "address": "Jl Laksmana RE Martadinata",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T04:09:56.652Z",
+    "id": 165,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 115,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KETEGUHAN"
+    },
+    "kelurahanId": 115,
+    "latitude": -5.45872,
+    "longitude": 105.2527,
+    "name": "PERTIGAAN JL PEKONLOM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_165/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:14:16.598Z"
+  },
+  {
+    "address": "Jl Diponegoro Depan Hapy Poly",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T07:34:25.532Z",
+    "id": 197,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 121,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "GULAK GALIK"
+    },
+    "kelurahanId": 121,
+    "latitude": -5.433881,
+    "longitude": 105.262721,
+    "name": "PERTIGAAN CUT MUTIA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_197/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T14:38:46.004Z"
+  },
+  {
+    "address": "Jl Pisang Pasar Gintung",
+    "category": "Pasar",
+    "createdAt": "2026-06-05T06:33:31.108Z",
+    "id": 169,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 98,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "PASIR GINTUNG"
+    },
+    "kelurahanId": 98,
+    "latitude": -5.408186,
+    "longitude": 105.255682,
+    "name": "PASAR GINTUNG 1",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_169/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T07:36:15.437Z"
+  },
+  {
+    "address": "Perum Nusantara Permai, Jl. Pangeran Tirtayasa",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T14:08:57.554Z",
+    "id": 142,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 69,
+      "kecamatan": {
+        "id": 11,
+        "name": "SUKABUMI"
+      },
+      "kecamatanId": 11,
+      "name": "NUSANTARA PERMAI"
+    },
+    "kelurahanId": 69,
+    "latitude": -5.403085,
+    "longitude": 105.304797,
+    "name": "KELURAHAN NUSANTARA PERMAI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_142/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-06-29T09:01:30.857Z"
+  },
+  {
+    "address": "Jl. Banten No.31, Bakung",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T02:51:58.420Z",
+    "id": 148,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 104,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "BAKUNG"
+    },
+    "kelurahanId": 104,
+    "latitude": -5.452402,
+    "longitude": 105.251153,
+    "name": "KECAMATAN TELUK BETUNG BARAT",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_148/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:19:31.578Z"
+  },
+  {
+    "address": "Jl. Bung Tomo No.4, Gedong Air",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T03:00:31.159Z",
+    "id": 154,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 85,
+      "kecamatan": {
+        "id": 14,
+        "name": "TANJUNG KARANG BARAT"
+      },
+      "kecamatanId": 14,
+      "name": "GEDONG AIR"
+    },
+    "kelurahanId": 85,
+    "latitude": -5.399578,
+    "longitude": 105.24283,
+    "name": "KECAMATAN TANJUNG KARANG BARAT",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_154/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-25T09:27:29.028Z"
+  },
+  {
+    "address": "Jl Teluk Ratai No 9",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T13:31:35.240Z",
+    "id": 137,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 72,
+      "kecamatan": {
+        "id": 11,
+        "name": "SUKABUMI"
+      },
+      "kecamatanId": 11,
+      "name": "WAY GUBAK"
+    },
+    "kelurahanId": 72,
+    "latitude": -5.429069,
+    "longitude": 105.299448,
+    "name": "KELURAHAN WAY GUBAK",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_137/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T03:26:28.751Z"
+  },
+  {
+    "address": "Kelurahan Kuripan",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T06:51:08.440Z",
+    "id": 182,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 106,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "KURIPAN"
+    },
+    "kelurahanId": 106,
+    "latitude": -5.452461,
+    "longitude": 105.254814,
+    "name": "JL BANTEN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_182/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:14:26.572Z"
+  },
+  {
+    "address": "Jl. P. Bangka No.3, Sukabumi",
+    "category": "PUSKES",
+    "createdAt": "2026-06-05T06:44:18.285Z",
+    "id": 178,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 70,
+      "kecamatan": {
+        "id": 11,
+        "name": "SUKABUMI"
+      },
+      "kecamatanId": 11,
+      "name": "SUKABUMI"
+    },
+    "kelurahanId": 70,
+    "latitude": -5.39763,
+    "longitude": 105.299254,
+    "name": "PUSKES RAWAT INAP SUKABUMI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_178/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-23T14:01:16.120Z"
+  },
+  {
+    "address": "Jl Patimura",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T07:35:41.687Z",
+    "id": 198,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 122,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "KUPANG KOTA"
+    },
+    "kelurahanId": 122,
+    "latitude": -5.440593,
+    "longitude": 105.265504,
+    "name": "PERTIGAAN CHAMART JL PATTIMURA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_198/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-11T04:37:55.115Z"
+  },
+  {
+    "address": "Jl Yos Sudarso",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T07:24:25.523Z",
+    "id": 191,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 13,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "SUKARAJA"
+    },
+    "kelurahanId": 13,
+    "latitude": -5.444512,
+    "longitude": 105.293169,
+    "name": "PERTIGAAN YOS SUDARSO",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_191/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T04:07:17.124Z"
+  },
+  {
+    "address": "Jl Dr Setiabudi",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T07:27:58.053Z",
+    "id": 193,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 106,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "KURIPAN"
+    },
+    "kelurahanId": 106,
+    "latitude": -5.450619,
+    "longitude": 105.255865,
+    "name": "PERTIGAAN SMP BODISATVA KURIPAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_193/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:13:48.505Z"
+  },
+  {
+    "address": "Jl. Teuku Umar No.62, Kedaton",
+    "category": "PUSKES",
+    "createdAt": "2026-06-05T06:42:38.671Z",
+    "id": 176,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 2,
+      "kecamatan": {
+        "id": 2,
+        "name": "KEDATON"
+      },
+      "kecamatanId": 2,
+      "name": "KEDATON"
+    },
+    "kelurahanId": 2,
+    "latitude": -5.384004,
+    "longitude": 105.260399,
+    "name": "PUSKESMAS RAWAT INAP KEDATON",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_176/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-07-13T00:41:16.051Z"
+  },
+  {
+    "address": "Kelurahan Kuripan",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T01:56:13.492Z",
+    "id": 204,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 106,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "KURIPAN"
+    },
+    "kelurahanId": 106,
+    "latitude": -5.451711,
+    "longitude": 105.256032,
+    "name": "PERTIGAAN JL BANTEN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_204/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:14:26.619Z"
+  },
+  {
+    "address": "Kelurahan Kuripan",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T06:48:57.121Z",
+    "id": 181,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 118,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "PERWATA"
+    },
+    "kelurahanId": 118,
+    "latitude": -5.454041,
+    "longitude": 105.255781,
+    "name": "JL KATU 2",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_181/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:15:04.366Z"
+  },
+  {
+    "address": "Jl Sisingamangaraja",
+    "category": "PUSKES",
+    "createdAt": "2026-06-05T06:45:16.256Z",
+    "id": 179,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 85,
+      "kecamatan": {
+        "id": 14,
+        "name": "TANJUNG KARANG BARAT"
+      },
+      "kecamatanId": 14,
+      "name": "GEDONG AIR"
+    },
+    "kelurahanId": 85,
+    "latitude": -5.400185,
+    "longitude": 105.244453,
+    "name": "PUSKES RAWAT INAP GEDONG AER",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_179/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-07-13T05:36:09.161Z"
+  },
+  {
+    "address": "Jl. Yos Sudarso No.242, Sukaraja",
+    "category": "PUSKES",
+    "createdAt": "2026-06-05T06:41:28.494Z",
+    "id": 175,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 13,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "SUKARAJA"
+    },
+    "kelurahanId": 13,
+    "latitude": -5.443984,
+    "longitude": 105.290001,
+    "name": "PUSKESMAS SUKARAJA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_175/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T05:33:59.125Z"
+  },
+  {
+    "address": "Kelurahan Kangkung, Kecamatan Teluk Betung ",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:27:28.890Z",
+    "id": 234,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 12,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "KANGKUNG"
+    },
+    "kelurahanId": 12,
+    "latitude": -5.448303,
+    "longitude": 105.268923,
+    "name": "JL IKAN KITER KANGKUNG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_234/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T04:15:29.864Z"
+  },
+  {
+    "address": "Jl. Cut Nyak Dien No.80, Kaliawi",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T02:58:06.363Z",
+    "id": 152,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 93,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "GOTONG ROYONG"
+    },
+    "kelurahanId": 93,
+    "latitude": -5.418569,
+    "longitude": 105.247253,
+    "name": "KECAMATAN TANJUNG KARANG PUSAT",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_152/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T02:45:01.151Z"
+  },
+  {
+    "address": "Jl Za Pagar Alam",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T07:22:58.985Z",
+    "id": 190,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 2,
+      "kecamatan": {
+        "id": 2,
+        "name": "KEDATON"
+      },
+      "kecamatanId": 2,
+      "name": "KEDATON"
+    },
+    "kelurahanId": 2,
+    "latitude": -5.382344,
+    "longitude": 105.258729,
+    "name": "FLYOVER MALL BOEMI KEDATON",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_190/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-05T11:36:52.616Z"
+  },
+  {
+    "address": "Jl. Griya Utama No.3, Way Halim Permai",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T02:37:04.819Z",
+    "id": 144,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 132,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "WAY HALIM PERMAI"
+    },
+    "kelurahanId": 132,
+    "latitude": -5.383627,
+    "longitude": 105.276329,
+    "name": "KECAMATAN WAY HALIM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_144/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-05T15:24:32.526Z"
+  },
+  {
+    "address": "Jl Jendral Sudirman",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T07:19:13.321Z",
+    "id": 187,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 14,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "ENGGAL"
+    },
+    "kelurahanId": 14,
+    "latitude": -5.422777,
+    "longitude": 105.266621,
+    "name": "PEREMPATAN JENDRAL SUDIRMAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_187/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T07:31:12.548Z"
+  },
+  {
+    "address": "Jl. Gajah Mada No.1, Tj. Agung Raya",
+    "category": "PUSKES",
+    "createdAt": "2026-06-05T06:39:52.254Z",
+    "id": 173,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 30,
+      "kecamatan": {
+        "id": 5,
+        "name": "KEDAMAIAN"
+      },
+      "kecamatanId": 5,
+      "name": "TANJUNG RAYA"
+    },
+    "kelurahanId": 30,
+    "latitude": -5.422549,
+    "longitude": 105.269615,
+    "name": "PUSKESMAS RAWAT INAP SATELIT",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_173/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T06:14:11.275Z"
+  },
+  {
+    "address": "Jl Teluk Bone",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T07:18:11.467Z",
+    "id": 186,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 59,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "WAY LUNIK"
+    },
+    "kelurahanId": 59,
+    "latitude": -5.454097,
+    "longitude": 105.261045,
+    "name": "PERTIGAAN TELUK PANDAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_186/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-07T04:32:44.613Z"
+  },
+  {
+    "address": "Jl. Arjuna No.14, Sawah Brebes",
+    "category": "PUSKES",
+    "createdAt": "2026-06-05T06:38:58.191Z",
+    "id": 172,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 102,
+      "kecamatan": {
+        "id": 16,
+        "name": "TANJUNG KARANG TIMUR"
+      },
+      "kecamatanId": 16,
+      "name": "SAWAH LAMA"
+    },
+    "kelurahanId": 102,
+    "latitude": -5.407288,
+    "longitude": 105.263491,
+    "name": "PUSKESMAS RAWAT INAP KAMPUNG SAWAH",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_172/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T23:52:20.961Z"
+  },
+  {
+    "address": "Jl Ki Agusanang",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T14:06:29.318Z",
+    "id": 140,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 53,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "KETAPANG KUALA"
+    },
+    "kelurahanId": 53,
+    "latitude": -5.445641,
+    "longitude": 105.302549,
+    "name": "KELURAHAN KETAPANG KUALA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_140/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-02T02:31:43.521Z"
+  },
+  {
+    "address": "Jl. Ikan Bawal (Masjid Nurul Huda)",
+    "category": "Pasar",
+    "createdAt": "2026-06-05T06:59:59.509Z",
+    "id": 184,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 12,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "KANGKUNG"
+    },
+    "kelurahanId": 12,
+    "latitude": -5.45154801,
+    "longitude": 105.26854899,
+    "name": "PASAR GUDANG LELANG 2",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_184/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-02T13:11:42.126Z"
+  },
+  {
+    "address": "Jl Ikan Sebelah, Teluk",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T07:36:46.135Z",
+    "id": 199,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 116,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KOTA KARANG"
+    },
+    "kelurahanId": 116,
+    "latitude": -5.453448,
+    "longitude": 105.257676,
+    "name": "PERTIGAAN TELUK BONE",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_199/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-07T04:32:44.622Z"
+  },
+  {
+    "address": "Jl. Hasan Raya",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-05T03:25:34.990Z",
+    "id": 161,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 75,
+      "kecamatan": {
+        "id": 12,
+        "name": "SUKARAME"
+      },
+      "kecamatanId": 12,
+      "name": "KORPRI RAYA"
+    },
+    "kelurahanId": 75,
+    "latitude": -5.36536228,
+    "longitude": 105.29919684,
+    "name": "KELURAHAN KORPRI RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_161/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T00:38:23.418Z"
+  },
+  {
+    "address": "Jl Teluk Ratai Kota Karang Raya",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:04:46.616Z",
+    "id": 248,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 117,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KOTA KARANG RAYA"
+    },
+    "kelurahanId": 117,
+    "latitude": -5.456514,
+    "longitude": 105.25895,
+    "name": "PERTIGAAN KOTA KARANG RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_248/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:14:44.869Z"
+  },
+  {
+    "address": "Jl. Diponegoro (Depan Kantor Polisi Pamong Praja)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:12:12.191Z",
+    "id": 254,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 126,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "SUMUR BATU"
+    },
+    "kelurahanId": 126,
+    "latitude": -5.42899143,
+    "longitude": 105.26189824,
+    "name": "LUNGSIR ARAH JL. DOKTER SUSILO",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_254/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-06-28T19:03:47.937Z"
+  },
+  {
+    "address": "Kelurahan Waylunik",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:31:46.248Z",
+    "id": 237,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 59,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "WAY LUNIK"
+    },
+    "kelurahanId": 59,
+    "latitude": -5.452438,
+    "longitude": 105.30714,
+    "name": "PERTIGAAN YOS SUDARSO - MOCHAMMAD SALIM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_237/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-02T23:42:31.029Z"
+  },
+  {
+    "address": "Jl Teluk Bone 2 Gang Tangkur",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:06:22.502Z",
+    "id": 250,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 116,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KOTA KARANG"
+    },
+    "kelurahanId": 116,
+    "latitude": -5.459152,
+    "longitude": 105.257891,
+    "name": "GANG TANGKUR",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_250/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:14:44.706Z"
+  },
+  {
+    "address": "Jl Teuku Umar",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T07:42:37.589Z",
+    "id": 201,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 8,
+      "kecamatan": {
+        "id": 2,
+        "name": "KEDATON"
+      },
+      "kecamatanId": 2,
+      "name": "SURABAYA"
+    },
+    "kelurahanId": 8,
+    "latitude": -5.397181,
+    "longitude": 105.261373,
+    "name": "TAMAN MAKAM PAHLAWAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_201/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-14T12:06:52.371Z"
+  },
+  {
+    "address": "Jalan Dokter Warsito No.54, Kupang Kota",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:13:51.555Z",
+    "id": 255,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 122,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "KUPANG KOTA"
+    },
+    "kelurahanId": 122,
+    "latitude": -5.43927,
+    "longitude": 105.25988,
+    "name": "PINTU MASUK BPBD",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_255/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-23T07:13:45.325Z"
+  },
+  {
+    "address": "Jl. Gn. Tanggamus Permai, Perumnas Way Halim",
+    "category": "PUSKES",
+    "createdAt": "2026-06-05T06:43:22.204Z",
+    "id": 177,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 131,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "PERUMNAS WAY HALIM"
+    },
+    "kelurahanId": 131,
+    "latitude": -5.377814,
+    "longitude": 105.274117,
+    "name": "PUSKESMAS RAWAT INAP WAYHALIM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_177/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-19T05:16:03.316Z"
+  },
+  {
+    "address": "Jl Laksmana RE Martadinata",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:03:07.310Z",
+    "id": 223,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 119,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "SUKAMAJU"
+    },
+    "kelurahanId": 119,
+    "latitude": -5.455685,
+    "longitude": 105.255661,
+    "name": "JL TELUK BONE 2 KOTA KARANG RAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_223/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:15:23.477Z"
+  },
+  {
+    "address": "Kelurahan Kota Karang Raya",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:08:04.674Z",
+    "id": 251,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 117,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KOTA KARANG RAYA"
+    },
+    "kelurahanId": 117,
+    "latitude": -5.457878,
+    "longitude": 105.256959,
+    "name": "JL TELUK BONE 2",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_251/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:14:44.728Z"
+  },
+  {
+    "address": "Jl Imam Bonjol Depan A&W ",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:03:31.999Z",
+    "id": 247,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 85,
+      "kecamatan": {
+        "id": 14,
+        "name": "TANJUNG KARANG BARAT"
+      },
+      "kecamatanId": 14,
+      "name": "GEDONG AIR"
+    },
+    "kelurahanId": 85,
+    "latitude": -5.399637,
+    "longitude": 105.24495,
+    "name": "PERTIGAAN SISINGAMANGARAJA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_247/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-07-13T07:21:21.018Z"
+  },
+  {
+    "address": "Jl Laksmana RE Martadinata Jl MK Putra",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:10:02.066Z",
+    "id": 227,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 119,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "SUKAMAJU"
+    },
+    "kelurahanId": 119,
+    "latitude": -5.464032,
+    "longitude": 105.245864,
+    "name": "JL RE MARTADINATA SUKAMAJU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_227/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:14:44.750Z"
+  },
+  {
+    "address": "Jl. Diponegoro No.85 (Rumah Makan Begadang)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:25:37.299Z",
+    "id": 260,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 122,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "KUPANG KOTA"
+    },
+    "kelurahanId": 122,
+    "latitude": -5.43983495,
+    "longitude": 105.26545327,
+    "name": "BEGADANG KE SIMPANG TUGU PERBANKAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_260/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-19T05:17:16.070Z"
+  },
+  {
+    "address": "Jl. Wage Rudolf Supratman (Depan SD N 2 Teluk Betung)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:33:09.322Z",
+    "id": 262,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 122,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "KUPANG KOTA"
+    },
+    "kelurahanId": 122,
+    "latitude": -5.44419638,
+    "longitude": 105.26862116,
+    "name": "TAMAN REFLEKSI BI 1",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_262/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-15T15:58:05.873Z"
+  },
+  {
+    "address": "Jl. Salim Batubara (Pertigaan BCA)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:23:40.367Z",
+    "id": 274,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 10,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "BUMI WARAS"
+    },
+    "kelurahanId": 10,
+    "latitude": -5.44566063,
+    "longitude": 105.27283161,
+    "name": "PERTIGAAN BUMI WARAS 2",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_274/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T01:52:33.107Z"
+  },
+  {
+    "address": "Jl. Salim Batubara (Pertigaan BCA)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:25:42.957Z",
+    "id": 275,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 10,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "BUMI WARAS"
+    },
+    "kelurahanId": 10,
+    "latitude": -5.44583194,
+    "longitude": 105.27322068,
+    "name": "PERTIGAAN BUMI WARAS 3",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_275/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T04:15:48.962Z"
+  },
+  {
+    "address": "Kelurahan Panjang Selatan",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:53:18.496Z",
+    "id": 243,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 55,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "PANJANG SELATAN"
+    },
+    "kelurahanId": 55,
+    "latitude": -5.47858,
+    "longitude": 105.326012,
+    "name": "JL SELAT KARIMATA 1 CAM 3 REL KERETA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_243/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-28T08:34:17.965Z"
+  },
+  {
+    "address": "Jl. Pulau Pasaran (Jembatan Pulau Pasaran)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:17:02.551Z",
+    "id": 271,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 116,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KOTA KARANG"
+    },
+    "kelurahanId": 116,
+    "latitude": -5.46222025,
+    "longitude": 105.26479701,
+    "name": "JEMBATAN MASUK PULAU PASARAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_271/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T06:55:17.635Z"
+  },
+  {
+    "address": "Jl Sisingamangaraja",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:21:53.720Z",
+    "id": 232,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 96,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "KELAPA TIGA"
+    },
+    "kelurahanId": 96,
+    "latitude": -5.406317,
+    "longitude": 105.240785,
+    "name": "TIKUNGAN MAUT",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_232/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-28T07:59:55.176Z"
+  },
+  {
+    "address": "Kelurahan Panjang Selatan",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:56:00.990Z",
+    "id": 245,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 55,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "PANJANG SELATAN"
+    },
+    "kelurahanId": 55,
+    "latitude": -5.477862,
+    "longitude": 105.327725,
+    "name": "JL SELAT KARIMATA 1 CAM 2",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_245/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-28T08:35:41.776Z"
+  },
+  {
+    "address": "Kelurahan Panjang Selatan",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:54:20.641Z",
+    "id": 244,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 55,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "PANJANG SELATAN"
+    },
+    "kelurahanId": 55,
+    "latitude": -5.477862,
+    "longitude": 105.327725,
+    "name": "JL SELAT KARIMATA 1 CAM 1",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_244/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-28T08:35:41.749Z"
+  },
+  {
+    "address": "Pertigaan Jl Bumi Manti II",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:11:56.839Z",
+    "id": 253,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 40,
+      "kecamatan": {
+        "id": 7,
+        "name": "LABUHAN RATU"
+      },
+      "kecamatanId": 7,
+      "name": "KAMPUNG BARU"
+    },
+    "kelurahanId": 40,
+    "latitude": -5.364755,
+    "longitude": 105.247731,
+    "name": "PERTIGAAN REL KERETA BUMI MANTI / KAMPUNG BARU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_253/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-07T14:16:00.484Z"
+  },
+  {
+    "address": "Tanjung Karang Pusat ",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:14:56.796Z",
+    "id": 230,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 97,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "PALAPA"
+    },
+    "kelurahanId": 97,
+    "latitude": -5.418843,
+    "longitude": 105.246921,
+    "name": "PERTIGAAN TANJUNG KARANG PUSAT ARAH PERINTIS",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_230/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T02:45:29.975Z"
+  },
+  {
+    "address": "Jl. Ikan Mas (Perempatan Sebelum Gudang Lelang)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:14:26.935Z",
+    "id": 270,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 12,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "KANGKUNG"
+    },
+    "kelurahanId": 12,
+    "latitude": -5.44955738,
+    "longitude": 105.2672274,
+    "name": "PEREMPATAN PASAR GUDANG LELANG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_270/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-06T09:08:25.268Z"
+  },
+  {
+    "address": "Jl Yos Sudarso Gang Prosija",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:24:15.048Z",
+    "id": 233,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 59,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "WAY LUNIK"
+    },
+    "kelurahanId": 59,
+    "latitude": -5.450217,
+    "longitude": 105.305017,
+    "name": "GANG PROSIJA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_233/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-05T06:11:40.223Z"
+  },
+  {
+    "address": "Jl Lintas Sumatra Kelurahan Karang Maritim",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:42:03.736Z",
+    "id": 241,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 51,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "KARANG MARITIM"
+    },
+    "kelurahanId": 51,
+    "latitude": -5.489933,
+    "longitude": 105.325857,
+    "name": "DEPAN SINAR JAYA INTI MULYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_241/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T09:33:21.975Z"
+  },
+  {
+    "address": "Jl. Gatot Subroto (Pertigaan Indomaret)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:40:17.009Z",
+    "id": 280,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 16,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "PAHOMAN"
+    },
+    "kelurahanId": 16,
+    "latitude": -5.43005755,
+    "longitude": 105.27571955,
+    "name": "INDOMARET GATOT SUBROTO",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_280/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T16:01:28.275Z"
+  },
+  {
+    "address": "Kelurahan Panjang Selatan",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:33:59.882Z",
+    "id": 238,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 55,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "PANJANG SELATAN"
+    },
+    "kelurahanId": 55,
+    "latitude": -5.481107,
+    "longitude": 105.325872,
+    "name": "JL SELAT KARIMATA 3",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_238/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-01T03:19:20.953Z"
+  },
+  {
+    "address": "Kelurahan Waylunik",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:30:38.306Z",
+    "id": 236,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 59,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "WAY LUNIK"
+    },
+    "kelurahanId": 59,
+    "latitude": -5.446237,
+    "longitude": 105.310341,
+    "name": "JL MOCHAMMAD SALIM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_236/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-05T05:56:40.752Z"
+  },
+  {
+    "address": "Kelurahan Waylunik",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:28:58.051Z",
+    "id": 235,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 59,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "WAY LUNIK"
+    },
+    "kelurahanId": 59,
+    "latitude": -5.450932,
+    "longitude": 105.308442,
+    "name": "JL MOCHAMMAD SALIM - MOH SALIM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_235/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-10T07:00:35.152Z"
+  },
+  {
+    "address": "Jl. Wage Rudolf Supratman (Depan SD N 2 Teluk Betung)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:52:41.931Z",
+    "id": 263,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 122,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "KUPANG KOTA"
+    },
+    "kelurahanId": 122,
+    "latitude": -5.444157,
+    "longitude": 105.26873749,
+    "name": "TAMAN REFLEKSI BI 2",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_263/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-20T02:59:39.332Z"
+  },
+  {
+    "address": "Jl. Salim Batubara (Pertigaan BCA)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:21:23.839Z",
+    "id": 273,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 10,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "BUMI WARAS"
+    },
+    "kelurahanId": 10,
+    "latitude": -5.44583643,
+    "longitude": 105.27277973,
+    "name": "PERTIGAAN BUMI WARAS 1",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_273/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T01:53:22.619Z"
+  },
+  {
+    "address": "Jl. Yos Sudarso No.242, Sukaraja (Depan Puskesmas Sukaraja)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:30:00.928Z",
+    "id": 277,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 13,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "SUKARAJA"
+    },
+    "kelurahanId": 13,
+    "latitude": -5.44383457,
+    "longitude": 105.29005427,
+    "name": "PERTIGAAN PUSKESMAS SUKARAJA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_277/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-20T12:06:45.321Z"
+  },
+  {
+    "address": "JL Wolter Monginsidi (Perempatan TPU Pengajaran)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T05:01:20.409Z",
+    "id": 287,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 125,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "PENGAJARAN"
+    },
+    "kelurahanId": 125,
+    "latitude": -5.43437924,
+    "longitude": 105.25457586,
+    "name": "PEREMPATAN PENGAJARAN 1",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_287/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T08:22:44.339Z"
+  },
+  {
+    "address": "Jalan Dokter Susilo No.2",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:12:29.707Z",
+    "id": 269,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 126,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "SUMUR BATU"
+    },
+    "kelurahanId": 126,
+    "latitude": -5.42961139,
+    "longitude": 105.26149802,
+    "name": "JEMBATAN MILLENIAL 3 (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_269/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-07-16T02:42:09.061Z"
+  },
+  {
+    "address": "Jalan Dokter Warsito No.54, Kupang Kota",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:14:46.922Z",
+    "id": 256,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 122,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "KUPANG KOTA"
+    },
+    "kelurahanId": 122,
+    "latitude": -5.438964,
+    "longitude": 105.260029,
+    "name": "HALAMAN MOBIL RESCUE BPBD",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_256/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-23T07:14:45.290Z"
+  },
+  {
+    "address": "Jl. DR. Setia Budi ( Depan Lamban Dalom)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:58:49.203Z",
+    "id": 265,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 107,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "NEGERI OLOK GADING"
+    },
+    "kelurahanId": 107,
+    "latitude": -5.44637791,
+    "longitude": 105.25291179,
+    "name": "OLOK GADING 2 LAMBAN DALOM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_265/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:19:07.539Z"
+  },
+  {
+    "address": "Jl. ZA. Pagar Alam (Depan Kntor DKP)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T02:59:13.953Z",
+    "id": 314,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 62,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "RAJABASA"
+    },
+    "kelurahanId": 62,
+    "latitude": -5.36333561,
+    "longitude": 105.22682857,
+    "name": "JL Z.A PAGAR ALAM DEPAN DKP PROV",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_314/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T04:04:14.668Z"
+  },
+  {
+    "address": "Jl. Diponegoro (Depan Kantor DISKOMINFO)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:15:53.348Z",
+    "id": 257,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 126,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "SUMUR BATU"
+    },
+    "kelurahanId": 126,
+    "latitude": -5.43031296,
+    "longitude": 105.26151635,
+    "name": "JL. DIPONEGORO ARAH JEMBATAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_257/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-09T04:05:23.399Z"
+  },
+  {
+    "address": "Jl. Ki Maja (Pertigaan Gor Saburai)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T02:03:50.064Z",
+    "id": 304,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 132,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "WAY HALIM PERMAI"
+    },
+    "kelurahanId": 132,
+    "latitude": -5.38399912,
+    "longitude": 105.27159544,
+    "name": "PERTIGAAN KIMAJA KE GOR SIGER",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_304/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-26T07:03:05.154Z"
+  },
+  {
+    "address": "Jl. Pangeran Antasari",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T01:55:09.115Z",
+    "id": 299,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 25,
+      "kecamatan": {
+        "id": 5,
+        "name": "KEDAMAIAN"
+      },
+      "kecamatanId": 5,
+      "name": "KEDAMAIAN"
+    },
+    "kelurahanId": 25,
+    "latitude": -5.40771301,
+    "longitude": 105.27351369,
+    "name": "JL PANGERAN ANTASARI 1",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_299/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-30T04:15:05.558Z"
+  },
+  {
+    "address": "Jl. Ikan Layur No.107",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:56:28.950Z",
+    "id": 70,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 114,
+      "kecamatan": {
+        "id": 18,
+        "name": "TELUK BETUNG SELATAN"
+      },
+      "kecamatanId": 18,
+      "name": "TELUK BETUNG"
+    },
+    "kelurahanId": 114,
+    "latitude": -5.444849,
+    "longitude": 105.268897,
+    "name": "KELURAHAN TELUK BETUNG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_70/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-20T03:46:11.956Z"
+  },
+  {
+    "address": "Jl. ZA. Pagar Alam (Pintu Masuk Unila)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T02:44:20.255Z",
+    "id": 310,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 60,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "GEDONG MENENG"
+    },
+    "kelurahanId": 60,
+    "latitude": -5.37204911,
+    "longitude": 105.23949354,
+    "name": "UNDERPASS UNILA (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_310/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-19T10:01:06.566Z"
+  },
+  {
+    "address": "Simpang Tanjungkarang (Tugu Juang)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T05:19:23.487Z",
+    "id": 294,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 17,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "PELITA"
+    },
+    "kelurahanId": 17,
+    "latitude": -5.40838915,
+    "longitude": 105.25739754,
+    "name": "TUGU JUANG TAMAN (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_294/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T07:38:55.625Z"
+  },
+  {
+    "address": "Jl. Pangeran Antasari",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T01:56:13.731Z",
+    "id": 300,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 25,
+      "kecamatan": {
+        "id": 5,
+        "name": "KEDAMAIAN"
+      },
+      "kecamatanId": 5,
+      "name": "KEDAMAIAN"
+    },
+    "kelurahanId": 25,
+    "latitude": -5.40771519,
+    "longitude": 105.2737859,
+    "name": "JL PANGERAN ANTASARI 2",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_300/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-19T05:18:03.707Z"
+  },
+  {
+    "address": "Jl. Kota Raja No.14, (Gereja Katedral)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T05:28:00.501Z",
+    "id": 297,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 15,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "GUNUNG SARI"
+    },
+    "kelurahanId": 15,
+    "latitude": -5.40902978,
+    "longitude": 105.25864252,
+    "name": "MASJID TAQWA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_297/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-25T08:32:38.952Z"
+  },
+  {
+    "address": "Simpang Tanjungkarang (Lampu merah Tugu Juang)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T05:22:21.250Z",
+    "id": 295,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 97,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "PALAPA"
+    },
+    "kelurahanId": 97,
+    "latitude": -5.4091188,
+    "longitude": 105.25723295,
+    "name": "TUGU JUANG LAMPU MERAH  (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_295/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T07:40:09.858Z"
+  },
+  {
+    "address": "Jl. Imam Bonjol (Perempatan Pasar)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T05:14:41.778Z",
+    "id": 292,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 96,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "KELAPA TIGA"
+    },
+    "kelurahanId": 96,
+    "latitude": -5.40904912,
+    "longitude": 105.25531935,
+    "name": "PEREMPATAN PASAR SEMEP GINTUNG 2",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_292/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T14:10:33.713Z"
+  },
+  {
+    "address": "Jl. Slamet Riyadi Raya No.3, Pecoh Raya",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-05-18T03:51:24.188Z",
+    "id": 6,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 9,
+      "kecamatan": {
+        "id": 3,
+        "name": "BUMI WARAS"
+      },
+      "kecamatanId": 3,
+      "name": "BUMI RAYA"
+    },
+    "kelurahanId": 9,
+    "latitude": -5.440072,
+    "longitude": 105.283189,
+    "name": "KELURAHAN BUMIRAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_6/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-01T06:57:48.912Z"
+  },
+  {
+    "address": "Jl. Tulung Buyut, Keteguhan ( TPA BAKUNG)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:07:43.443Z",
+    "id": 267,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 104,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "BAKUNG"
+    },
+    "kelurahanId": 104,
+    "latitude": -5.45757944,
+    "longitude": 105.24142136,
+    "name": "TPA BAKUNG 1 (PINTU MASUK)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_267/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T07:08:26.928Z"
+  },
+  {
+    "address": "Halaman Pulau Pasaran",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:18:55.602Z",
+    "id": 272,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 116,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KOTA KARANG"
+    },
+    "kelurahanId": 116,
+    "latitude": -5.46251673,
+    "longitude": 105.26482041,
+    "name": "PULAU PASARAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_272/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-06T07:26:41.468Z"
+  },
+  {
+    "address": "Jl. Diponegoro (Depan Kantor DISKOMINFO)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:20:20.934Z",
+    "id": 259,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 126,
+      "kecamatan": {
+        "id": 20,
+        "name": "TELUK BETUNG UTARA"
+      },
+      "kecamatanId": 20,
+      "name": "SUMUR BATU"
+    },
+    "kelurahanId": 126,
+    "latitude": -5.43039431,
+    "longitude": 105.26151843,
+    "name": "JL. DIPONEGORO PERTIGAAN KOMINFO",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_259/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T05:39:53.341Z"
+  },
+  {
+    "address": "Jl. Urip Sumoharjo",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T01:58:20.320Z",
+    "id": 302,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 127,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "GUNUNG SULAH"
+    },
+    "kelurahanId": 127,
+    "latitude": -5.38658612,
+    "longitude": 105.26699076,
+    "name": "PERTIGAAN URIP & GUNUNG SULAH",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_302/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-05T10:58:30.969Z"
+  },
+  {
+    "address": "Depan Mie Gacoan Urip Sumoharjo",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T02:32:17.775Z",
+    "id": 307,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 132,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "WAY HALIM PERMAI"
+    },
+    "kelurahanId": 132,
+    "latitude": -5.39140292,
+    "longitude": 105.28033236,
+    "name": "JL URIP KE PREMPATAN LAMPU MERAH",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_307/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T06:05:56.914Z"
+  },
+  {
+    "address": "Jl. Tulung Buyut, Keteguhan ( TPA BAKUNG)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:10:36.619Z",
+    "id": 268,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 115,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KETEGUHAN"
+    },
+    "kelurahanId": 115,
+    "latitude": -5.45834136,
+    "longitude": 105.24040064,
+    "name": "TPA BAKUNG 2 (PEMBUANGAN SAMPAH)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_268/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T07:08:26.933Z"
+  },
+  {
+    "address": "Jl. Jend. Sudirman (Depan Puskesmas Satelite)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:41:55.596Z",
+    "id": 281,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 16,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "PAHOMAN"
+    },
+    "kelurahanId": 16,
+    "latitude": -5.42273865,
+    "longitude": 105.27001876,
+    "name": "JL. GATOT SUBROTO KE BATIQA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_281/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T06:19:40.884Z"
+  },
+  {
+    "address": "105.2668735529312",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T01:57:22.348Z",
+    "id": 301,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 127,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "GUNUNG SULAH"
+    },
+    "kelurahanId": 127,
+    "latitude": -5.38648239,
+    "longitude": 105.26687355,
+    "name": "PERTIGAAN KIMAJA URIP (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_301/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-05T10:59:20.454Z"
+  },
+  {
+    "address": "Jl. Gatot Subroto (Tugu Bungkarno)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:32:08.980Z",
+    "id": 278,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 16,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "PAHOMAN"
+    },
+    "kelurahanId": 16,
+    "latitude": -5.43159138,
+    "longitude": 105.2755838,
+    "name": "TUGU BUNG KARNO 1 (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_278/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T16:01:28.348Z"
+  },
+  {
+    "address": "Jl. Gatot Subroto (Tugu Bungkarno)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:34:41.388Z",
+    "id": 279,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 16,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "PAHOMAN"
+    },
+    "kelurahanId": 16,
+    "latitude": -5.432039,
+    "longitude": 105.27554166,
+    "name": "TUGU BUNG KARNO 2",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_279/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-31T15:59:35.885Z"
+  },
+  {
+    "address": "Jl. Jenderal Ahmad Yani (Tugu Adipura)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:56:20.641Z",
+    "id": 285,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 93,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "GOTONG ROYONG"
+    },
+    "kelurahanId": 93,
+    "latitude": -5.42232699,
+    "longitude": 105.25749058,
+    "name": "TUGU ADIPURA 3 (KE JL. AHMAD YANI)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_285/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-08T23:45:38.339Z"
+  },
+  {
+    "address": "Jl. Lintas Bawah Unila",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T02:50:26.592Z",
+    "id": 311,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 60,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "GEDONG MENENG"
+    },
+    "kelurahanId": 60,
+    "latitude": -5.37216631,
+    "longitude": 105.23956846,
+    "name": "UNDERPASS UNILA LORONG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_311/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T07:27:34.128Z"
+  },
+  {
+    "address": "Jl. Ki Maja No.26 (Depan TPU Wayhalim) ",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T02:02:24.702Z",
+    "id": 303,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 2,
+      "kecamatan": {
+        "id": 2,
+        "name": "KEDATON"
+      },
+      "kecamatanId": 2,
+      "name": "KEDATON"
+    },
+    "kelurahanId": 2,
+    "latitude": -5.38631821,
+    "longitude": 105.27044209,
+    "name": "JL KIMAJA DEPAN GAMBRENG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_303/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-19T05:18:22.793Z"
+  },
+  {
+    "address": "Jl. Kota Raja No.14, (Gereja Katedral)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T05:30:00.448Z",
+    "id": 298,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 15,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "GUNUNG SARI"
+    },
+    "kelurahanId": 15,
+    "latitude": -5.40939955,
+    "longitude": 105.25865553,
+    "name": "GEREJA KE ARAH RAMAYANA KARANG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_298/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-15T15:58:05.954Z"
+  },
+  {
+    "address": "Jl. ZA. Pagar Alam (Depan SD Rajabasa)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T02:56:57.516Z",
+    "id": 313,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 62,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "RAJABASA"
+    },
+    "kelurahanId": 62,
+    "latitude": -5.36689108,
+    "longitude": 105.23131728,
+    "name": "DEPAN SD 2 RAJABASA (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_313/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-09-16T02:12:40.659Z"
+  },
+  {
+    "address": "Jl. Imam Bonjol (Lorong Pasar Smep)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T05:17:25.919Z",
+    "id": 293,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 96,
+      "kecamatan": {
+        "id": 15,
+        "name": "TANJUNG KARANG PUSAT"
+      },
+      "kecamatanId": 15,
+      "name": "KELAPA TIGA"
+    },
+    "kelurahanId": 96,
+    "latitude": -5.40909642,
+    "longitude": 105.25489977,
+    "name": "LORONG PASAR SMEP",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_293/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T14:11:27.261Z"
+  },
+  {
+    "address": "Jl. ZA. Pagar Alam (Atas Underpass)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T02:55:14.571Z",
+    "id": 312,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 60,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "GEDONG MENENG"
+    },
+    "kelurahanId": 60,
+    "latitude": -5.37200009,
+    "longitude": 105.23930416,
+    "name": "UNDERPASS UNILA ARAH RAJABASA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_312/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-08-23T21:40:04.876Z"
+  },
+  {
+    "address": "Jl. Indra Bangsawan No.22",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T03:33:52.081Z",
+    "id": 163,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 62,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "RAJABASA"
+    },
+    "kelurahanId": 62,
+    "latitude": -5.36695403,
+    "longitude": 105.2360951,
+    "name": "KECAMATAN RAJABASA (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_163/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-16T06:30:43.689Z"
+  },
+  {
+    "address": "Jl. Citra Garden (pintu masuk)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:03:20.264Z",
+    "id": 266,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 107,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "NEGERI OLOK GADING"
+    },
+    "kelurahanId": 107,
+    "latitude": -5.44608782,
+    "longitude": 105.24875296,
+    "name": "PINTU MASUK CITRA GARDEN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_266/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:21:02.805Z"
+  },
+  {
+    "address": "Jl Ir Sutami Gang martini No 67",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T14:11:03.730Z",
+    "id": 143,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 73,
+      "kecamatan": {
+        "id": 11,
+        "name": "SUKABUMI"
+      },
+      "kecamatanId": 11,
+      "name": "WAY LAGA"
+    },
+    "kelurahanId": 73,
+    "latitude": -5.432523,
+    "longitude": 105.327149,
+    "name": "KELURAHAN WAYLAGA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_143/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T04:03:32.424Z"
+  },
+  {
+    "address": "Jl. Purnawirawan II No.07",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:30:25.808Z",
+    "id": 98,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 48,
+      "kecamatan": {
+        "id": 8,
+        "name": "LANGKAPURA"
+      },
+      "kecamatanId": 8,
+      "name": "GUNUNG TERANG"
+    },
+    "kelurahanId": 48,
+    "latitude": -5.388606,
+    "longitude": 105.232065,
+    "name": "KELURAHAN GUNUNG TERANG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_98/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-17T11:40:09.036Z"
+  },
+  {
+    "address": "Jl Zulkarnaen Subing",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-05T04:15:32.820Z",
+    "id": 167,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 115,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KETEGUHAN"
+    },
+    "kelurahanId": 115,
+    "latitude": -5.460539,
+    "longitude": 105.251096,
+    "name": "JL AMPAI",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_167/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-22T08:18:26.070Z"
+  },
+  {
+    "address": "Jl. Yos Sudarso No.384, Panjang Selatan",
+    "category": "PUSKES",
+    "createdAt": "2026-06-05T06:40:43.083Z",
+    "id": 174,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 55,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "PANJANG SELATAN"
+    },
+    "kelurahanId": 55,
+    "latitude": -5.47727,
+    "longitude": 105.322973,
+    "name": "PUSKESMAS RAWAT INAP PANJANG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_174/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-25T22:25:54.151Z"
+  },
+  {
+    "address": "Perumahan Korpri, Jalan Ryacudu, Blok B5",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T02:40:18.043Z",
+    "id": 309,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 75,
+      "kecamatan": {
+        "id": 12,
+        "name": "SUKARAME"
+      },
+      "kecamatanId": 12,
+      "name": "KORPRI RAYA"
+    },
+    "kelurahanId": 75,
+    "latitude": -5.37063837,
+    "longitude": 105.29941991,
+    "name": "EMBUNG KORPRI (PTZ)",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_309/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T09:06:25.995Z"
+  },
+  {
+    "address": "Jalan Ratu Lenguara No.01, Kedamaian",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T03:07:12.519Z",
+    "id": 158,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 25,
+      "kecamatan": {
+        "id": 5,
+        "name": "KEDAMAIAN"
+      },
+      "kecamatanId": 5,
+      "name": "KEDAMAIAN"
+    },
+    "kelurahanId": 25,
+    "latitude": -5.418265,
+    "longitude": 105.289874,
+    "name": "KECAMATAN KEDAMAIAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_158/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T05:45:24.521Z"
+  },
+  {
+    "address": "Jl Nawawi Gelar Dalom",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:20:37.622Z",
+    "id": 126,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 63,
+      "kecamatan": {
+        "id": 10,
+        "name": "RAJABASA"
+      },
+      "kecamatanId": 10,
+      "name": "RAJABASA JAYA"
+    },
+    "kelurahanId": 63,
+    "latitude": -5.342338,
+    "longitude": 105.248248,
+    "name": "KELURAHAN RAJABASA JAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_126/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T00:23:49.417Z"
+  },
+  {
+    "address": "Jl. WA Rahman No.36, Batu Putuk",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T14:05:15.931Z",
+    "id": 139,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 105,
+      "kecamatan": {
+        "id": 17,
+        "name": "TELUK BETUNG BARAT"
+      },
+      "kecamatanId": 17,
+      "name": "BATU PUTUK"
+    },
+    "kelurahanId": 105,
+    "latitude": -5.436032,
+    "longitude": 105.223572,
+    "name": "KELURAHAN BATUPUTU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_139/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-03T08:27:56.462Z"
+  },
+  {
+    "address": "Jl. P. Pasaran, Kota Karang",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T07:59:26.941Z",
+    "id": 72,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 116,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "KOTA KARANG"
+    },
+    "kelurahanId": 116,
+    "latitude": -5.456584,
+    "longitude": 105.2636,
+    "name": "KELURAHAN KOTA KARANG",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_72/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-07T04:34:04.149Z"
+  },
+  {
+    "address": "Jl. Jend. Sudirman (Depan Puskesmas Satelite)",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T04:48:53.174Z",
+    "id": 282,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 14,
+      "kecamatan": {
+        "id": 4,
+        "name": "ENGGAL"
+      },
+      "kecamatanId": 4,
+      "name": "ENGGAL"
+    },
+    "kelurahanId": 14,
+    "latitude": -5.4227565,
+    "longitude": 105.26962412,
+    "name": "PEREMPATAN JL. JENDRAL SUDIRMAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_282/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-10-29T06:22:16.698Z"
+  },
+  {
+    "address": "Jl. Pulau Batam",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-09T02:29:52.812Z",
+    "id": 306,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 132,
+      "kecamatan": {
+        "id": 21,
+        "name": "WAY HALIM"
+      },
+      "kecamatanId": 21,
+      "name": "WAY HALIM PERMAI"
+    },
+    "kelurahanId": 132,
+    "latitude": -5.3837944,
+    "longitude": 105.27640346,
+    "name": "PERTIGAAN JL PULAU BATAM",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_306/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-05T15:26:25.962Z"
+  },
+  {
+    "address": "Jl. Pandawa Raya, Korpri Jaya",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:26:06.468Z",
+    "id": 95,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 74,
+      "kecamatan": {
+        "id": 12,
+        "name": "SUKARAME"
+      },
+      "kecamatanId": 12,
+      "name": "KORPRI JAYA"
+    },
+    "kelurahanId": 74,
+    "latitude": -5.376607,
+    "longitude": 105.30511,
+    "name": "KELURAHAN KORPRI JAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_95/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-09T09:05:20.166Z"
+  },
+  {
+    "address": "Jl Raya Suban Kampung Sukajadi",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T09:24:58.759Z",
+    "id": 129,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 57,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "PIDADA"
+    },
+    "kelurahanId": 57,
+    "latitude": -5.463605,
+    "longitude": 105.324259,
+    "name": "KELURAHAN PIDADA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_129/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T10:52:31.139Z"
+  },
+  {
+    "address": "Jl. Lap. Kalpataru, Beringin Raya",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T03:09:51.743Z",
+    "id": 252,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 32,
+      "kecamatan": {
+        "id": 6,
+        "name": "KEMILING"
+      },
+      "kecamatanId": 6,
+      "name": "BERINGIN RAYA"
+    },
+    "kelurahanId": 32,
+    "latitude": -5.400508,
+    "longitude": 105.207074,
+    "name": "TAMAN BERMAIN KALPATARU 1",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_252/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T09:19:57.293Z"
+  },
+  {
+    "address": "Jl. Teuku Cik Ditiro, Sumber Rejo",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:39:53.343Z",
+    "id": 106,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 31,
+      "kecamatan": {
+        "id": 6,
+        "name": "KEMILING"
+      },
+      "kecamatanId": 6,
+      "name": "BERINGIN JAYA"
+    },
+    "kelurahanId": 31,
+    "latitude": -5.399891,
+    "longitude": 105.208884,
+    "name": "KELURAHAN BERINGIN JAYA",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_106/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T09:19:47.767Z"
+  },
+  {
+    "address": "Jl Hi M Salim Way Lunik",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T14:07:35.451Z",
+    "id": 141,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 59,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "WAY LUNIK"
+    },
+    "kelurahanId": 59,
+    "latitude": -5.445854,
+    "longitude": 105.307409,
+    "name": "KELURAHAN WAYLUNIK",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_141/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-04T09:18:37.631Z"
+  },
+  {
+    "address": "Jl. Harnas No.22, Sukamaju",
+    "category": "Kantor Kelurahan",
+    "createdAt": "2026-06-04T08:24:35.608Z",
+    "id": 94,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 120,
+      "kecamatan": {
+        "id": 19,
+        "name": "TELUK BETUNG TIMUR"
+      },
+      "kecamatanId": 19,
+      "name": "WAY TATAAN"
+    },
+    "kelurahanId": 120,
+    "latitude": -5.481517,
+    "longitude": 105.248466,
+    "name": "KELURAHAN WAY TATAAN",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_94/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-07T20:30:17.620Z"
+  },
+  {
+    "address": "Jl. Soekarno Hatta No.88, Labuhan Ratu",
+    "category": "Kantor Kecamatan",
+    "createdAt": "2026-06-05T02:48:42.420Z",
+    "id": 146,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 43,
+      "kecamatan": {
+        "id": 7,
+        "name": "LABUHAN RATU"
+      },
+      "kecamatanId": 7,
+      "name": "LABUHAN RATU"
+    },
+    "kelurahanId": 43,
+    "latitude": -5.359815,
+    "longitude": 105.254051,
+    "name": "KECAMATAN LABUHAN RATU",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_146/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-07T14:16:56.769Z"
+  },
+  {
+    "address": "Jl Lintas Sumatra Depan Masjid Al Muhajirin",
+    "category": "Jalan Protokol",
+    "createdAt": "2026-06-08T02:36:26.585Z",
+    "id": 239,
+    "isHidden": false,
+    "kelurahan": {
+      "id": 57,
+      "kecamatan": {
+        "id": 9,
+        "name": "PANJANG"
+      },
+      "kecamatanId": 9,
+      "name": "PIDADA"
+    },
+    "kelurahanId": 57,
+    "latitude": -5.484473,
+    "longitude": 105.326111,
+    "name": "JL LINTAS SUMATRA 1",
+    "offlineAt": null,
+    "status": "online",
+    "streamUrl": "https://stream-newseribuwajah.bandarlampungkota.go.id/cctv_239/index.m3u8",
+    "thumbnail": null,
+    "updatedAt": "2026-11-11T04:16:25.376Z"
+  }
+]

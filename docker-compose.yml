@@ -1,0 +1,68 @@
+# CCTV Bandar Lampung — one service, one image.
+#
+#   docker compose up --build
+#   open http://localhost:3447
+#
+# The image bakes in the dataset that was in static/data at build time, so the
+# first `up` needs no network access to the upstream portals. To refresh it:
+
+#   docker compose run --rm --entrypoint cctv-data cctv
+
+services:
+  cctv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cctv-bandarlampung:0.1.0
+    container_name: cctv-bandarlampung
+
+    # host:container, so http://localhost:3447 reaches the server.
+    ports:
+      - "3447:3447"
+
+    # Read-only? Not yet: `cctv-data` rewrites static/data on a refresh run,
+    # and that volume is where the rewrite lands.
+    environment:
+      CCTV_BIND: "0.0.0.0:3447"
+      RUST_LOG: "info,tower_http=warn"
+      # The upstream TLS chain is what the server validates against;
+      # ca-certificates in the image covers it, but this leaves the lever
+      # visible for a future internal mirror.
+      # SSL_CERT_FILE: /etc/ssl/certs/ca-certificates.crt
+
+    volumes:
+      # Only the dataset is persisted. The cameras are a cache of the upstream
+      # portals — losing it costs one pipeline run, and re-fetching is the
+      # documented recovery. Rewriting the marker icons and index.html through
+      # a bind mount would couple the container's image version to whatever is
+      # on the host, so those stay baked in.
+      - cctv-data:/app/static/data
+
+    # No hard RAM cap by default: the process is mostly idle sockets plus a
+    # 212 KB dataset, but a preset wall of 6 HLS streams holds buffers.
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:3447/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+    restart: unless-stopped
+
+    # The server speaks HTTPS to the upstream portals; a direct host network
+    # would expose that too, so keep the default bridge NAT.
+    networks:
+      - cctv
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  cctv-data:
+
+networks:
+  cctv:
+    driver: bridge
