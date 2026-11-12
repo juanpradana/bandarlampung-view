@@ -243,6 +243,13 @@ html, body {
   flex: 1;
   height: 100%;
   background: #111;
+  /* Contain every marker's stacking context inside the map. Without this,
+     a marker lifted by .cctv-marker:hover (z-index 999) and .drawer
+     (z-index 40) are siblings in the root stacking context, so a marker
+     hovered or tapped-then-hovered paints on top of the open drawer video. */
+  position: relative;
+  z-index: 1;
+  isolation: isolate;
 }
 
 .list {

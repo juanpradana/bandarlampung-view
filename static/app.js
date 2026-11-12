@@ -254,6 +254,10 @@ function openDrawer(cam) {
   $('#drawer-name').textContent = cam.name;
   $('#drawer').hidden = false;
 
+  // Drop any marker popup left open by the click that got us here. The popup is
+  // positioned over the map, so leaving it up puts map chrome on the video.
+  for (const m of markersById.values()) m.getPopup()?.remove();
+
   $$('.card').forEach((c) => c.classList.toggle('is-selected', c.dataset.id === cam.id));
 
   renderPlayer($('#drawer-player'), cam);
