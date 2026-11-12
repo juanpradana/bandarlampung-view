@@ -3,20 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#0b1020">
+<meta name="theme-color" content="#05080f">
 <title>CCTV Bandar Lampung — Peta & Multi-Stream</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
       integrity="sha384-MinO0mNliZ3vwppuPOUnGa+iq619pfMhLVUXfC4LHwSCvF9H+6P/KO4Q7qBOYV5V" crossorigin="anonymous">
-<link rel="stylesheet" href="/styles.css?v=20261112a">
+<link rel="stylesheet" href="/styles.css?v=20261112c">
 </head>
 <body>
 
 <!-- ===================== APP SHELL ===================== -->
 <div id="app">
 
-  <!-- ---------- Header ---------- -->
+  <!-- ---------- Floating command bar ---------- -->
   <header class="topbar">
     <div class="brand">
       <span class="brand-dot" aria-hidden="true"></span>
@@ -25,52 +26,77 @@
 
     <div class="searchbar">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M19 11a8 8 0 11-8-8 8 8 0 018 8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <input id="search" type="search" placeholder="Cari nama jalan / lokasi…" autocomplete="off" aria-label="Cari kamera">
+      <input id="search" type="search" placeholder="Cari nama jalan / lokasi..." autocomplete="off" aria-label="Cari kamera">
     </div>
 
-    <nav class="tabs" role="tablist" aria-label="Kategori kamera">
-      <button class="tab is-active" role="tab" data-tag="" aria-selected="true">Semua</button>
-      <button class="tab" role="tab" data-tag="macet" aria-selected="false">Pantau Macet</button>
-      <button class="tab" role="tab" data-tag="strategis" aria-selected="false">Lokasi Strategis</button>
-      <button class="tab" role="tab" data-tag="ptz" aria-selected="false">PTZ</button>
-    </nav>
+    <div class="bar-actions">
+      <button id="rail-toggle" class="icon-btn" aria-pressed="true" title="Tampilkan / sembunyikan daftar" aria-label="Tampilkan atau sembunyikan daftar kamera">
+        <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 4v16" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      </button>
 
-    <button id="ms-open-btn" class="btn btn-sm" aria-label="Buka multi-stream" style="display:flex;align-items:center;gap:6px">
-      <svg viewBox="0 0 24 24" style="width:14px;height:14px" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-      <span>Multi-Stream</span>
-    </button>
+      <button id="ms-open-btn" class="btn btn-sm btn-icon" aria-label="Buka multi-stream">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/></svg>
+        <span>Multi-Stream</span>
+      </button>
 
-    <button id="theme-toggle" class="icon-btn" aria-label="Ganti tema">
-      <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    </button>
+      <button id="theme-toggle" class="icon-btn" aria-label="Ganti tema">
+        <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
   </header>
 
-  <!-- ---------- Views ---------- -->
+  <!-- ---------- Map workspace ---------- -->
   <main class="layout">
 
-    <!-- Map + list split -->
-    <section class="split" id="split-view">
-      <div id="map" class="map" role="application" aria-label="Peta CCTV"></div>
+    <div id="map" class="map" role="application" aria-label="Peta CCTV"></div>
 
-      <aside class="list" id="camera-list" aria-label="Daftar kamera">
-        <div class="list-head">
-          <span id="list-count" class="list-count">Memuat…</span>
-          <div class="list-actions">
-            <select id="source-filter" aria-label="Sumber data">
-              <option value="">Semua sumber</option>
-              <option value="seribuwajah">Seribu Wajah</option>
-              <option value="polresta">Polresta</option>
-            </select>
-            <select id="sort-select" aria-label="Urutkan">
-              <option value="name">Nama A–Z</option>
-              <option value="district">Kecamatan</option>
-              <option value="status">Status</option>
-            </select>
-          </div>
+    <!-- Map instruments: zoom, GPS, basemap -->
+    <div class="map-controls" id="map-controls" role="group" aria-label="Kontrol peta">
+      <button class="mc-btn" id="zoom-in" aria-label="Perbesar peta">
+        <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </button>
+      <button class="mc-btn" id="zoom-out" aria-label="Perkecil peta">
+        <svg viewBox="0 0 24 24"><path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </button>
+      <span class="mc-sep" aria-hidden="true"></span>
+      <button class="mc-btn gps-btn" id="gps-btn" aria-pressed="false" title="Tampilkan lokasi saya">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v3.2M12 18.8V22M22 12h-3.2M5.2 12H2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="8.2" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.5"/></svg>
+      </button>
+      <button class="mc-btn" id="basemap-btn" aria-pressed="false" title="Ganti dasar peta (satelit)">
+        <svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M3 13l9 5 9-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" opacity="0.55"/></svg>
+      </button>
+    </div>
+
+    <!-- Camera rail (floating glass panel) -->
+    <aside class="rail" id="camera-list" aria-label="Daftar kamera">
+      <button class="rail-handle" id="rail-handle" aria-label="Lipat daftar kamera">
+        <span class="rail-grip" aria-hidden="true"></span>
+      </button>
+
+      <div class="rail-head">
+        <div class="rail-count-wrap">
+          <span id="list-count" class="rail-count">Memuat…</span>
+          <span id="gps-status" class="rail-sub" hidden></span>
         </div>
-        <div id="cards" class="cards" role="list"></div>
-      </aside>
-    </section>
+        <div class="rail-actions">
+          <select id="source-filter" aria-label="Sumber data">
+            <option value="">Semua sumber</option>
+            <option value="seribuwajah">Seribu Wajah</option>
+            <option value="polresta">Polresta</option>
+          </select>
+          <select id="sort-select" aria-label="Urutkan">
+            <option value="name">Nama A–Z</option>
+            <option value="district">Kecamatan</option>
+            <option value="status">Status</option>
+            <option value="distance">Terdekat</option>
+          </select>
+        </div>
+      </div>
+      <div id="cards" class="cards" role="list"></div>
+    </aside>
+
+    <!-- Operable legend / category filter -->
+    <div class="legend" id="legend" role="group" aria-label="Filter kategori kamera"></div>
 
     <!-- Multi-stream view (overlay) -->
     <section class="multistream" id="multistream" hidden aria-label="Multi-stream">
@@ -79,17 +105,27 @@
           <button class="ms-preset is-active" role="tab" data-preset="traffic-corridor">Koridor 2×2</button>
           <button class="ms-preset" role="tab" data-preset="intersection">Simpang 1+3</button>
           <button class="ms-preset" role="tab" data-preset="strategic-cluster">Kluster 3×2</button>
-          <button class="ms-preset" role="tab" data-preset="custom">Custom</button>
+          <button class="ms-preset" role="tab" data-preset="custom">Susunan sendiri</button>
         </div>
         <div class="ms-actions">
           <button id="ms-rotate" class="icon-btn" aria-pressed="false" title="Rotasi otomatis">
             <svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 11-3-6.7L21 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 3v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </button>
-          <button id="ms-close" class="icon-btn" title="Tutup multi-stream">
+          <button id="ms-close" class="icon-btn" title="Tutup multi-stream" aria-label="Tutup multi-stream">
             <svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </button>
         </div>
       </div>
+
+      <!-- Search-to-add, only meaningful while curating your own layout -->
+      <div class="ms-picker" id="ms-picker" hidden>
+        <div class="ms-picker-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M19 11a8 8 0 11-8-8 8 8 0 018 8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <input id="ms-search" type="search" placeholder="Cari kamera, lalu tekan Enter untuk menambahkan…" autocomplete="off" aria-label="Cari kamera untuk ditambahkan">
+        </div>
+        <div class="ms-results" id="ms-results" role="listbox" aria-label="Hasil pencarian kamera" hidden></div>
+      </div>
+
       <div id="ms-grid" class="ms-grid"></div>
     </section>
 
@@ -126,9 +162,8 @@
     <div class="card-body">
       <h3 class="card-name"></h3>
       <p class="card-addr"></p>
-      <div class="card-tags"></div>
-    </div>
-    <div class="card-actions">
+      <div class="card-tags"><span class="card-distance" hidden></span></div>
+    </div>    <div class="card-actions">
       <button class="btn btn-sm" data-play>Lihat</button>
       <button class="btn btn-sm btn-ghost" data-multi>Multi</button>
     </div>
@@ -141,6 +176,6 @@
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.20/dist/hls.min.js"
         integrity="sha384-V5ruNBgmYcC3SJRUQeNykAAAgde5gOFq/Hu0CZj7bygDP0yRIhkvX8+w0u/7mRvr"
         crossorigin="anonymous"></script>
-<script type="module" src="/app.js?v=20261112a"></script>
+<script type="module" src="/app.js?v=20261112c"></script>
 </body>
 </html>
