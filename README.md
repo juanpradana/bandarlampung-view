@@ -1,5 +1,7 @@
 # CCTV Bandar Lampung — Unified Dashboard & Multi-Stream
 
+**Live Demo:** [https://bdlcctv.farzani.my.id/](https://bdlcctv.farzani.my.id/)
+
 Aplikasi terpadu pemantau CCTV Kota Bandar Lampung yang menggabungkan seluruh titik kamera dari dua portal resmi:
 1. **Diskominfo Kota Bandar Lampung** — *Seribu Wajah* (`https://seribuwajah.bandarlampungkota.go.id/map`)
 2. **Polresta Bandar Lampung** — *Layanan Kota Presisi* (`https://restabandarlampung.lampung.polri.go.id/city`)
@@ -140,3 +142,14 @@ Pengujian antarmuka telah diverifikasi menggunakan Playwright di berbagai breakp
 - Mobile Phone (375 × 667)
 - Tablet (768 × 1024)
 - Desktop / Wide Monitor (1600 × 900)
+
+---
+
+## Deployment & Akses Publik
+
+Layanan ini sudah aktif dan dapat diakses secara publik pada domain:
+- **URL Produksi:** [https://bdlcctv.farzani.my.id/](https://bdlcctv.farzani.my.id/)
+- **Health Check API:** [https://bdlcctv.farzani.my.id/api/health](https://bdlcctv.farzani.my.id/api/health)
+- **Cameras API:** [https://bdlcctv.farzani.my.id/api/cameras](https://bdlcctv.farzani.my.id/api/cameras)
+- **GeoJSON Endpoint:** [https://bdlcctv.farzani.my.id/api/cameras.geojson](https://bdlcctv.farzani.my.id/api/cameras.geojson)
+
