@@ -10,7 +10,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
       integrity="sha384-MinO0mNliZ3vwppuPOUnGa+iq619pfMhLVUXfC4LHwSCvF9H+6P/KO4Q7qBOYV5V" crossorigin="anonymous">
-<link rel="stylesheet" href="/styles.css?v=20261112d">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate icon" type="image/x-icon" href="/favicon.ico">
+<link rel="stylesheet" href="/styles.css?v=20261112f">
 </head>
 <body>
 
@@ -20,6 +22,12 @@
   <!-- ---------- Floating command bar ---------- -->
   <header class="topbar">
     <div class="brand">
+      <svg class="brand-logo" viewBox="0 0 28 28" width="24" height="24" fill="none" aria-hidden="true">
+        <rect x="2" y="2" width="24" height="24" rx="6" fill="color-mix(in srgb, var(--accent) 12%, transparent)" stroke="var(--accent)" stroke-width="1.8"/>
+        <circle cx="14" cy="14" r="5.2" stroke="var(--accent)" stroke-width="1.8"/>
+        <circle cx="14" cy="14" r="2.2" fill="var(--accent)"/>
+        <path d="M5.5 5.5l3.5 3.5M22.5 5.5l-3.5 3.5M5.5 22.5l3.5-3.5M22.5 22.5l-3.5-3.5" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      </svg>
       <span class="brand-dot" aria-hidden="true"></span>
       <span class="brand-text">CCTV <strong>Bandar Lampung</strong></span>
     </div>
@@ -166,8 +174,14 @@
       <div id="drawer-player" class="drawer-player"></div>
       <dl id="drawer-meta" class="meta"></dl>
       <div class="drawer-actions">
-        <button id="drawer-big" class="btn">Tampilkan besar</button>
-        <button id="drawer-add" class="btn btn-ghost">Tambah ke multi-stream</button>
+        <button id="drawer-big" class="btn btn-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          <span>Tampilkan besar</span>
+        </button>
+        <button id="drawer-add" class="btn btn-ghost btn-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M17 14v6M14 17h6"/></svg>
+          <span>Tambah ke multi-stream</span>
+        </button>
       </div>
     </div>
   </aside>
@@ -190,8 +204,14 @@
       <p class="card-addr"></p>
       <div class="card-tags"><span class="card-distance" hidden></span></div>
     </div>    <div class="card-actions">
-      <button class="btn btn-sm" data-play>Lihat</button>
-      <button class="btn btn-sm btn-ghost" data-multi>Multi</button>
+      <button class="btn btn-sm btn-icon" data-play aria-label="Lihat kamera">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="6 4 18 12 6 20 6 4"/></svg>
+        <span>Lihat</span>
+      </button>
+      <button class="btn btn-sm btn-ghost btn-icon" data-multi aria-label="Tambah ke multi-stream">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M17 14v6M14 17h6"/></svg>
+        <span>Multi</span>
+      </button>
     </div>
   </article>
 </template>
@@ -202,6 +222,6 @@
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.20/dist/hls.min.js"
         integrity="sha384-V5ruNBgmYcC3SJRUQeNykAAAgde5gOFq/Hu0CZj7bygDP0yRIhkvX8+w0u/7mRvr"
         crossorigin="anonymous"></script>
-<script type="module" src="/app.js?v=20261112d"></script>
+<script type="module" src="/app.js?v=20261112f"></script>
 </body>
 </html>

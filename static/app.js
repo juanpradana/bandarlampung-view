@@ -69,7 +69,17 @@ const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 
 function el(tag, props = {}, children = []) {
   const e = document.createElement(tag);
-  Object.assign(e, props);
+  for (const [key, value] of Object.entries(props)) {
+    if (value == null) continue;
+    if (key.startsWith('data-')) {
+      // `Object.assign` can't write dataset, so route data-* here explicitly:
+      // keys without it were silently vanishing from the DOM.
+      const camel = key.slice(5).replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase());
+      e.dataset[camel] = String(value);
+      continue;
+    }
+    e[key] = value;
+  }
   for (const c of children) {
     if (typeof c === 'string') e.append(document.createTextNode(c));
     else if (c) e.append(c);
@@ -597,8 +607,451 @@ function renderCards() {
   $('#list-count').textContent = `${state.filtered.length} kamera`;
 }
 
+/* --------------------- Digital PTZ & audio controls -------------------- */
+
+/* Mirrors the backend's PTZ classifier in web-core/src/classify.rs: a camera
+   is PTZ when it carries the `ptz` tag, or its display name says so. */
+function isPtz(cam) {
+  if (!cam) return false;
+  if (Array.isArray(cam.tags) && cam.tags.includes('ptz')) return true;
+  return /\(\s*PTZ\s*\)/.test(cam.name || '');
+}
+
+const AUDIO_ICONS = {
+  muted: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>',
+  on: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>',
+};
+
+const THEME_ICONS = {
+  dark: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>',
+  light: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>',
+};
+
+function setThemeIcon(theme) {
+  const btn = $('#theme-toggle');
+  if (!btn) return;
+  btn.innerHTML = theme === 'dark' ? THEME_ICONS.dark : THEME_ICONS.light;
+}
+
+/* One entry per playing video. `muted` starts true on every one of them so a
+   fresh tile can never surprise the listener with sound, and unmuting one
+   mutes the rest — several live streams at once is noise, not monitoring. */
+const audioState = new Map(); // key -> { video, hasAudio, muted, volume }
+
+function registerAudio(key, video) {
+  if (!key || !video || audioState.has(key)) return audioState.get(key);
+  const entry = { video, hasAudio: false, muted: true, volume: 0.8 };
+  audioState.set(key, entry);
+  video.muted = true;
+  video.volume = entry.volume;
+
+  // HLS audio tracks are only visible once the manifest says so; the native
+  // props cover the non-Hls.js path.
+  video.addEventListener('loadedmetadata', () => detectAudio(key));
+  if (window.Hls) {
+    const probe = () => detectAudio(key);
+    video.addEventListener('hlsAudioTracksUpdated', probe);
+  }
+  return entry;
+}
+
+function detectAudio(key) {
+  const entry = audioState.get(key);
+  if (!entry) return;
+  const v = entry.video;
+  let has = false;
+  try {
+    if (v.audioTracks && v.audioTracks.length > 0) has = true;
+  } catch { /* audioTracks is not exposed everywhere */ }
+  if (v.mozHasAudio) has = true;
+  if (typeof v.webkitAudioDecodedByteCount === 'number' && v.webkitAudioDecodedByteCount > 0) has = true;
+  if (typeof v.webkitAudioDecodedByteCount !== 'number' && v.readyState >= 2 && !v.muted) has = true;
+  entry.hasAudio = has;
+  refreshAudioUi(key);
+}
+
+/* Exclusivity: unmuting a stream silences every other one. */
+function toggleAudio(key) {
+  const entry = audioState.get(key);
+  if (!entry) return;
+  if (!entry.hasAudio) {
+    showToast({ type: 'info', message: 'Stream ini tidak membawa audio' });
+    return;
+  }
+  entry.muted = !entry.muted;
+  if (!entry.muted) {
+    for (const [k, other] of audioState) {
+      if (k !== key && !other.muted) {
+        other.muted = true;
+        other.video.muted = true;
+        refreshAudioUi(k);
+      }
+    }
+  }
+  entry.video.muted = entry.muted;
+  refreshAudioUi(key);
+}
+
+function setAudioVolume(key, vol) {
+  const entry = audioState.get(key);
+  if (!entry) return;
+  entry.volume = vol;
+  entry.video.volume = vol;
+}
+
+function releaseAudio(key) {
+  audioState.delete(key);
+  refreshAudioUi(key);
+}
+
+function refreshAudioUi(key) {
+  const entry = audioState.get(key);
+  const muted = entry ? entry.muted : true;
+  const hasAudio = entry ? entry.hasAudio : false;
+
+  document.querySelectorAll(`[data-audio-key="${key}"]`).forEach((node) => {
+    if (node.classList.contains('js-speaker')) {
+      node.innerHTML = muted ? AUDIO_ICONS.muted : AUDIO_ICONS.on;
+      node.classList.toggle('is-active', !muted);
+      node.setAttribute('aria-pressed', muted ? 'false' : 'true');
+      node.title = muted ? 'Nyalakan suara' : 'Matikan suara';
+      node.setAttribute('aria-label', muted ? 'Nyalakan suara' : 'Matikan suara');
+    } else if (node.classList.contains('js-audio-pill')) {
+      node.classList.toggle('has-audio', hasAudio);
+      node.dataset.hasAudio = hasAudio ? 'true' : 'false';
+      node.replaceChildren(
+        el('span', { className: 'player-audio-pill-dot', 'aria-hidden': 'true' }),
+        document.createTextNode(hasAudio ? 'Audio' : 'Tanpa audio'),
+      );
+    }
+  });
+}
+
+/* Speaker + (in the drawer) volume slider + a status pill, laid over the
+   video in the top band so the native control bar stays clear. */
+function buildAudioControls(key, { volume = false } = {}) {
+  const bar = el('div', { className: 'player-audio-bar' });
+
+  const speaker = el('button', {
+    type: 'button',
+    className: 'player-speaker-btn js-speaker',
+    'data-audio-key': key,
+  });
+  speaker.addEventListener('click', (e) => {
+    e.stopPropagation();
+    toggleAudio(key);
+  });
+
+  bar.append(speaker);
+  refreshAudioUi(key);
+
+  if (volume) {
+    const slider = el('input', {
+      type: 'range',
+      className: 'player-vol-slider',
+      min: '0',
+      max: '1',
+      step: '0.05',
+      value: '0.8',
+      'aria-label': 'Volume suara kamera',
+    });
+    slider.addEventListener('input', (e) => {
+      e.stopPropagation();
+      setAudioVolume(key, Number(e.target.value));
+    });
+    slider.addEventListener('click', (e) => e.stopPropagation());
+    bar.append(slider);
+  }
+
+  const entry = audioState.get(key);
+  const pill = el('span', {
+    className: 'player-audio-pill js-audio-pill',
+    'data-audio-key': key,
+    'data-has-audio': entry?.hasAudio ? 'true' : 'false',
+  });
+  bar.append(pill);
+  refreshAudioUi(key);
+
+  return bar;
+}
+
+/* ---------- Digital PTZ: pan/tilt/zoom on a broadcast-only stream ----------
+
+   Upstream CCTV here is one-way — there is no ONVIF/Pelco endpoint to drive the
+   motor — so this is a viewer-side transform: zoom the frame and pan within
+   what the zoom reveals. That is the honest version of "PTZ controls" for this
+   feed, and it is enough to read a plate or follow one lane of an
+   intersection. */
+const PTZ_MIN_ZOOM = 1;
+const PTZ_MAX_ZOOM = 4;
+const PTZ_STEP = 0.25;
+const PTZ_PAN_STEP = 36;
+
+class DigitalPTZController {
+  constructor(video) {
+    this.video = video;
+    this.zoom = PTZ_MIN_ZOOM;
+    this.x = 0;
+    this.y = 0;
+    this.overlay = null;
+    this.zoomLabel = null;
+    this.dragging = null;
+    this.activePreset = null;
+    this._onWheel = this._onWheel.bind(this);
+    this._onPointerDown = this._onPointerDown.bind(this);
+    this._onPointerMove = this._onPointerMove.bind(this);
+    this._onPointerUp = this._onPointerUp.bind(this);
+    this.mount();
+  }
+
+  mount() {
+    if (!this.video.parentElement) return;
+    const host = this.video.parentElement;
+    host.style.position = host.style.position || 'relative';
+
+    this.video.classList.add('ptz-active');
+
+    this.overlay = el('div', { className: 'player-overlay', 'aria-hidden': 'true' });
+
+    /* Left column: the identity of the control plus what it is doing. */
+    const left = el('div', { className: 'player-overlay-left' });
+
+    const badge = el('div', { className: 'ptz-badge' });
+    badge.append(el('span', { className: 'ptz-badge-dot' }));
+    badge.append(document.createTextNode('PTZ'));
+    this.zoomLabel = el('span', { className: 'ptz-zoom-indicator' });
+    badge.append(this.zoomLabel);
+    left.append(badge);
+
+    const audioKey = this._key();
+    if (audioKey && audioState.has(audioKey)) left.append(buildAudioControls(audioKey));
+
+    /* Right column: D-pad, zoom, presets. */
+    const right = el('div', { className: 'player-overlay-right' });
+    right.append(this._buildCluster());
+
+    this.overlay.append(left, right);
+    host.append(this.overlay);
+
+    this.video.addEventListener('wheel', this._onWheel, { passive: false });
+    this.video.addEventListener('pointerdown', this._onPointerDown);
+    window.addEventListener('pointermove', this._onPointerMove);
+    window.addEventListener('pointerup', this._onPointerUp);
+    window.addEventListener('pointercancel', this._onPointerUp);
+
+    this._render();
+  }
+
+  /* Maps a mounted video back to its audioState key. The drawer video and the
+     multi-stream tiles are the two places we register audio, and each keeps
+     its key on the element itself. */
+  _key() {
+    return this.video.dataset.audioKey || '';
+  }
+
+  _buildCluster() {
+    const cluster = el('div', { className: 'ptz-controls-cluster' });
+
+    const dpad = el('div', { className: 'ptz-dpad', role: 'group', 'aria-label': 'Arah kamera' });
+    const dirs = [
+      ['up', 'Atas', 'M12 19V5M5 12l7-7 7 7'],
+      ['left', 'Kiri', 'M19 12H5M12 5l-7 7 7 7'],
+      ['center', 'Tengah', null],
+      ['right', 'Kanan', 'M5 12h14M12 5l7 7-7 7'],
+      ['down', 'Bawah', 'M12 5v14M5 12l7 7 7-7'],
+    ];
+    for (const [dir, label, path] of dirs) {
+      const btn = el('button', {
+        type: 'button',
+        className: `ptz-btn ptz-btn-${dir}`,
+        title: label,
+        'aria-label': label,
+      });
+      if (path) {
+        btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${path}"/></svg>`;
+      } else {
+        btn.textContent = '●';
+      }
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this.pan(dir);
+        this._markPreset(null);
+      });
+      dpad.append(btn);
+    }
+
+    const zoomGroup = el('div', { className: 'ptz-zoom-group', role: 'group', 'aria-label': 'Zoom' });
+    const zoomBtns = [
+      ['in', 'Perbesar', '+'],
+      ['reset', 'Zoom normal', '1×'],
+      ['out', 'Perkecil', '−'],
+    ];
+    for (const [action, label, text] of zoomBtns) {
+      const btn = el('button', {
+        type: 'button',
+        className: 'ptz-zoom-btn',
+        title: label,
+        'aria-label': label,
+        'data-zoom': action,
+        textContent: text,
+      });
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (action === 'in') this.zoomBy(PTZ_STEP);
+        else if (action === 'out') this.zoomBy(-PTZ_STEP);
+        else this.reset();
+        this._markPreset(null);
+      });
+      zoomGroup.append(btn);
+    }
+
+    const presets = el('div', { className: 'ptz-presets-group', role: 'group', 'aria-label': 'Preset sudut' });
+    for (const [name, label] of [
+      ['left', 'Kiri'],
+      ['center', 'Tengah'],
+      ['right', 'Kanan'],
+      ['reset', 'Reset'],
+    ]) {
+      const chip = el('button', {
+        type: 'button',
+        className: 'ptz-preset-chip',
+        'data-preset': name,
+        textContent: label,
+        title: `Preset ${label}`,
+        'aria-label': `Preset ${label}`,
+      });
+      chip.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this._applyPreset(name);
+      });
+      presets.append(chip);
+    }
+
+    const tools = el('div', { className: 'ptz-tools' });
+    tools.append(zoomGroup, presets);
+
+    cluster.append(dpad, tools);
+    return cluster;
+  }
+
+  _markPreset(name) {
+    this.activePreset = name;
+    this.overlay?.querySelectorAll('.ptz-preset-chip').forEach((c) => {
+      c.classList.toggle('is-active', c.dataset.preset === name);
+    });
+  }
+
+  _applyPreset(name) {
+    this._markPreset(name);
+    if (name === 'reset') { this.reset(); return; }
+    this.setZoom(2);
+    if (name === 'center') { this.setPan(0, 0); return; }
+    const [maxX] = this._bounds();
+    const target = name === 'left' ? -maxX * 0.6 : maxX * 0.6;
+    this.setPan(target, 0);
+  }
+
+  pan(dir) {
+    if (dir === 'center') { this.setPan(0, 0); return; }
+    const dx = dir === 'left' ? -PTZ_PAN_STEP : dir === 'right' ? PTZ_PAN_STEP : 0;
+    const dy = dir === 'up' ? -PTZ_PAN_STEP : dir === 'down' ? PTZ_PAN_STEP : 0;
+    // Panning feels right when it is frame-relative, not viewport-relative.
+    this.setPan(this.x + dx / this.zoom, this.y + dy / this.zoom);
+  }
+
+  zoomBy(delta) {
+    this.setZoom(Math.round((this.zoom + delta) * 100) / 100);
+  }
+
+  setZoom(z) {
+    const next = Math.min(PTZ_MAX_ZOOM, Math.max(PTZ_MIN_ZOOM, Math.round(z * 100) / 100));
+    const grew = next > this.zoom;
+    this.zoom = next;
+    if (next <= PTZ_MIN_ZOOM) this.setPan(0, 0);
+    else if (!grew) this._clamp();
+    this._render();
+  }
+
+  setPan(x, y) {
+    this.x = x;
+    this.y = y;
+    this._clamp();
+    this._render();
+  }
+
+  reset() {
+    this.zoom = PTZ_MIN_ZOOM;
+    this.x = 0;
+    this.y = 0;
+    this._markPreset(null);
+    this._render();
+  }
+
+  /* How far the scaled frame can travel before it shows a void. */
+  _bounds() {
+    const w = this.video.clientWidth || 1;
+    const h = this.video.clientHeight || 1;
+    return [(w * this.zoom - w) / 2, (h * this.zoom - h) / 2];
+  }
+
+  _clamp() {
+    const [maxX, maxY] = this._bounds();
+    this.x = Math.max(-maxX, Math.min(maxX, this.x));
+    this.y = Math.max(-maxY, Math.min(maxY, this.y));
+  }
+
+  _render() {
+    this.video.style.transform =
+      `translate3d(${this.x.toFixed(2)}px, ${this.y.toFixed(2)}px, 0) scale(${this.zoom.toFixed(2)})`;
+    if (this.zoomLabel) {
+      this.zoomLabel.textContent = `${this.zoom.toFixed(2).replace(/\.00$/, '.0')}×`;
+    }
+  }
+
+  _onWheel(e) {
+    e.preventDefault();
+    this.zoomBy(e.deltaY < 0 ? PTZ_STEP : -PTZ_STEP);
+    this._markPreset(null);
+  }
+
+  _onPointerDown(e) {
+    if (this.zoom <= PTZ_MIN_ZOOM || e.button !== 0) return;
+    this.dragging = { px: e.clientX, py: e.clientY, x: this.x, y: this.y };
+    this.video.classList.add('is-dragging');
+    this.video.setPointerCapture?.(e.pointerId);
+    this._markPreset(null);
+  }
+
+  _onPointerMove(e) {
+    if (!this.dragging) return;
+    this.setPan(
+      this.dragging.x + (e.clientX - this.dragging.px) / this.zoom,
+      this.dragging.y + (e.clientY - this.dragging.py) / this.zoom,
+    );
+  }
+
+  _onPointerUp(e) {
+    if (!this.dragging) return;
+    this.dragging = null;
+    this.video.classList.remove('is-dragging');
+    this.video.releasePointerCapture?.(e.pointerId);
+  }
+
+  destroy() {
+    this.video.removeEventListener('wheel', this._onWheel);
+    this.video.removeEventListener('pointerdown', this._onPointerDown);
+    window.removeEventListener('pointermove', this._onPointerMove);
+    window.removeEventListener('pointerup', this._onPointerUp);
+    window.removeEventListener('pointercancel', this._onPointerUp);
+    this.video.classList.remove('ptz-active', 'is-dragging');
+    this.overlay?.remove();
+    this.overlay = null;
+  }
+}
+
 /* ------------------------------ drawer ----------------------------- */
 let drawerHls = null;
+let drawerPtz = null;
 
 function openDrawer(cam) {
   destroyHls(drawerHls);
@@ -648,6 +1101,9 @@ function openDrawer(cam) {
 
 function closeDrawer() {
   $('#drawer').hidden = true;
+  drawerPtz?.destroy();
+  drawerPtz = null;
+  releaseAudio('drawer');
   destroyHls(drawerHls);
   drawerHls = null;
   $('#drawer-player').innerHTML = '';
@@ -669,6 +1125,9 @@ function hlsSrc(cam) {
 
 function renderPlayer(host, cam) {
   host.innerHTML = '';
+  drawerPtz?.destroy();
+  drawerPtz = null;
+  releaseAudio('drawer');
 
   if (cam.status !== 'online') {
     host.append(el('div', {
@@ -682,7 +1141,7 @@ function renderPlayer(host, cam) {
   const src = hlsSrc(cam);
   if (src) {
     const wrapper = el('div', {
-      style: 'position:relative;width:100%;height:100%;background:#000;display:flex;align-items:center;justify-content:center',
+      style: 'position:relative;width:100%;height:100%;background:#000;display:flex;align-items:center;justify-content:center;overflow:hidden',
     });
     const video = el('video', {
       controls: true,
@@ -691,6 +1150,9 @@ function renderPlayer(host, cam) {
       playsinline: true,
       style: 'width:100%;height:100%;object-fit:contain',
     });
+    video.dataset.audioKey = 'drawer';
+    registerAudio('drawer', video);
+
     const loader = el('div', {
       className: 'player-loader',
       textContent: 'Menghubungkan stream…',
@@ -702,6 +1164,17 @@ function renderPlayer(host, cam) {
     wrapper.append(video);
     wrapper.append(loader);
     host.append(wrapper);
+
+    // Mount controls: Digital PTZ if the camera supports it; plain audio bar otherwise.
+    if (isPtz(cam)) {
+      drawerPtz = new DigitalPTZController(video);
+    } else {
+      const overlay = el('div', { className: 'player-overlay', 'aria-hidden': 'true' });
+      const left = el('div', { className: 'player-overlay-left' });
+      left.append(buildAudioControls('drawer', { volume: true }));
+      overlay.append(left);
+      wrapper.append(overlay);
+    }
 
     attachHls(video, src, cam.id, cam);
     return;
@@ -720,7 +1193,7 @@ function renderPlayer(host, cam) {
   }
 
   host.append(el('img', {
-    src: `/api/cameras/${cam.id}/snapshot`,
+    src: thumbUrl(cam) || `/api/cameras/${cam.id}/snapshot`,
     alt: cam.name,
     style: 'width:100%;height:100%;object-fit:contain;background:#000',
   }));
@@ -752,6 +1225,18 @@ function attachHlsJs(video, src, key, cam) {
   hls.loadSource(src);
   hls.attachMedia(video);
 
+  const audioKey = video.dataset.audioKey;
+  if (audioKey) {
+    hls.on(Hls.Events.AUDIO_TRACKS_UPDATED, (_evt, data) => {
+      const has = Array.isArray(data?.audioTracks) && data.audioTracks.length > 0;
+      const entry = audioState.get(audioKey);
+      if (entry) {
+        entry.hasAudio = has;
+        refreshAudioUi(audioKey);
+      }
+    });
+  }
+
   hls.on(Hls.Events.ERROR, (_evt, data) => {
     if (!data.fatal) return;
     switch (data.type) {
@@ -780,6 +1265,8 @@ function attachHlsJs(video, src, key, cam) {
 function fallbackFor(video, cam, key) {
   state.players.delete(key);
   if (key === state.selectedId) drawerHls = null;
+  const audioKey = video.dataset.audioKey;
+  if (audioKey) releaseAudio(audioKey);
 
   const host = video.parentElement;
   if (!host) return;
@@ -799,7 +1286,7 @@ function fallbackFor(video, cam, key) {
       style: 'position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#000',
     });
     wrap.append(el('img', {
-      src: `/api/cameras/${cam.id}/snapshot`,
+      src: thumbUrl(cam) || `/api/cameras/${cam.id}/snapshot`,
       alt: cam.name,
       style: 'width:100%;height:100%;object-fit:contain',
     }));
@@ -1017,6 +1504,9 @@ function closeMulti() {
       state.players.delete(key);
     }
   }
+  for (const key of [...audioState.keys()]) {
+    if (key.startsWith('ms:')) releaseAudio(key);
+  }
   $('#ms-grid').innerHTML = '';
   $('#ms-results').hidden = true;
 }
@@ -1043,6 +1533,10 @@ function renderMulti() {
       destroyHls(inst);
       state.players.delete(key);
     }
+  }
+  // Tiles are rebuilt wholesale, so last render's audio registrations are stale.
+  for (const key of [...audioState.keys()]) {
+    if (key.startsWith('ms:')) releaseAudio(key);
   }
 
   const isCustom = state.msPreset === 'custom';
@@ -1084,6 +1578,22 @@ function renderMulti() {
     const head = el('div', { className: 'ms-tile-header' });
     head.append(el('span', { className: 'ms-tile-title', textContent: cam.name }));
     head.append(el('span', { className: 'ms-tile-sub', textContent: cam.district || '' }));
+
+    // Per-tile speaker. Starts muted like every other stream; clicking it mutes
+    // its neighbours so only one camera is ever heard at a time.
+    const audioKey = `ms:${cam.id}`;
+    const speaker = el('button', {
+      type: 'button',
+      className: 'ms-tile-audio-btn js-speaker',
+      'data-audio-key': audioKey,
+      title: 'Nyalakan suara kamera ini',
+      'aria-label': 'Nyalakan suara kamera ini',
+    });
+    speaker.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleAudio(audioKey);
+    });
+    head.append(speaker);
     tile.append(head);
 
     // Delete button on custom tiles
@@ -1114,6 +1624,9 @@ function renderMulti() {
       const video = el('video', {
         muted: true, autoplay: true, playsinline: true, controls: false,
       });
+      video.dataset.audioKey = audioKey;
+      registerAudio(audioKey, video);
+      refreshAudioUi(audioKey);
       content.append(video);
       attachHls(video, src, `ms:${cam.id}`, cam);
     } else if (cam.embedUrl) {
@@ -1125,7 +1638,7 @@ function renderMulti() {
       }));
     } else {
       content.append(el('img', {
-        src: `/api/cameras/${cam.id}/snapshot`,
+        src: thumbUrl(cam) || `/api/cameras/${cam.id}/snapshot`,
         alt: cam.name,
         style: 'width:100%;height:100%;object-fit:cover',
       }));
@@ -1273,6 +1786,7 @@ async function boot() {
     const savedTheme = localStorage.getItem(STORAGE_KEYS.theme);
     if (savedTheme) document.documentElement.dataset.theme = savedTheme;
   } catch { /* ignore */ }
+  setThemeIcon(document.documentElement.dataset.theme || 'dark');
 
   // Restore saved basemap preference
   try {
@@ -1385,6 +1899,7 @@ async function boot() {
     const next = html.dataset.theme === 'dark' ? 'light' : 'dark';
     html.dataset.theme = next;
     try { localStorage.setItem(STORAGE_KEYS.theme, next); } catch { /* ignore */ }
+    setThemeIcon(next);
 
     // If on auto basemap, reload map style to match theme
     if (state.basemap === 'auto') {

@@ -409,9 +409,43 @@ html, body {
   display: block;
 }
 
-/* Broken/missing snapshot: keep the frame, drop the ghost icon */
-.card-thumb.no-img { background: linear-gradient(135deg, #141d30, #0a1120); }
+/* Broken/missing snapshot: keep the frame, show sleek ghost CCTV camera */
+.card-thumb.no-img {
+  background: linear-gradient(135deg, #101726, #070c17);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .card-thumb.no-img img { display: none; }
+.card-thumb.no-img::after {
+  content: "";
+  width: 26px;
+  height: 26px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M23 7l-7 5 7 5V7z'/%3E%3Crect x='1' y='5' width='15' height='14' rx='2' ry='2'/%3E%3Ccircle cx='8.5' cy='12' r='2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.55;
+}
+
+.brand-logo {
+  flex-shrink: 0;
+  display: block;
+}
+
+.card-actions .btn-icon,
+.drawer-actions .btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.card-actions .btn-icon svg,
+.drawer-actions .btn-icon svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
 
 .card-status {
   position: absolute;
@@ -799,6 +833,337 @@ html, body {
 
 .drawer-player video,
 .drawer-player iframe { width: 100%; height: 100%; border: none; display: block; }
+
+/* Hardware-accelerated transformation layer for Digital PTZ */
+.drawer-player video.ptz-active {
+  transform-origin: center center;
+  transition: transform 0.15s ease-out;
+  cursor: grab;
+}
+.drawer-player video.ptz-active.is-dragging {
+  cursor: grabbing;
+  transition: none;
+}
+
+/* ───────────────────── Digital PTZ & Audio Overlay ─────────────────────
+   The drawer video keeps its native control bar along the bottom edge, so
+   every overlay control lives in the top band: instruments on the right,
+   status on the left. Nothing overlaps the scrubber. */
+.player-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 8;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px;
+}
+
+.player-overlay-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  min-width: 0;
+}
+
+.player-overlay-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+/* Tactical glowing PTZ badge */
+.ptz-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 9px;
+  border-radius: var(--radius-full);
+  background: rgba(10, 15, 29, 0.88);
+  border: 1px solid rgba(192, 132, 252, 0.45);
+  color: #d8b4fe;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.22);
+  pointer-events: auto;
+  user-select: none;
+}
+
+.ptz-badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #c084fc;
+  box-shadow: 0 0 6px #c084fc;
+  animation: ptz-pulse 2s ease-in-out infinite;
+}
+
+@keyframes ptz-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+}
+
+.ptz-zoom-indicator {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: #f3e8ff;
+  background: rgba(168, 85, 247, 0.25);
+  padding: 1px 5px;
+  border-radius: var(--radius-sm);
+  margin-left: 2px;
+}
+
+/* Audio control bar in player */
+.player-audio-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 8px;
+  background: rgba(10, 15, 29, 0.88);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  pointer-events: auto;
+}
+
+.player-speaker-btn {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: none;
+  color: var(--text-secondary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.15s ease;
+}
+
+.player-speaker-btn:hover {
+  background: var(--bg-surface-elevated);
+  color: var(--text-primary);
+}
+
+.player-speaker-btn.is-active {
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+}
+
+.player-speaker-btn svg { width: 14px; height: 14px; display: block; }
+
+.player-vol-slider {
+  width: 58px;
+  height: 4px;
+  accent-color: var(--accent);
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  outline: none;
+}
+
+.player-audio-pill {
+  font-size: 10px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-muted);
+}
+
+.player-audio-pill.has-audio {
+  color: #34d399;
+  background: rgba(16, 185, 129, 0.14);
+}
+
+.player-audio-pill-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+/* PTZ Instrument Controls */
+.ptz-controls-cluster {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+  pointer-events: auto;
+}
+
+/* Compact D-Pad */
+.ptz-dpad {
+  display: grid;
+  grid-template-columns: repeat(3, 24px);
+  grid-template-rows: repeat(3, 24px);
+  gap: 2px;
+  background: rgba(10, 15, 29, 0.88);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 3px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-md);
+}
+
+.ptz-btn {
+  width: 24px;
+  height: 24px;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  transition: all 0.12s ease;
+  user-select: none;
+}
+
+.ptz-btn:hover {
+  background: var(--bg-surface-elevated);
+  color: var(--text-primary);
+  border-color: var(--border-strong);
+}
+
+.ptz-btn:active {
+  transform: scale(0.92);
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.ptz-btn svg { width: 12px; height: 12px; display: block; }
+.ptz-btn-up { grid-column: 2; grid-row: 1; }
+.ptz-btn-left { grid-column: 1; grid-row: 2; }
+.ptz-btn-center { grid-column: 2; grid-row: 2; font-size: 13px; }
+.ptz-btn-right { grid-column: 3; grid-row: 2; }
+.ptz-btn-down { grid-column: 2; grid-row: 3; }
+
+/* Zoom & preset controls */
+.ptz-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.ptz-zoom-group {
+  display: flex;
+  gap: 3px;
+  background: rgba(10, 15, 29, 0.88);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 3px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.ptz-zoom-btn {
+  width: 26px;
+  height: 24px;
+  border: none;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  transition: all 0.12s;
+  padding: 0;
+}
+
+.ptz-zoom-btn:hover {
+  background: var(--bg-surface-elevated);
+  color: var(--text-primary);
+}
+
+.ptz-presets-group {
+  display: flex;
+  gap: 3px;
+  background: rgba(10, 15, 29, 0.88);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 3px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.ptz-preset-chip {
+  padding: 2px 7px;
+  border: none;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.12s;
+  white-space: nowrap;
+}
+
+.ptz-preset-chip:hover {
+  background: var(--bg-surface-elevated);
+  color: var(--text-primary);
+}
+
+.ptz-preset-chip.is-active {
+  background: color-mix(in srgb, #c084fc 25%, transparent);
+  color: #e9d5ff;
+}
+
+/* Multi-stream tile audio button */
+.ms-tile-audio-btn {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(8, 12, 22, 0.85);
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.ms-tile-audio-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.ms-tile-audio-btn.is-active {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 0 8px color-mix(in srgb, var(--accent) 50%, transparent);
+}
+
+.ms-tile-audio-btn svg { width: 13px; height: 13px; display: block; }
 
 .meta {
   display: grid;
@@ -1438,7 +1803,16 @@ html, body {
 }
 
 @media (max-width: 900px) {
-  .legend { bottom: calc(var(--gap) + env(safe-area-inset-bottom, 0px)); }
+  /* Relocate map instruments (zoom, GPS, basemap) to the top-right, directly
+     beneath the floating topbar. This is the mobile GIS convention and leaves
+     the whole lower viewport to the camera sheet + category bar, so the two
+     can never stack on each other. */
+  .map-controls {
+    top: calc(var(--header-h) + var(--gap) * 2 + env(safe-area-inset-top, 0px));
+    bottom: auto;
+    right: calc(var(--gap) + env(safe-area-inset-right, 0px));
+    z-index: 22;
+  }
 
   /* On narrow screens the rail becomes a bottom sheet that the map stays
      visible around — but it would fight the legend, so the legend moves up. */
@@ -1470,11 +1844,17 @@ html, body {
 
   .rail-grip { width: 22px; height: 3px; }
 
+  /* Keep the category bar centered and sized to its content: it used to stretch
+     edge-to-edge, which swallowed the map instruments parked at the bottom
+     right. Hug its content instead, and sit just above the collapsed handle. */
   .legend {
-    left: calc(var(--gap) + env(safe-area-inset-left, 0px));
-    right: calc(var(--gap) + env(safe-area-inset-right, 0px));
-    transform: none;
-    max-width: none;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    width: max-content;
+    max-width: calc(100% - var(--gap) * 2);
+    bottom: calc(var(--gap) + 26px + env(safe-area-inset-bottom, 0px));
+    transition: bottom 0.28s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   /* Rail is open by default on mobile, so lift the legend above it */
@@ -1520,8 +1900,10 @@ html, body {
     border-radius: var(--radius-lg);
   }
 
-  /* With the drawer up, the rail would sit behind it — hide the rail */
+  /* With the drawer up, the rail would sit behind it — hide the rail and the
+     category bar so the inspect view owns the bottom half cleanly. */
   body:has(.drawer:not([hidden])) .rail { display: none; }
+  body:has(.drawer:not([hidden])) .legend { display: none !important; }
 
   .legend-item { padding: 6px 10px; font-size: 12px; }
 

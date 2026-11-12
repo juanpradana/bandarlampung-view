@@ -714,6 +714,46 @@ fn playlist_response(body: String) -> Response {
     (headers, body).into_response()
 }
 
+/// Inline SVG shown when a camera has no upstream still image at all.
+///
+/// A 200 with a legible frame beats a 4xx on an `<img>`: the card keeps its
+/// aspect box, the label still says which camera this is, and the console
+/// stays quiet about a resource the API was never going to serve.
+fn placeholder_image(name: &str) -> Response {
+    // Escape for both XML text content and the double-quoted attribute below.
+    let safe: String = name
+        .chars()
+        .map(|c| match c {
+            '&' => "&amp;".to_string(),
+            '<' => "&lt;".to_string(),
+            '>' => "&gt;".to_string(),
+            '"' => "&quot;".to_string(),
+            '\'' => "&#39;".to_string(),
+            _ => c.to_string(),
+        })
+        .collect();
+
+    let mut svg = String::from(r##"<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" role="img">"##);
+    svg.push_str(r##"<rect width="320" height="180" fill="#0a1120"/>"##);
+    svg.push_str(r##"<g fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">"##);
+    svg.push_str(r##"<path d="M132 62h40l8 8h28a4 4 0 0 1 4 4v38a4 4 0 0 1-4 4H112a4 4 0 0 1-4-4V74a4 4 0 0 1 4-4h12z"/>"##);
+    svg.push_str(r##"<path d="M112 86l24 16 16-12 20 16 16-12"/></g>"##);
+    svg.push_str(r##"<text x="160" y="152" fill="#94a3b8" font-family="sans-serif" font-size="13" text-anchor="middle">"##);
+    svg.push_str(&safe);
+    svg.push_str(r##"</text></svg>"##);
+
+    let mut headers = HeaderMap::new();
+    headers.insert(
+        header::CONTENT_TYPE,
+        HeaderValue::from_static("image/svg+xml"),
+    );
+    headers.insert(
+        header::CACHE_CONTROL,
+        HeaderValue::from_static("public, max-age=300"),
+    );
+    (headers, svg).into_response()
+}
+
 /// `GET /api/cameras/:id/snapshot` — still image, refreshed every 5 min upstream.
 pub async fn snapshot(
     State(state): State<AppState>,
@@ -726,10 +766,13 @@ pub async fn snapshot(
         .clone();
 
     if cam.source != Source::SeribuWajah {
-        return Err(err(
-            StatusCode::BAD_REQUEST,
-            "snapshots are only available for Seribu Wajah cameras",
-        ));
+        // Polresta exposes no `/snapshot` upstream, only a thumbnail. Route to
+        // it so a `<img>` fallback works instead of returning 400; a camera
+        // with neither gets an inline placeholder instead of a broken frame.
+        if cam.thumbnail.is_some() {
+            return thumb(State(state), Path(id)).await;
+        }
+        return Ok(placeholder_image(&cam.name));
     }
 
     // Upstream buckets the snapshot every 300 s; match that so we share cache.

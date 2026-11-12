@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#05080f"/>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="6.5" fill="none" stroke="#1e293b"/>
+  <!-- CCTV Camera Body -->
+  <path d="M6 10h12l3 3H7a1 1 0 0 1-1-1v-2z" fill="#2dd4ef"/>
+  <rect x="6" y="12" width="13" height="9" rx="1.5" fill="#0ea5c4"/>
+  <path d="M19 14.5l6-3.5v10l-6-3.5v-3z" fill="#0284c7"/>
+  <!-- Lens highlight -->
+  <circle cx="11.5" cy="16.5" r="2.5" fill="#04141b" stroke="#38bdf8" stroke-width="1"/>
+  <!-- Live LED dot -->
+  <circle cx="26" cy="8" r="2" fill="#10b981"/>
+</svg>
