@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
       integrity="sha384-MinO0mNliZ3vwppuPOUnGa+iq619pfMhLVUXfC4LHwSCvF9H+6P/KO4Q7qBOYV5V" crossorigin="anonymous">
-<link rel="stylesheet" href="/styles.css?v=20261112c">
+<link rel="stylesheet" href="/styles.css?v=20261112d">
 </head>
 <body>
 
@@ -107,6 +107,20 @@
           <button class="ms-preset" role="tab" data-preset="strategic-cluster">Kluster 3×2</button>
           <button class="ms-preset" role="tab" data-preset="custom">Susunan sendiri</button>
         </div>
+        <div class="ms-size-control" role="group" aria-label="Ukuran tata letak multi-stream">
+          <div class="ms-size-group" role="group" aria-label="Jumlah kolom">
+            <button type="button" class="ms-size-btn" data-cols="auto" aria-label="Otomatis">Auto</button>
+            <button type="button" class="ms-size-btn" data-cols="1" aria-label="1 kolom">1</button>
+            <button type="button" class="ms-size-btn" data-cols="2" aria-label="2 kolom">2</button>
+            <button type="button" class="ms-size-btn" data-cols="3" aria-label="3 kolom">3</button>
+            <button type="button" class="ms-size-btn" data-cols="4" aria-label="4 kolom">4</button>
+          </div>
+          <div class="ms-size-group" role="group" aria-label="Ukuran tile">
+            <button type="button" class="ms-size-btn" data-tile-size="sm" aria-label="Kecil">S</button>
+            <button type="button" class="ms-size-btn" data-tile-size="md" aria-label="Sedang">M</button>
+            <button type="button" class="ms-size-btn" data-tile-size="lg" aria-label="Besar">L</button>
+          </div>
+        </div>
         <div class="ms-actions">
           <button id="ms-rotate" class="icon-btn" aria-pressed="false" title="Rotasi otomatis">
             <svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 11-3-6.7L21 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 3v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -124,6 +138,15 @@
           <input id="ms-search" type="search" placeholder="Cari kamera, lalu tekan Enter untuk menambahkan…" autocomplete="off" aria-label="Cari kamera untuk ditambahkan">
         </div>
         <div class="ms-results" id="ms-results" role="listbox" aria-label="Hasil pencarian kamera" hidden></div>
+        <div class="ms-quick-gen" id="ms-quick-gen">
+          <span class="ms-quick-label">⚡ Isi susunan:</span>
+          <div class="ms-quick-chips">
+            <button type="button" class="ms-chip-btn" data-gen="macet">Pantau Macet (6)</button>
+            <button type="button" class="ms-chip-btn" data-gen="strategis">Lokasi Strategis (6)</button>
+            <button type="button" class="ms-chip-btn" data-gen="ptz">Kamera PTZ (6)</button>
+            <button type="button" class="ms-chip-btn ms-chip-clear" id="ms-clear-btn">✕ Kosongkan</button>
+          </div>
+        </div>
       </div>
 
       <div id="ms-grid" class="ms-grid"></div>
@@ -148,6 +171,9 @@
       </div>
     </div>
   </aside>
+
+  <!-- ---------- Toast notifications ---------- -->
+  <div class="toast-host" id="toast-host" role="status" aria-live="polite"></div>
 
 </div>
 
@@ -176,6 +202,6 @@
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.20/dist/hls.min.js"
         integrity="sha384-V5ruNBgmYcC3SJRUQeNykAAAgde5gOFq/Hu0CZj7bygDP0yRIhkvX8+w0u/7mRvr"
         crossorigin="anonymous"></script>
-<script type="module" src="/app.js?v=20261112c"></script>
+<script type="module" src="/app.js?v=20261112d"></script>
 </body>
 </html>

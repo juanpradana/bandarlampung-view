@@ -16,6 +16,8 @@ const STORAGE_KEYS = {
   customMulti: 'cctv-custom-multistream-ids-v1',
   basemap: 'cctv-basemap',
   railCollapsed: 'cctv-rail-collapsed',
+  msCols: 'cctv-ms-cols',
+  msTileSize: 'cctv-ms-tile-size',
 };
 
 const API = {
@@ -46,6 +48,8 @@ const state = {
   msPreset: 'traffic-corridor',
   msIds: [],              // active list rendered in tiles
   customIds: [],          // user's saved picks (persisted to localStorage)
+  msCols: 'auto',         // 'auto' | '1' | '2' | '3' | '4'
+  msTileSize: 'md',       // 'sm' | 'md' | 'lg'
   msRotate: 0,
   msRotateTimer: null,
   players: new Map(),     // key -> Hls instance
@@ -71,6 +75,44 @@ function el(tag, props = {}, children = []) {
     else if (c) e.append(c);
   }
   return e;
+}
+
+function showToast({ type = 'success', message, actionLabel, onAction, duration = 3200 } = {}) {
+  const host = $('#toast-host');
+  if (!host) return;
+
+  const t = el('div', { className: 'toast' });
+  const icon = el('span', {
+    className: `toast-icon ${type === 'info' ? 'info' : 'success'}`,
+    textContent: type === 'info' ? 'ℹ' : '✓',
+  });
+  const msg = el('span', { className: 'toast-msg', textContent: message });
+  t.append(icon, msg);
+
+  if (actionLabel && onAction) {
+    const btn = el('button', {
+      className: 'toast-action',
+      type: 'button',
+      textContent: actionLabel,
+    });
+    btn.addEventListener('click', () => {
+      t.remove();
+      onAction();
+    });
+    t.append(btn);
+  }
+
+  host.append(t);
+
+  let dismissed = false;
+  const dismiss = () => {
+    if (dismissed) return;
+    dismissed = true;
+    t.classList.add('is-leaving');
+    setTimeout(() => t.remove(), 200);
+  };
+
+  setTimeout(dismiss, duration);
 }
 
 const fmtTag = { macet: 'Macet', strategis: 'Strategis', ptz: 'PTZ' };
@@ -523,7 +565,7 @@ function renderCards() {
     });
     $('[data-multi]', node).addEventListener('click', (e) => {
       e.stopPropagation();
-      addToCustomMulti(cam.id);
+      addToCustomMulti(cam.id, { flash: e.currentTarget });
     });
 
     node.addEventListener('click', () => {
@@ -599,7 +641,9 @@ function openDrawer(cam) {
   }
 
   $('#drawer-big').onclick = () => openBig(cam);
-  $('#drawer-add').onclick = () => addToCustomMulti(cam.id);
+  $('#drawer-add').onclick = () => {
+    addToCustomMulti(cam.id, { flash: $('#drawer-add') });
+  };
 }
 
 function closeDrawer() {
@@ -815,13 +859,135 @@ function saveCustomMulti() {
   } catch { /* ignore */ }
 }
 
-function addToCustomMulti(id) {
-  if (!state.customIds.includes(id)) {
+function loadMsPrefs() {
+  try {
+    const savedCols = localStorage.getItem(STORAGE_KEYS.msCols);
+    if (savedCols) state.msCols = savedCols;
+  } catch { /* ignore */ }
+  try {
+    const savedTileSize = localStorage.getItem(STORAGE_KEYS.msTileSize);
+    if (savedTileSize) state.msTileSize = savedTileSize;
+  } catch { /* ignore */ }
+}
+
+function setMsCols(cols) {
+  state.msCols = cols;
+  try { localStorage.setItem(STORAGE_KEYS.msCols, cols); } catch { /* ignore */ }
+  const grid = $('#ms-grid');
+  if (grid) {
+    grid.dataset.cols = cols;
+    updateMsSizeBtns();
+  }
+}
+
+function setMsTileSize(size) {
+  state.msTileSize = size;
+  try { localStorage.setItem(STORAGE_KEYS.msTileSize, size); } catch { /* ignore */ }
+  const grid = $('#ms-grid');
+  if (grid) {
+    grid.dataset.tileSize = size;
+    updateMsSizeBtns();
+  }
+}
+
+function updateMsSizeBtns() {
+  $$('.ms-size-btn[data-cols]').forEach((b) => b.classList.toggle('is-active', b.dataset.cols === state.msCols));
+  $$('.ms-size-btn[data-tile-size]').forEach((b) => b.classList.toggle('is-active', b.dataset.tileSize === state.msTileSize));
+}
+
+function generateCategoryCameras(tag, count = 6) {
+  let pool = state.all.filter((c) => c.tags && c.tags.includes(tag));
+  if (!pool.length) {
+    showToast({ type: 'info', message: `Tidak ada kamera dalam kategori ${fmtTag[tag] || tag}` });
+    return;
+  }
+
+  // Sort online cameras first
+  pool.sort((a, b) => {
+    const aOn = a.status === 'online' ? 0 : 1;
+    const bOn = b.status === 'online' ? 0 : 1;
+    if (aOn !== bOn) return aOn - bOn;
+
+    // If user has GPS active, pick closest
+    if (state.userCoords && a.distanceM != null && b.distanceM != null) {
+      return a.distanceM - b.distanceM;
+    }
+
+    // Otherwise sort by district to get diversity
+    return (a.district || '').localeCompare(b.district || '');
+  });
+
+  const chosen = pool.slice(0, count).map((c) => c.id);
+  state.customIds = chosen;
+  state.msIds = [];
+  state.msPreset = 'custom';
+  saveCustomMulti();
+  renderMulti();
+
+  const label = fmtTag[tag] || tag;
+  showToast({
+    type: 'success',
+    message: `${chosen.length} kamera ${label} dimuat ke Susunan Sendiri`,
+  });
+}
+
+/**
+ * Add a camera to the user's persisted selection.
+ *
+ * The "add" action is deliberately NOT a navigation: cards and the drawer call
+ * this and expect to stay where they are, with a toast confirming the add and
+ * offering to open the layout. Only the picker (already inside multi-stream)
+ * and `openBig` ask for the view to open.
+ *
+ * @param {string} id
+ * @param {{openView?: boolean, notify?: boolean, flash?: HTMLElement|null}} [opts]
+ */
+function addToCustomMulti(id, { openView = false, notify = true, flash = null } = {}) {
+  const cam = state.all.find((c) => c.id === id);
+  const existed = state.customIds.includes(id);
+
+  if (!existed) {
     state.customIds.push(id);
     saveCustomMulti();
   }
-  state.msPreset = 'custom';
-  showMulti();
+
+  // Brief confirmation on the control that was clicked
+  if (flash) {
+    const original = flash.textContent;
+    flash.textContent = '✓ Ditambah';
+    flash.classList.add('is-added');
+    setTimeout(() => {
+      flash.textContent = original;
+      flash.classList.remove('is-added');
+    }, 1200);
+  }
+
+  if (openView) {
+    state.msPreset = 'custom';
+    state.msIds = [];
+    showMulti();
+    return;
+  }
+
+  if (notify) {
+    if (existed) {
+      showToast({
+        type: 'info',
+        message: `${cam?.name || 'Kamera'} sudah ada di Susunan Sendiri`,
+      });
+    } else {
+      showToast({
+        type: 'success',
+        message: `${cam?.name || 'Kamera'} ditambahkan (${state.customIds.length} kamera)`,
+        actionLabel: 'Lihat',
+        onAction: () => {
+          state.msPreset = 'custom';
+          state.msIds = [];
+          showMulti();
+        },
+      });
+    }
+  }
 }
 
 function removeFromCustomMulti(id) {
@@ -881,11 +1047,17 @@ function renderMulti() {
 
   const isCustom = state.msPreset === 'custom';
   $('#ms-picker').hidden = !isCustom;
+  $$('.ms-preset').forEach((b) => {
+    b.classList.toggle('is-active', b.dataset.preset === state.msPreset);
+  });
 
   const cams = currentPresetCameras();
   const cfg = MS_GRIDS[state.msPreset] || MS_GRIDS.custom;
 
   grid.dataset.preset = state.msPreset;
+  grid.dataset.cols = state.msCols;
+  grid.dataset.tileSize = state.msTileSize;
+  updateMsSizeBtns();
   grid.style.gridTemplateColumns = cfg.cols;
   grid.style.gridTemplateRows = cfg.rows;
   grid.style.gridTemplateAreas = cfg.areas || 'none';
@@ -1004,7 +1176,8 @@ function initMultiSearch() {
       }));
 
       b.addEventListener('click', () => {
-        addToCustomMulti(cam.id);
+        addToCustomMulti(cam.id, { openView: false, notify: false });
+        renderMulti();
         input.value = '';
         results.hidden = true;
       });
@@ -1107,6 +1280,8 @@ async function boot() {
     if (savedBasemap) state.basemap = savedBasemap;
   } catch { /* ignore */ }
 
+  loadMsPrefs();
+
   initMap();
   initGPS();
   initMultiSearch();
@@ -1166,6 +1341,28 @@ async function boot() {
       state.msIds = [];
       showMulti();
     });
+  });
+
+  // Multi-stream column selector
+  $$('.ms-size-btn[data-cols]').forEach((btn) => {
+    btn.addEventListener('click', () => setMsCols(btn.dataset.cols));
+  });
+
+  // Multi-stream tile size selector
+  $$('.ms-size-btn[data-tile-size]').forEach((btn) => {
+    btn.addEventListener('click', () => setMsTileSize(btn.dataset.tileSize));
+  });
+
+  // Category quick-generate chips
+  $$('.ms-chip-btn[data-gen]').forEach((btn) => {
+    btn.addEventListener('click', () => generateCategoryCameras(btn.dataset.gen));
+  });
+
+  $('#ms-clear-btn')?.addEventListener('click', () => {
+    state.customIds = [];
+    saveCustomMulti();
+    renderMulti();
+    showToast({ type: 'success', message: 'Susunan dikosongkan' });
   });
 
   // Zoom buttons

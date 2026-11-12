@@ -527,6 +527,13 @@ html, body {
   border-color: var(--border-strong);
 }
 
+.btn.is-added {
+  background: color-mix(in srgb, var(--status-online) 20%, var(--bg-input)) !important;
+  color: var(--status-online) !important;
+  border-color: var(--status-online) !important;
+  pointer-events: none;
+}
+
 .btn-icon {
   display: flex;
   align-items: center;
@@ -641,6 +648,106 @@ html, body {
 }
 
 .drawer[hidden] { display: none !important; }
+
+/* ------------------------- Toast notifications ---------------------- */
+.toast-host {
+  position: fixed;
+  top: calc(var(--header-h) + var(--gap) + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 60;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  pointer-events: none;
+  max-width: min(92vw, 460px);
+}
+
+.toast {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 12px 8px 10px;
+  background: var(--glass-strong);
+  backdrop-filter: blur(22px) saturate(1.6);
+  -webkit-backdrop-filter: blur(22px) saturate(1.6);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-lg), 0 6px 24px rgba(0, 0, 0, 0.45);
+  color: var(--text-primary);
+  font-size: 13px;
+  animation: toast-in 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.toast.is-leaving {
+  opacity: 0;
+  transform: translateY(-10px) scale(0.95);
+}
+
+.toast-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.toast-icon.success {
+  background: color-mix(in srgb, var(--status-online) 20%, transparent);
+  color: var(--status-online);
+  border: 1px solid color-mix(in srgb, var(--status-online) 45%, transparent);
+}
+
+.toast-icon.info {
+  background: color-mix(in srgb, var(--accent) 20%, transparent);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.toast-msg {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 270px;
+  font-weight: 500;
+}
+
+.toast-action {
+  flex-shrink: 0;
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border: none;
+  border-radius: var(--radius-full);
+  padding: 4px 11px;
+  font-family: inherit;
+  font-size: 11.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.15s;
+}
+
+.toast-action:hover {
+  background: var(--accent-hover);
+  transform: translateY(-1px);
+}
+
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(-12px) scale(0.94); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toast { animation: none; }
+  .toast.is-leaving { transition: opacity 0.1s; }
+}
 
 .drawer-head {
   padding: 13px 14px;
@@ -762,11 +869,57 @@ html, body {
   border-color: var(--accent);
 }
 
+/* Multi-stream layout sizing controls (columns & tile size) */
+.ms-size-control {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-input);
+  padding: 3px 6px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border);
+}
+
+.ms-size-group {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.ms-size-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  border-radius: var(--radius-full);
+  padding: 3px 8px;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  line-height: 1.2;
+}
+
+.ms-size-btn:hover {
+  color: var(--text-primary);
+}
+
+.ms-size-btn.is-active {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
 .ms-actions { display: flex; gap: 6px; margin-left: auto; }
 
-/* Search-to-add picker */
+/* Search-to-add picker.
+   The z-index is load-bearing: #ms-grid is a later sibling in DOM order, and
+   each .ms-tile carries a header at z-index 10 and a remove button at 12.
+   Without lifting the picker above the grid, the tile headers repaint over
+   the open dropdown — the results list disappears behind the videos. */
 .ms-picker {
   position: relative;
+  z-index: 30;
   padding: 10px 14px 0;
   max-width: 620px;
   width: 100%;
@@ -776,6 +929,61 @@ html, body {
 .ms-picker[hidden] { display: none !important; }
 
 .ms-picker-field { position: relative; }
+
+.ms-quick-gen {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.ms-quick-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.ms-quick-chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.ms-chip-btn {
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+  border-radius: var(--radius-full);
+  padding: 4px 11px;
+  font-family: inherit;
+  font-size: 11.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.16s ease;
+  white-space: nowrap;
+}
+
+.ms-chip-btn:hover {
+  background: color-mix(in srgb, var(--accent) 20%, transparent);
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.ms-chip-btn.ms-chip-clear {
+  background: none;
+  color: var(--text-muted);
+  border-color: var(--border);
+}
+
+.ms-chip-btn.ms-chip-clear:hover {
+  color: var(--status-offline);
+  border-color: color-mix(in srgb, var(--status-offline) 45%, transparent);
+  background: color-mix(in srgb, var(--status-offline) 12%, transparent);
+}
 
 .ms-picker-field svg {
   position: absolute;
@@ -815,8 +1023,10 @@ html, body {
   background: var(--bg-surface-elevated);
   border: 1px solid var(--border-strong);
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-lg);
-  z-index: 5;
+  box-shadow: var(--shadow-lg), 0 10px 34px rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  z-index: 100;
 }
 
 .ms-results[hidden] { display: none !important; }
@@ -877,12 +1087,41 @@ html, body {
 }
 
 .ms-grid {
+  --ms-tile-min: 320px;
   flex: 1;
   padding: 10px;
   gap: 10px;
   display: grid;
   background: var(--bg-page);
   overflow: auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Sizing overrides (columns and tile size) */
+.ms-grid[data-tile-size="sm"] { --ms-tile-min: 220px; }
+.ms-grid[data-tile-size="md"] { --ms-tile-min: 320px; }
+.ms-grid[data-tile-size="lg"] { --ms-tile-min: 460px; }
+
+.ms-grid[data-preset="custom"][data-cols="1"] { grid-template-columns: 1fr !important; }
+.ms-grid[data-preset="custom"][data-cols="2"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+.ms-grid[data-preset="custom"][data-cols="3"] { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+.ms-grid[data-preset="custom"][data-cols="4"] { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+.ms-grid[data-preset="custom"][data-cols="auto"] {
+  grid-template-columns: repeat(auto-fill, minmax(var(--ms-tile-min, 320px), 1fr)) !important;
+}
+
+/* Tile aspect ratio in custom multi-stream.
+   Only fit the tiles when they are grid-driven; a preset with explicit rows
+   (Koridor, Simpang, Kluster) must keep filling its tracks exactly. */
+.ms-grid[data-preset="custom"] .ms-tile {
+  aspect-ratio: 16 / 10;
+  min-height: 170px;
+}
+
+.ms-grid[data-preset="custom"][data-cols="auto"] .ms-tile {
+  aspect-ratio: auto;
+  min-height: 0;
 }
 
 /* Multi-stream tile */
@@ -1025,33 +1264,48 @@ html, body {
 
 .gps-btn.is-locating svg { animation: spin 1.1s linear infinite; }
 
+/* Precision GPS dot ("titik").
+   The previous marker layered a 16px donut under an 84px expanding halo,
+   which read as a giant sonar ring. A genuine position marker is a sharp,
+   solid, high-contrast point with a tight, subtle pulse. */
+.gps-marker {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: help;
+}
+
 .gps-dot {
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: var(--user-color);
-  border: 3px solid #fff;
-  box-shadow: 0 0 0 4px color-mix(in srgb, var(--user-color) 28%, transparent),
-    0 2px 8px rgba(0, 0, 0, 0.6);
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 2;
 }
 
 .gps-halo {
   position: absolute;
-  inset: -34px;
+  inset: -6px; /* 14px + 12px = 26px max pulse */
   border-radius: 50%;
-  border: 1.5px solid var(--user-color);
-  opacity: 0.5;
-  animation: gps-ping 2.6s ease-out infinite;
+  background: color-mix(in srgb, var(--user-color) 40%, transparent);
+  animation: gps-ping 2.2s cubic-bezier(0.2, 0, 0.3, 1) infinite;
   pointer-events: none;
+  z-index: 1;
 }
 
 @keyframes gps-ping {
-  0% { transform: scale(0.35); opacity: 0.6; }
-  100% { transform: scale(1); opacity: 0; }
+  0% { transform: scale(0.65); opacity: 0.85; }
+  100% { transform: scale(1.9); opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .gps-halo { animation: none; opacity: 0.35; }
+  .gps-halo { animation: none; opacity: 0.25; }
   .brand-dot { animation: none; }
   .gps-btn.is-locating svg { animation: none; }
   .rail { transition: none; }
@@ -1177,10 +1431,6 @@ html, body {
 }
 
 .cctv-cluster:hover { transform: scale(1.12); }
-
-/* "You are here" — the dot plus its expanding halo is one maplibre marker */
-.gps-marker { position: relative; cursor: help; }
-.gps-marker .gps-dot { position: relative; z-index: 1; }
 
 /* ─────────────────────── Responsive viewports ───────────────────── */
 @media (max-width: 1000px) {
