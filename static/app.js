@@ -278,6 +278,16 @@ function retuneDarkBasemap() {
     } catch { /* layer shape differs upstream — skip it */ }
   }
 
+  // OpenFreeMap's dark style leaves `fill-pattern: 'wood-pattern'` on every wood
+  // layer, but its sprite atlas carries no such image — so MapLibre drops the
+  // tile and logs `Image "wood-pattern" could not be loaded` on every load.
+  // Clear the pattern first, otherwise it takes precedence over fill-color and
+  // our recolor above would never show through either.
+  for (const id of ['landcover_wood', 'landuse_park']) {
+    if (!map.getLayer(id)) continue;
+    try { map.setPaintProperty(id, 'fill-pattern', undefined); } catch { /* ignore */ }
+  }
+
   // Label ink: lift place names, keep road names quiet.
   for (const [id, color] of [
     ['place_other', '#7f95b8'], ['place_suburb', '#7f95b8'],
@@ -316,6 +326,17 @@ function initMap() {
     retuneDarkBasemap();
     renderMarkers();
     renderUserMarker();
+  });
+
+  // The upstream OpenFreeMap style references sprite images it never ships.
+  // Without this handler MapLibre drops those tiles and logs a warning on every
+  // render; a transparent 1x1 pixel satisfies the reference at zero visual cost.
+  map.on('styleimagemissing', (e) => {
+    if (!e || !e.id) return;
+    try {
+      const px = new Uint8Array([0, 0, 0, 0]);
+      map.addImage(e.id, { width: 1, height: 1, data: px }, { pixelRatio: 1 });
+    } catch { /* already registered by another style event */ }
   });
 }
 
@@ -551,8 +572,12 @@ const cardTpl = document.getElementById('tpl-card');
 let cardObserver = null;
 
 function thumbUrl(cam) {
+  if (!cam) return '';
   if (cam.source === 'seribuwajah') return `/api/cameras/${cam.id}/snapshot`;
-  return cam.hasThumbnail ? `/api/cameras/${cam.id}/thumb` : '';
+  if (cam.hasThumbnail) return `/api/cameras/${cam.id}/thumb`;
+  // Polresta cameras without a native thumbnail fall back to the server-side
+  // placeholder image (an inline SVG frame rendered with the camera's name).
+  return `/api/cameras/${cam.id}/snapshot`;
 }
 
 function renderCards() {
@@ -567,14 +592,27 @@ function renderCards() {
     node.dataset.id = cam.id;
     if (cam.id === state.selectedId) node.classList.add('is-selected');
 
-    const img = $('img', node);
-    img.alt = cam.name;
+    const thumbBox = $('.card-thumb', node);
+    const img = $('img', thumbBox);
     const src = thumbUrl(cam);
-    img.dataset.src = src;
-    img.addEventListener('error', () => {
-      img.removeAttribute('src');
-      img.parentElement.classList.add('no-img');
-    });
+
+    if (img) {
+      img.alt = cam.name;
+      if (src) {
+        img.dataset.src = src;
+        img.addEventListener('load', () => {
+          img.classList.add('has-loaded');
+        });
+        img.addEventListener('error', () => {
+          img.removeAttribute('src');
+          img.classList.remove('has-loaded');
+          thumbBox.classList.add('no-img');
+        });
+      } else {
+        img.remove();
+        thumbBox.classList.add('no-img');
+      }
+    }
 
     $('.card-name', node).textContent = cam.name;
     $('.card-addr', node).textContent =
@@ -625,14 +663,16 @@ function renderCards() {
       for (const ent of entries) {
         if (!ent.isIntersecting) continue;
         const img = ent.target;
-        if (img.dataset.src && !img.src) img.src = img.dataset.src;
+        if (img.dataset.src && !img.src) {
+          img.src = img.dataset.src;
+        }
         cardObserver.unobserve(img);
       }
     },
-    { root: container, rootMargin: '200px' },
+    { root: container, rootMargin: '300px' },
   );
 
-  for (const img of $$('.card-thumb img', container)) {
+  for (const img of $$('.card-thumb img[data-src]', container)) {
     cardObserver.observe(img);
   }
 
