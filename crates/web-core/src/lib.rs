@@ -104,6 +104,58 @@ pub struct Camera {
     pub tags: Vec<Tag>,
 }
 
+/// Public-facing camera record sent to the browser.
+///
+/// Identical to `Camera` except the raw upstream `stream_url` and `embed_url`
+/// are hidden: clients talk to our own endpoints only (`/api/cameras/:id/stream`,
+/// `/api/cameras/:id/embed`, `/api/cameras/:id/snapshot`, `/api/cameras/:id/thumb`).
+/// This keeps the upstream hostnames (Diskominfo/Polresta/ITN) off the wire.
+#[derive(Debug, Clone, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct CameraPublic {
+    pub id: String,
+    pub source: Source,
+    pub source_key: String,
+    pub name: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub city_address: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub district: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub subdistrict: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub category: Option<String>,
+    pub latitude: f64,
+    pub longitude: f64,
+    pub playback: Playback,
+    /// True when an upstream thumbnail exists — the file itself is fetched
+    /// through `/api/cameras/:id/thumb`, never by its upstream URL.
+    pub has_thumbnail: bool,
+    pub status: CameraStatus,
+    pub tags: Vec<Tag>,
+}
+
+impl From<&Camera> for CameraPublic {
+    fn from(c: &Camera) -> Self {
+        CameraPublic {
+            id: c.id.clone(),
+            source: c.source,
+            source_key: c.source_key.clone(),
+            name: c.name.clone(),
+            city_address: c.city_address.clone(),
+            district: c.district.clone(),
+            subdistrict: c.subdistrict.clone(),
+            category: c.category.clone(),
+            latitude: c.latitude,
+            longitude: c.longitude,
+            playback: c.playback,
+            has_thumbnail: c.thumbnail.is_some(),
+            status: c.status,
+            tags: c.tags.clone(),
+        }
+    }
+}
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(rename_all = "lowercase")]
 pub enum CameraStatus {

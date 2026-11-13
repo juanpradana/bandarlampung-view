@@ -592,7 +592,7 @@ fn write_geojson(path: &Path, dataset: &Dataset) -> Result<()> {
                     "status": cam.status,
                     "playback": cam.playback,
                     "tags": cam.tags.iter().map(|t| t.as_str()).collect::<Vec<_>>(),
-                    "thumbnail": cam.thumbnail,
+                    "hasThumbnail": cam.thumbnail.is_some(),
                 }
             })
         })

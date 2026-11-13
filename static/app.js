@@ -13,12 +13,44 @@
 
 const STORAGE_KEYS = {
   theme: 'cctv-theme',
+  themeTime: 'cctv-theme-time',
   customMulti: 'cctv-custom-multistream-ids-v1',
   basemap: 'cctv-basemap',
   railCollapsed: 'cctv-rail-collapsed',
   msCols: 'cctv-ms-cols',
   msTileSize: 'cctv-ms-tile-size',
 };
+
+const THEME_TTL_MS = 2 * 60 * 60 * 1000; // 2 jam
+
+function getTimeBasedTheme() {
+  const hour = new Date().getHours();
+  return (hour >= 6 && hour < 18) ? 'light' : 'dark';
+}
+
+function resolveSessionTheme() {
+  try {
+    localStorage.removeItem(STORAGE_KEYS.theme);
+  } catch { /* ignore */ }
+
+  try {
+    const saved = sessionStorage.getItem(STORAGE_KEYS.theme);
+    const savedTime = parseInt(sessionStorage.getItem(STORAGE_KEYS.themeTime) || '0', 10);
+    const now = Date.now();
+    if ((saved === 'light' || saved === 'dark') && (now - savedTime < THEME_TTL_MS)) {
+      return saved;
+    }
+  } catch { /* ignore */ }
+
+  return getTimeBasedTheme();
+}
+
+function updateMetaThemeColor(theme) {
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) {
+    meta.setAttribute('content', theme === 'light' ? '#eef2f8' : '#05080f');
+  }
+}
 
 const API = {
   async cameras() {
@@ -520,7 +552,7 @@ let cardObserver = null;
 
 function thumbUrl(cam) {
   if (cam.source === 'seribuwajah') return `/api/cameras/${cam.id}/snapshot`;
-  return cam.thumbnail ? `/api/cameras/${cam.id}/thumb` : '';
+  return cam.hasThumbnail ? `/api/cameras/${cam.id}/thumb` : '';
 }
 
 function renderCards() {
@@ -1080,7 +1112,7 @@ function openDrawer(cam) {
     ['Kategori', cam.category || '—', false],
     ['Sumber', cam.source === 'seribuwajah' ? 'Seribu Wajah' : 'Polresta', false],
     ['Status', cam.status === 'online' ? 'Online' : 'Offline', false],
-    ['Tipe', hlsSrc(cam) ? 'HLS (proxied)' : cam.embedUrl ? 'Embed' : 'Snapshot', false],
+    ['Tipe', hlsSrc(cam) ? 'HLS (proxied)' : embedSrc(cam) ? 'Embed' : 'Snapshot', false],
     ['Koordinat', `${cam.latitude.toFixed(5)}, ${cam.longitude.toFixed(5)}`, true],
     ['Jarak', cam.distanceM != null ? formatDistance(cam.distanceM) : '—', true],
     ['Tag', cam.tags.map((t) => fmtTag[t] || t).join(', ') || '—', false],
@@ -1118,9 +1150,19 @@ function destroyHls(inst) {
 
 function hlsSrc(cam) {
   if (cam.status !== 'online') return null;
-  if (cam.source === 'seribuwajah') return cam.streamUrl ? `/api/cameras/${cam.id}/stream` : null;
-  if (cam.source === 'polresta') return cam.token || cam.embedUrl ? `/api/cameras/${cam.id}/stream` : null;
+  if (cam.source === 'seribuwajah' || cam.source === 'polresta') {
+    return `/api/cameras/${cam.id}/stream`;
+  }
   return cam.playback === 'hls' ? `/api/cameras/${cam.id}/stream` : null;
+}
+
+// The upstream embed address is never exposed — the client points at our own
+// proxy, which fetches the provider's player server-side.
+function embedSrc(cam) {
+  if (cam.source === 'polresta' || cam.playback === 'embed') {
+    return `/api/cameras/${cam.id}/embed`;
+  }
+  return null;
 }
 
 function renderPlayer(host, cam) {
@@ -1180,9 +1222,10 @@ function renderPlayer(host, cam) {
     return;
   }
 
-  if (cam.embedUrl) {
+  const embed = embedSrc(cam);
+  if (embed) {
     host.append(el('iframe', {
-      src: cam.embedUrl,
+      src: embed,
       allow: 'autoplay; fullscreen; picture-in-picture',
       allowfullscreen: true,
       loading: 'lazy',
@@ -1272,9 +1315,10 @@ function fallbackFor(video, cam, key) {
   if (!host) return;
   host.innerHTML = '';
 
-  if (cam && cam.embedUrl) {
+  const embed = cam ? embedSrc(cam) : null;
+  if (embed) {
     host.append(el('iframe', {
-      src: cam.embedUrl,
+      src: embed,
       allow: 'autoplay; fullscreen',
       allowfullscreen: true,
       title: cam.name,
@@ -1629,19 +1673,22 @@ function renderMulti() {
       refreshAudioUi(audioKey);
       content.append(video);
       attachHls(video, src, `ms:${cam.id}`, cam);
-    } else if (cam.embedUrl) {
-      content.append(el('iframe', {
-        src: cam.embedUrl,
-        allow: 'autoplay; fullscreen',
-        allowfullscreen: true,
-        title: cam.name,
-      }));
     } else {
-      content.append(el('img', {
-        src: thumbUrl(cam) || `/api/cameras/${cam.id}/snapshot`,
-        alt: cam.name,
-        style: 'width:100%;height:100%;object-fit:cover',
-      }));
+      const embed = embedSrc(cam);
+      if (embed) {
+        content.append(el('iframe', {
+          src: embed,
+          allow: 'autoplay; fullscreen',
+          allowfullscreen: true,
+          title: cam.name,
+        }));
+      } else {
+        content.append(el('img', {
+          src: thumbUrl(cam) || `/api/cameras/${cam.id}/snapshot`,
+          alt: cam.name,
+          style: 'width:100%;height:100%;object-fit:cover',
+        }));
+      }
     }
   });
 }
@@ -1781,12 +1828,11 @@ function sortList() {
 async function boot() {
   loadCustomMulti();
 
-  // Restore saved theme
-  try {
-    const savedTheme = localStorage.getItem(STORAGE_KEYS.theme);
-    if (savedTheme) document.documentElement.dataset.theme = savedTheme;
-  } catch { /* ignore */ }
-  setThemeIcon(document.documentElement.dataset.theme || 'dark');
+  // Restore or resolve session-scoped theme (timezone-based by default)
+  const activeTheme = resolveSessionTheme();
+  document.documentElement.dataset.theme = activeTheme;
+  updateMetaThemeColor(activeTheme);
+  setThemeIcon(activeTheme);
 
   // Restore saved basemap preference
   try {
@@ -1898,8 +1944,12 @@ async function boot() {
     const html = document.documentElement;
     const next = html.dataset.theme === 'dark' ? 'light' : 'dark';
     html.dataset.theme = next;
-    try { localStorage.setItem(STORAGE_KEYS.theme, next); } catch { /* ignore */ }
+    try {
+      sessionStorage.setItem(STORAGE_KEYS.theme, next);
+      sessionStorage.setItem(STORAGE_KEYS.themeTime, String(Date.now()));
+    } catch { /* ignore */ }
     setThemeIcon(next);
+    updateMetaThemeColor(next);
 
     // If on auto basemap, reload map style to match theme
     if (state.basemap === 'auto') {

@@ -59,9 +59,14 @@ impl IntoResponse for ProxyError {
     }
 }
 
+/// Internal error helper: logs detail but never surfaces it to the client.
 fn err(code: StatusCode, msg: impl Into<String>) -> ProxyError {
     ProxyError(code, msg.into())
 }
+
+/// Generic upstream error message used in all 502 bodies.
+/// Keeps downstream clients from learning upstream hostnames/paths.
+const UPSTREAM_UNAVAILABLE: &str = "upstream camera unavailable";
 
 /// Forward an upstream status when a client could meaningfully receive it.
 ///
@@ -195,14 +200,20 @@ async fn serve_playlist(
             .header(header::ACCEPT, "*/*")
             .send()
             .await
-            .map_err(|e| err(StatusCode::BAD_GATEWAY, format!("upstream: {e}")))?;
+            .map_err(|e| {
+                debug!("playlist fetch failed: {e}");
+                err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+            })?;
 
         let status = resp.status();
         if status.is_success() {
             let text = resp
                 .text()
                 .await
-                .map_err(|e| err(StatusCode::BAD_GATEWAY, format!("read playlist: {e}")))?;
+                .map_err(|e| {
+                    debug!("read playlist failed: {e}");
+                    err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+                })?;
             return Ok(playlist_response(rewrite_playlist(
                 &text,
                 &cam.id,
@@ -219,19 +230,13 @@ async fn serve_playlist(
             continue;
         }
 
-        return Err(err(
-            sw_upstream_status(status),
-            format!("upstream returned {status}"),
-        ));
+        return Err(err(sw_upstream_status(status), UPSTREAM_UNAVAILABLE));
     }
 
     // Unreachable in practice: the loop either returns on success or on the
     // non-retryable / final attempt. Kept so the type checker sees the exit.
     let (status, _) = last.unwrap_or((reqwest::StatusCode::BAD_GATEWAY, String::new()));
-    Err(err(
-        sw_upstream_status(status),
-        format!("upstream returned {status}"),
-    ))
+    Err(err(sw_upstream_status(status), UPSTREAM_UNAVAILABLE))
 }
 
 /// Stream a media segment straight through, preserving Range semantics.
@@ -250,16 +255,16 @@ async fn serve_segment(
         .header(header::ACCEPT, "*/*")
         .send()
         .await
-        .map_err(|e| err(StatusCode::BAD_GATEWAY, format!("upstream: {e}")))?;
+        .map_err(|e| {
+            debug!("segment fetch failed: {e}");
+            err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+        })?;
 
     let status = resp.status();
     if !status.is_success() {
         // No retry here: hls.js re-requests the live edge on its own next
         // playlist poll, so a retry only doubles latency on a dead segment.
-        return Err(err(
-            sw_upstream_status(status),
-            format!("upstream returned {status}"),
-        ));
+        return Err(err(sw_upstream_status(status), UPSTREAM_UNAVAILABLE));
     }
 
     let content_type = resp
@@ -415,13 +420,19 @@ async fn resolve_pol_session(
         .header(header::REFERER, RESTA_REFERER)
         .send()
         .await
-        .map_err(|e| err(StatusCode::BAD_GATEWAY, format!("upstream: {e}")))?;
+        .map_err(|e| {
+            debug!("Polresta resolve failed: {e}");
+            err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+        })?;
 
     let status = resp.status();
     let body: serde_json::Value = resp
         .json()
         .await
-        .map_err(|e| err(StatusCode::BAD_GATEWAY, format!("read resolve: {e}")))?;
+        .map_err(|e| {
+            debug!("read resolve failed: {e}");
+            err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+        })?;
 
     if !status.is_success() {
         warn!(%status, "Polresta resolve rejected");
@@ -645,18 +656,19 @@ async fn fetch_text(state: &AppState, url: &str) -> Result<String, ProxyError> {
         .get(url)
         .send()
         .await
-        .map_err(|e| err(StatusCode::BAD_GATEWAY, format!("upstream: {e}")))?;
+        .map_err(|e| {
+            debug!("fetch_text failed: {e}");
+            err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+        })?;
 
     let status = resp.status();
     if !status.is_success() {
-        return Err(err(
-            upstream_status(status),
-            format!("upstream returned {status}"),
-        ));
+        return Err(err(upstream_status(status), UPSTREAM_UNAVAILABLE));
     }
-    resp.text()
-        .await
-        .map_err(|e| err(StatusCode::BAD_GATEWAY, format!("read body: {e}")))
+    resp.text().await.map_err(|e| {
+        debug!("read text body failed: {e}");
+        err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+    })
 }
 
 /// Stream an upstream body through, preserving the upstream status on failure.
@@ -666,14 +678,14 @@ async fn fetch_binary(state: &AppState, url: &str) -> Result<Response, ProxyErro
         .get(url)
         .send()
         .await
-        .map_err(|e| err(StatusCode::BAD_GATEWAY, format!("upstream: {e}")))?;
+        .map_err(|e| {
+            debug!("fetch_binary failed: {e}");
+            err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+        })?;
 
     let status = resp.status();
     if !status.is_success() {
-        return Err(err(
-            upstream_status(status),
-            format!("upstream returned {status}"),
-        ));
+        return Err(err(upstream_status(status), UPSTREAM_UNAVAILABLE));
     }
 
     let content_type = resp
@@ -791,7 +803,10 @@ pub async fn snapshot(
         .get(&url)
         .send()
         .await
-        .map_err(|e| err(StatusCode::BAD_GATEWAY, format!("upstream: {e}")))?;
+        .map_err(|e| {
+            debug!("snapshot fetch failed: {e}");
+            err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+        })?;
 
     if !resp.status().is_success() {
         return Err(err(StatusCode::BAD_GATEWAY, "snapshot unavailable"));
@@ -800,7 +815,10 @@ pub async fn snapshot(
     let bytes: Bytes = resp
         .bytes()
         .await
-        .map_err(|e| err(StatusCode::BAD_GATEWAY, format!("read snapshot: {e}")))?;
+        .map_err(|e| {
+            debug!("read snapshot failed: {e}");
+            err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+        })?;
 
     let mut headers = HeaderMap::new();
     headers.insert(header::CONTENT_TYPE, HeaderValue::from_static("image/jpeg"));
@@ -835,7 +853,10 @@ pub async fn thumb(
         .get(&url)
         .send()
         .await
-        .map_err(|e| err(StatusCode::BAD_GATEWAY, format!("upstream: {e}")))?;
+        .map_err(|e| {
+            debug!("thumbnail fetch failed: {e}");
+            err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+        })?;
 
     if !resp.status().is_success() {
         return Err(err(StatusCode::BAD_GATEWAY, "thumbnail unavailable"));
@@ -851,7 +872,10 @@ pub async fn thumb(
     let bytes: Bytes = resp
         .bytes()
         .await
-        .map_err(|e| err(StatusCode::BAD_GATEWAY, format!("read thumb: {e}")))?;
+        .map_err(|e| {
+            debug!("read thumbnail failed: {e}");
+            err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+        })?;
 
     let mut headers = HeaderMap::new();
     headers.insert(
@@ -898,6 +922,132 @@ pub async fn resolve_hls(
         "ready": true,
     }))
     .into_response())
+}
+
+/// Absolute-URL schemes an upstream embed page could carry, in both the
+/// plain (`https://host/path`) and JSON-escaped (`https:\/\/host\/path`)
+/// spellings Next.js uses inside its inline RSC payload.
+const ABSOLUTE_SCHEMES: [&str; 4] = ["https://", "http://", "https:\\/\\/", "http:\\/\\/"];
+
+/// Characters that belong inside a URL token once its scheme has been seen.
+fn is_url_char(c: char) -> bool {
+    !matches!(
+        c,
+        '"' | '\'' | '<' | '>' | ',' | ')' | ']' | '}' | '(' | '[' | '{' | ' '
+            | '\t' | '\n' | '\r'
+    )
+}
+
+/// Remove every absolute upstream URL from an embed page.
+///
+/// The upstream player HTML carries absolute `og:image` / `twitter:image` /
+/// inline-payload URLs pointing straight at the ITN gateway — the hostname *and*
+/// the upstream paths this deploy keeps off the wire. Both scheme spellings
+/// (plain and the JSON-escaped form Next.js emits inline) are matched, and the
+/// whole URL token is dropped: an asset on a host we never proxy is one the
+/// browser could not load from our origin anyway, so a stripped residual path
+/// would only serve as a pointer back to upstream.
+///
+/// Everything relative is left verbatim — it already resolves against our own
+/// origin once the page is served from it, and rewriting it would break the
+/// player's own chunks and styles.
+fn sanitize_embed_html(html: &str) -> String {
+    let mut out = String::with_capacity(html.len());
+    let mut rest = html;
+
+    loop {
+        // Earliest scheme occurrence wins, so no match is rewritten twice.
+        let hit = ABSOLUTE_SCHEMES
+            .iter()
+            .filter_map(|s| rest.find(s).map(|i| (i, s.len())))
+            .min_by_key(|(i, _)| *i);
+
+        let Some((start, scheme_len)) = hit else {
+            out.push_str(rest);
+            return out;
+        };
+
+        out.push_str(&rest[..start]);
+
+        // Consume the whole URL token: authority, path, query.
+        let mut end = start + scheme_len;
+        for c in rest[end..].chars() {
+            if is_url_char(c) {
+                end += c.len_utf8();
+            } else {
+                break;
+            }
+        }
+        rest = &rest[end..];
+    }
+}
+
+/// `GET /api/cameras/:id/embed` — secure proxy for Polresta embed player.
+/// Fetches the upstream iframe and serves it from our own origin with origin-safe headers,
+/// completely masking the upstream URL from the client.
+pub async fn embed(
+    State(state): State<AppState>,
+    Path(id): Path<String>,
+) -> Result<Response, ProxyError> {
+    let cam = state
+        .dataset()
+        .find(&id)
+        .ok_or_else(|| err(StatusCode::NOT_FOUND, "unknown camera"))?
+        .clone();
+
+    let embed_url = cam
+        .embed_url
+        .ok_or_else(|| err(StatusCode::NOT_FOUND, "camera has no embed player"))?;
+
+    let resp = state
+        .http()
+        .get(&embed_url)
+        .header(header::REFERER, RESTA_REFERER)
+        .header(header::ORIGIN, RESTA_ORIGIN)
+        .header(header::USER_AGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
+        .send()
+        .await
+        .map_err(|e| {
+            debug!("embed fetch failed: {e}");
+            err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+        })?;
+
+    let status = resp.status();
+    if !status.is_success() {
+        return Err(err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE));
+    }
+
+    let content_type = resp
+        .headers()
+        .get(header::CONTENT_TYPE)
+        .and_then(|v| v.to_str().ok())
+        .unwrap_or("text/html; charset=utf-8")
+        .to_string();
+
+    let body = resp
+        .text()
+        .await
+        .map_err(|e| {
+            debug!("read embed text failed: {e}");
+            err(StatusCode::BAD_GATEWAY, UPSTREAM_UNAVAILABLE)
+        })?;
+
+    // Sanitize every absolute upstream URL out of the HTML so the client never
+    // sees the ITN gateway hostname or tenant logo paths.
+    let body = sanitize_embed_html(&body);
+
+    let mut headers = HeaderMap::new();
+    headers.insert(
+        header::CONTENT_TYPE,
+        HeaderValue::from_str(&content_type)
+            .unwrap_or_else(|_| HeaderValue::from_static("text/html; charset=utf-8")),
+    );
+    headers.insert(
+        header::CACHE_CONTROL,
+        HeaderValue::from_static("no-cache, no-store, must-revalidate"),
+    );
+
+    Ok((headers, body).into_response())
 }
 
 #[cfg(test)]
@@ -1035,6 +1185,42 @@ mod tests {
         assert!(!is_pol_asset("a/b/seg-0.m4s"));
         assert!(!is_pol_asset("seg-0.m4s/../../x"));
         assert!(!is_pol_asset("index.html"));
+    }
+
+    #[test]
+    fn embed_sanitizer_drops_upstream_hosts() {
+        // The upstream player HTML carries absolute `og:image`/`twitter:image`
+        // URLs pointing at the ITN gateway — the exact hostname this deploy keeps
+        // off the wire. Sanitizing must remove every absolute upstream reference
+        // while leaving the page otherwise intact.
+        let input = concat!(
+            "<meta property=\"og:image\" content=\"https://rtsp.itn.net.id/storage/tenant_logos/tenant_1_logo_1790138222.png\"/>",
+            "<meta name=\"twitter:image\" content=\"https://rtsp.itn.net.id/storage/x.png\"/>",
+            "<script>self.__next_f.push([1,\"https://rtsp.itn.net.id/storage/x.png\"])</script>",
+            "<link rel=\"stylesheet\" href=\"/_next/static/css/abc.css\"/>"
+        );
+
+        let out = sanitize_embed_html(input);
+
+        assert!(!out.contains("rtsp.itn.net.id"));
+        assert!(!out.contains("itn.net.id"));
+        assert!(!out.contains("tenant_1_logo"));
+    }
+
+    #[test]
+    fn embed_sanitizer_keeps_relative_and_local_refs() {
+        // Everything that is not an upstream absolute URL must survive verbatim:
+        // dropping a relative reference would break the player's own assets.
+        let input = concat!(
+            "<link rel=\"stylesheet\" href=\"/_next/static/css/abc.css\"/>",
+            "<script src=\"/_next/static/chunks/app/layout-abc.js\"></script>",
+            "<img src=\"/fallback.png\"/>",
+            "<title>Depan Gedung DPRD — Live CCTV</title>"
+        );
+
+        let out = sanitize_embed_html(input);
+
+        assert_eq!(out, input);
     }
 
     #[test]
