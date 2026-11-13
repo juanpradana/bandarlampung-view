@@ -17,6 +17,7 @@ desktop.ini
 
 # Testing & MCP artifacts
 .playwright-mcp/
+.claude-flow/
 *.log
 
 # Screen captures / temporary media
